@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.0">
+
+  <FixtureType Description="Patt 2013 is the first in a series of retro style lighting – designed specifically to further the current trend for tungsten eye-candy on stage and set - for bands, television, film and general prop lighting. " FixtureTypeID="F5B07246-A49C-4CB5-9704-EA8FA1D6E70C" LongName="PATT 2013" Manufacturer="Robe lighting" Name="PATT 2013" RefFT="" ShortName="PATT2013" Thumbnail="patt-2013-01">
+    <AttributeDefinitions>
+      <ActivationGroups>
+        <ActivationGroup Name="PanTilt"/>
+      </ActivationGroups>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Position" Pretty="Position">
+          <Feature Name="PanTilt"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="LuminousIntensity" Pretty="Dim"/>
+        <Attribute ActivationGroup="PanTilt" Feature="Position.PanTilt" Name="Tilt" PhysicalUnit="Angle" Pretty="T"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="yoke" Height="0.448403" Length="0.671808" Name="yoke" PrimitiveType="Undefined" Width="0.089452"/>
+      <Model File="head2" Height="0.287245" Length="0.598285" Name="head 1" PrimitiveType="Undefined" Width="0.552540"/>
+      <Model File="" Height="0.001000" Length="0.488000" Name="beam" PrimitiveType="Cylinder" Width="0.488000"/>
+      <Model File="" Height="0.020000" Length="0.100000" Name="pigtail" PrimitiveType="Pigtail" Width="0.020000"/>
+      <Model File="cross2" Height="0.021963" Length="0.488700" Name="cross 1" PrimitiveType="Undefined" Width="0.488438"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="yoke" Name="yoke" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+        <Geometry Model="head 1" Name="head" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,0.000000,-1.000000,0.000000}{0.000000,1.000000,0.000000,-0.409000}{0,0,0,1}">
+          <Beam BeamAngle="17.000000" BeamRadius="0.275000" BeamType="Wash" ColorRenderingIndex="100" ColorTemperature="3050.000000" FieldAngle="70.000000" LampType="Tungsten" LuminousFlux="400.000000" Model="beam" Name="beam" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.108000}{0,0,0,1}" PowerConsumption="750.000000">
+            <Geometry Model="cross 1" Name="cross" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          </Beam>
+          <Geometry Model="pigtail" Name="pigtail" Position="{1.000000,0.000000,0.000000,-0.001213}{0.000000,1.000000,0.000000,-0.001939}{0.000000,0.000000,1.000000,0.192624}{0,0,0,1}"/>
+        </Geometry>
+      </Geometry>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="yoke" Name="needs external dimmer, mode for visualizing only">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="beam" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="head" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Tilt" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Tilt" DMXFrom="0/4" Name="Tilt 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2164260864/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2020-07-29T08:05:32" Text="virtual tilt" UserID="11"/>
+      <Revision Date="2020-07-29T09:26:08" Text="default value" UserID="11"/>
+        <Revision Text="29072020, Uploaded to GDTF Share." Date="2020-07-29T13:21:13" UserID="1734"/>
+        </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>
