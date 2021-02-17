@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.0">
+
+  <FixtureType Description="Portable 90W LED Light with Tunable White (CCT, Green Adjust) control." FixtureTypeID="2D7F79D9-DF30-4C79-A8A6-9CB1C1159252" LongName="P360 Pro Plus" Manufacturer="Fiilex" Name="P360 Pro Plus" RefFT="" ShortName="P360PP" Thumbnail="P360PP">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Color" Pretty="Color">
+          <Feature Name="Color"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="LuminousIntensity" Pretty="Dim"/>
+        <Attribute Color="0.312700,0.329000,100.000000" Feature="Color.Color" Name="CCT" PhysicalUnit="Temperatur" Pretty="CCT"/>
+        <Attribute Color="0.312700,0.329000,100.000000" Feature="Color.Color" Name="Green Adjust" PhysicalUnit="None" Pretty="Green Adjust"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="P360 Color 3ds file format" Height="0.209000" Length="0.141000" Name="Body" PrimitiveType="Undefined" Width="0.103353"/>
+      <Model File="" Height="0.010000" Length="0.050000" Name="Beam" PrimitiveType="Cylinder" Width="0.050000"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+        <Beam BeamAngle="64.000000" BeamRadius="0.025000" BeamType="Spot" ColorRenderingIndex="95" ColorTemperature="6500.000000" FieldAngle="114.000000" LampType="LED" LuminousFlux="3600.000000" Model="Beam" Name="Beam" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.164000}{0,0,0,1}" PowerConsumption="90.000000"/>
+      </Geometry>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Body" Name="CCT">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam" Highlight="255/1" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Body" Highlight="None" Offset="2">
+            <LogicalChannel Attribute="CCT" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="CCT" DMXFrom="0/1" Name="CCT 1" OriginalAttribute="" PhysicalFrom="2800.000000" PhysicalTo="6500.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam" Highlight="None" Offset="3">
+            <LogicalChannel Attribute="Green Adjust" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Green Adjust" DMXFrom="0/1" Name="Green Adjust 1" OriginalAttribute="" PhysicalFrom="-0.250000" PhysicalTo="0.250000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Full magenta" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Full green" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions/>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

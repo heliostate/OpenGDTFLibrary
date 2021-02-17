@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.0">
+
+  <FixtureType Description="A Multipurpose Punch Light, Tunable White. " FixtureTypeID="987E2556-B47D-4444-AA2B-5E052C21A873" LongName="Matrix II Tunable White" Manufacturer="Fiilex" Name="Matrix II TW" RefFT="" ShortName="Matrix II TW" Thumbnail="Matrix ">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Color" Pretty="Color">
+          <Feature Name="Color"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="LuminousIntensity" Pretty="Dim"/>
+        <Attribute Color="0.312700,0.329000,100.000000" Feature="Color.Color" Name="Green Adjust" PhysicalUnit="None" Pretty="Green Adjust"/>
+        <Attribute Color="0.312700,0.329000,100.000000" Feature="Color.Color" Name="CCT" PhysicalUnit="Temperatur" Pretty="CCT"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters>
+        <Emitter Color="0.515300,0.373500,100.000000" DiodePart="" DominantWaveLength="0.000000" Name="LED 1">
+          <Measurement InterpolationTo="Linear" LuminousIntensity="1.000000" Physical="100.000000" Transmission="0.000000"/>
+        </Emitter>
+        <Emitter Color="0.284100,0.318800,100.000000" DiodePart="" DominantWaveLength="0.000000" Name="LED 2">
+          <Measurement InterpolationTo="Linear" LuminousIntensity="1.000000" Physical="100.000000" Transmission="0.000000"/>
+        </Emitter>
+        <Emitter Color="0.484300,0.429500,100.000000" DiodePart="" DominantWaveLength="0.000000" Name="LED 3">
+          <Measurement InterpolationTo="Linear" LuminousIntensity="1.000000" Physical="100.000000" Transmission="0.000000"/>
+        </Emitter>
+        <Emitter Color="0.278900,0.380100,100.000000" DiodePart="" DominantWaveLength="0.000000" Name="LED 4">
+          <Measurement InterpolationTo="Linear" LuminousIntensity="1.000000" Physical="100.000000" Transmission="0.000000"/>
+        </Emitter>
+        <Emitter Color="0.300600,0.273300,100.000000" DiodePart="" DominantWaveLength="0.000000" Name="LED 5">
+          <Measurement InterpolationTo="Linear" LuminousIntensity="1.000000" Physical="100.000000" Transmission="0.000000"/>
+        </Emitter>
+        <Emitter Color="0.458700,0.469800,100.000000" DiodePart="" DominantWaveLength="0.000000" Name="LED 6">
+          <Measurement InterpolationTo="Linear" LuminousIntensity="1.000000" Physical="100.000000" Transmission="0.000000"/>
+        </Emitter>
+      </Emitters>
+      <DMXProfiles/>
+      <CRIs/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Matrix Color 3ds file format" Height="0.357500" Length="0.256000" Name="Matrix Body" PrimitiveType="Undefined" Width="0.267930"/>
+      <Model File="" Height="0.010000" Length="0.180000" Name="Matrix Beam" PrimitiveType="Cube" Width="0.180000"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="Matrix Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+        <Beam BeamAngle="30.000000" BeamRadius="0.100000" BeamType="Wash" ColorRenderingIndex="93" ColorTemperature="5600.000000" FieldAngle="106.000000" LampType="LED" LuminousFlux="3600.000000" Model="Matrix Beam" Name="Beam 1" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.280000}{0,0,0,1}" PowerConsumption="320.000000"/>
+      </Geometry>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Body" Name="CCT">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam 1" Highlight="255/1" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam 1" Highlight="None" Offset="2">
+            <LogicalChannel Attribute="CCT" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="CCT" DMXFrom="0/1" Name="CCT" OriginalAttribute="" PhysicalFrom="2800.000000" PhysicalTo="6500.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="128/1" Geometry="Beam 1" Highlight="None" Offset="3">
+            <LogicalChannel Attribute="Green Adjust" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Green Adjust" DMXFrom="0/1" Name="Green Adjust 1" OriginalAttribute="" PhysicalFrom="-0.250000" PhysicalTo="0.250000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Full Magenta" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="128/1" Name="Neutral" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="129/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Full Green" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions/>
+    <FTPresets/>
+    <Protocols/>
+      <Revisions>
+            <Revision Text="V1.0-10Jun2020, Uploaded to GDTF Share." Date="2020-06-11T04:23:18" UserID="2691"/>
+        </Revisions>
+    </FixtureType>
+
+</GDTF>

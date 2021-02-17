@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.0">
+
+  <FixtureType Description="The MiniMe is an effects lighting luminaire with the addition of full video output. " FixtureTypeID="92D02B9C-0B03-4B00-975B-7B58D84C94B4" LongName="ROBIN MiniMe®" Manufacturer="Robe lighting s.r.o." Name="Robin MiniMe" RefFT="" ShortName="MiniMe" Thumbnail="minime-01">
+    <AttributeDefinitions>
+      <ActivationGroups>
+        <ActivationGroup Name="PanTilt"/>
+        <ActivationGroup Name="Shaper"/>
+        <ActivationGroup Name="Gobo1"/>
+        <ActivationGroup Name="Gobo1Pos"/>
+        <ActivationGroup Name="ColorRGB"/>
+      </ActivationGroups>
+      <FeatureGroups>
+        <FeatureGroup Name="Position" Pretty="Position">
+          <Feature Name="PanTilt"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Control" Pretty="Control">
+          <Feature Name="Control"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Focus" Pretty="Focus">
+          <Feature Name="Focus"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Shapers" Pretty="Shapers">
+          <Feature Name="Shapers"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Color" Pretty="Color">
+          <Feature Name="RGB"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Beam" Pretty="Beam">
+          <Feature Name="Beam"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Gobo" Pretty="Gobo">
+          <Feature Name="Gobo"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Video" Pretty="Video">
+          <Feature Name="Video"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute ActivationGroup="PanTilt" Feature="Position.PanTilt" Name="Pan" PhysicalUnit="Angle" Pretty="P"/>
+        <Attribute ActivationGroup="PanTilt" Feature="Position.PanTilt" Name="Tilt" PhysicalUnit="Angle" Pretty="T"/>
+        <Attribute Feature="Control.Control" Name="PositionMSpeed" PhysicalUnit="None" Pretty="Pos MSpeed"/>
+        <Attribute Feature="Control.Control" Name="Control1" PhysicalUnit="None" Pretty="Ctrl1"/>
+        <Attribute Feature="Focus.Focus" Name="Zoom" PhysicalUnit="Angle" Pretty="Zoom"/>
+        <Attribute Feature="Focus.Focus" Name="Focus1" PhysicalUnit="None" Pretty="Focus1"/>
+        <Attribute ActivationGroup="Shaper" Feature="Shapers.Shapers" Name="Blade1A" PhysicalUnit="None" Pretty="Blade1A"/>
+        <Attribute Feature="Color.RGB" Name="ColorMacro1" PhysicalUnit="None" Pretty="Color Macro1"/>
+        <Attribute Feature="Color.RGB" Name="ColorMacro2" PhysicalUnit="None" Pretty="Color Macro2"/>
+        <Attribute Feature="Beam.Beam" Name="Effects1" PhysicalUnit="None" Pretty="FX1"/>
+        <Attribute Feature="Beam.Beam" Name="Shutter1" PhysicalUnit="None" Pretty="Sh1"/>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="LuminousIntensity" Pretty="Dim"/>
+        <Attribute ActivationGroup="Shaper" Feature="Shapers.Shapers" Name="Blade2A" PhysicalUnit="None" Pretty="Blade2A"/>
+        <Attribute Feature="Control.Control" Name="NoFeature" PhysicalUnit="None" Pretty="NoFeature"/>
+        <Attribute Feature="Control.Control" Name="PanTiltMode" PhysicalUnit="None" Pretty="PanTilt Mode"/>
+        <Attribute Feature="Control.Control" Name="BlackoutMode" PhysicalUnit="None" Pretty="Blackout Mode"/>
+        <Attribute Feature="Control.Control" Name="PositionReset" PhysicalUnit="None" Pretty="Pos Reset"/>
+        <Attribute Feature="Control.Control" Name="FocusReset" PhysicalUnit="None" Pretty="Focus Reset"/>
+        <Attribute Color="0.312700,0.329000,100.000000" Feature="Control.Control" Name="ProjectorReset" PhysicalUnit="None" Pretty="ProjectorReset"/>
+        <Attribute Feature="Control.Control" Name="FixtureGlobalReset" PhysicalUnit="None" Pretty="Fixture Global Reset"/>
+        <Attribute Feature="Control.Control" Name="Control2" PhysicalUnit="None" Pretty="Ctrl2"/>
+        <Attribute Feature="Control.Control" Name="Control3" PhysicalUnit="None" Pretty="Ctrl3"/>
+        <Attribute Feature="Control.Control" Name="Control4" PhysicalUnit="None" Pretty="Ctrl4"/>
+        <Attribute Feature="Control.Control" Name="Control5" PhysicalUnit="None" Pretty="Ctrl5"/>
+        <Attribute Feature="Control.Control" Name="Control6" PhysicalUnit="None" Pretty="Ctrl6"/>
+        <Attribute ActivationGroup="Gobo1" Feature="Gobo.Gobo" Name="Gobo1" PhysicalUnit="None" Pretty="G1"/>
+        <Attribute ActivationGroup="Gobo1" Feature="Gobo.Gobo" MainAttribute="Gobo1" Name="Gobo1WheelRandom" PhysicalUnit="Frequency" Pretty="Wheel Random"/>
+        <Attribute ActivationGroup="Gobo1" Feature="Gobo.Gobo" MainAttribute="Gobo1" Name="Gobo1WheelSpin" PhysicalUnit="AngularSpeed" Pretty="Wheel Spin"/>
+        <Attribute Feature="Video.Video" Name="Video" PhysicalUnit="None" Pretty="Video"/>
+        <Attribute ActivationGroup="Gobo1Pos" Feature="Gobo.Gobo" Name="Gobo1Pos" PhysicalUnit="Angle" Pretty="G1 &lt;&gt;"/>
+        <Attribute ActivationGroup="Gobo1Pos" Feature="Gobo.Gobo" MainAttribute="Gobo1Pos" Name="Gobo1PosRotate" PhysicalUnit="AngularSpeed" Pretty="Rotate"/>
+        <Attribute Feature="Beam.Beam" Name="Effects1Fade" PhysicalUnit="None" Pretty="FX1 Fade"/>
+        <Attribute Feature="Beam.Beam" MainAttribute="Shutter1" Name="Shutter1Strobe" PhysicalUnit="Frequency" Pretty="Strobe1"/>
+        <Attribute Feature="Beam.Beam" MainAttribute="Shutter1" Name="Shutter1StrobePulseOpen" PhysicalUnit="Frequency" Pretty="Pulse Open1"/>
+        <Attribute Feature="Beam.Beam" MainAttribute="Shutter1" Name="Shutter1StrobePulseClose" PhysicalUnit="Frequency" Pretty="Pulse Close1"/>
+        <Attribute Feature="Beam.Beam" MainAttribute="Shutter1" Name="Shutter1StrobeRandom" PhysicalUnit="Frequency" Pretty="Random1"/>
+        <Attribute Feature="Video.Video" Name="MediaFolder" PhysicalUnit="None" Pretty="Media Folder"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorSub_C" PhysicalUnit="ColorComponent" Pretty="C"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorSub_M" PhysicalUnit="ColorComponent" Pretty="M"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorSub_Y" PhysicalUnit="ColorComponent" Pretty="Y"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels>
+      <Wheel Name="Gobo">
+        <Slot Color="0.312700,0.329000,100.000000" Name="Open"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="001" Name="Gobo 001"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="002" Name="Gobo 002"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="003" Name="Gobo 003"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="004" Name="Gobo 004"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="005" Name="Gobo 005"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="006" Name="Gobo 006"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="007" Name="Gobo 007"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="008" Name="Gobo 008"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="009" Name="Gobo 009"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="010" Name="Gobo 010"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="011" Name="Gobo 011"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="012" Name="Gobo 012"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="013" Name="Gobo 013"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="014" Name="Gobo 014"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="015" Name="Gobo 015"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="016" Name="Gobo 016"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="017" Name="Gobo 017"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="018" Name="Gobo 018"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="019" Name="Gobo 019"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="020" Name="Gobo 020"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="021" Name="Gobo 021"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="022" Name="Gobo 022"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="023" Name="Gobo 023"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="024" Name="Gobo 024"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="025" Name="Gobo 025"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="026" Name="Gobo 026"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="027" Name="Gobo 027"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="028" Name="Gobo 028"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="029" Name="Gobo 029"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="030" Name="Gobo 030"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="031" Name="Gobo 031"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="032" Name="Gobo 032"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="033" Name="Gobo 033"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="034" Name="Gobo 034"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="035" Name="Gobo 035"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="036" Name="Gobo 036"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="037" Name="Gobo 037"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="038" Name="Gobo 038"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="039" Name="Gobo 039"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="040" Name="Gobo 040"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="041" Name="Gobo 041"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="042" Name="Gobo 042"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="043" Name="Gobo 043"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="044" Name="Gobo 044"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="045" Name="Gobo 045"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="046" Name="Gobo 046"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="047" Name="Gobo 047"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="048" Name="Gobo 048"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="049" Name="Gobo 049"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="050" Name="Gobo 050"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="051" Name="Gobo 051"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="052" Name="Gobo 052"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="053" Name="Gobo 053"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="054" Name="Gobo 054"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="055" Name="Gobo 055"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="056" Name="Gobo 056"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="057" Name="Gobo 057"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="058" Name="Gobo 058"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="059" Name="Gobo 059"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="060" Name="Gobo 060"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="061" Name="Gobo 061"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="062" Name="Gobo 062"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="063" Name="Gobo 063"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="064" Name="Gobo 064"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="065" Name="Gobo 065"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="066" Name="Gobo 066"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="067" Name="Gobo 067"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="068" Name="Gobo 068"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="069" Name="Gobo 069"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="070" Name="Gobo 070"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="071" Name="Gobo 071"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="072" Name="Gobo 072"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="073" Name="Gobo 073"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="074" Name="Gobo 074"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="075" Name="Gobo 075"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="076" Name="Gobo 076"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="077" Name="Gobo 077"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="078" Name="Gobo 078"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="079" Name="Gobo 079"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="080" Name="Gobo 080"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="081" Name="Gobo 081"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="082" Name="Gobo 082"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="083" Name="Gobo 083"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="084" Name="Gobo 084"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="085" Name="Gobo 085"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="086" Name="Gobo 086"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="087" Name="Gobo 087"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="088" Name="Gobo 088"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="089" Name="Gobo 089"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="090" Name="Gobo 090"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="091" Name="Gobo 091"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="092" Name="Gobo 092"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="093" Name="Gobo 093"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="094" Name="Gobo 094"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="095" Name="Gobo 095"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="096" Name="Gobo 096"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="097" Name="Gobo 097"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="098" Name="Gobo 098"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="099" Name="Gobo 099"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="100" Name="Gobo 100"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="101" Name="Gobo 101"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="102" Name="Gobo 102"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="103" Name="Gobo 103"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="104" Name="Gobo 104"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="105" Name="Gobo 105"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="106" Name="Gobo 106"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="107" Name="Gobo 107"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="108" Name="Gobo 108"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="109" Name="Gobo 109"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="110" Name="Gobo 110"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="111" Name="Gobo 111"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="112" Name="Gobo 112"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="113" Name="Gobo 113"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="114" Name="Gobo 114"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="115" Name="Gobo 115"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="116" Name="Gobo 116"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="117" Name="Gobo 117"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="118" Name="Gobo 118"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="119" Name="Gobo 119"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="120" Name="Gobo 120"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="121" Name="Gobo 121"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="122" Name="Gobo 122"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="123" Name="Gobo 123"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="124" Name="Gobo 124"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="125" Name="Gobo 125"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="126" Name="Gobo 126"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="127" Name="Gobo 127"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="128" Name="Gobo 128"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="129" Name="Gobo 129"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="130" Name="Gobo 130"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="131" Name="Gobo 131"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="132" Name="Gobo 132"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="133" Name="Gobo 133"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="134" Name="Gobo 134"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="135" Name="Gobo 135"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="136" Name="Gobo 136"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="137" Name="Gobo 137"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="138" Name="Gobo 138"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="139" Name="Gobo 139"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="140" Name="Gobo 140"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="141" Name="Gobo 141"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="142" Name="Gobo 142"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="143" Name="Gobo 143"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="144" Name="Gobo 144"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="145" Name="Gobo 145"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="146" Name="Gobo 146"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="147" Name="Gobo 147"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="148" Name="Gobo 148"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="149" Name="Gobo 149"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="150" Name="Gobo 150"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="151" Name="Gobo 151"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="152" Name="Gobo 152"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="153" Name="Gobo 153"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="154" Name="Gobo 154"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="155" Name="Gobo 155"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="156" Name="Gobo 156"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="157" Name="Gobo 157"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="158" Name="Gobo 158"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="159" Name="Gobo 159"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="160" Name="Gobo 160"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="161" Name="Gobo 161"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="162" Name="Gobo 162"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="163" Name="Gobo 163"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="164" Name="Gobo 164"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="165" Name="Gobo 165"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="166" Name="Gobo 166"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="167" Name="Gobo 167"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="168" Name="Gobo 168"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="169" Name="Gobo 169"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="170" Name="Gobo 170"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="171" Name="Gobo 171"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="172" Name="Gobo 172"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="173" Name="Gobo 173"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="174" Name="Gobo 174"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="175" Name="Gobo 175"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="176" Name="Gobo 176"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="177" Name="Gobo 177"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="178" Name="Gobo 178"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="179" Name="Gobo 179"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="180" Name="Gobo 180"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="181" Name="Gobo 181"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="182" Name="Gobo 182"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="183" Name="Gobo 183"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="184" Name="Gobo 184"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="185" Name="Gobo 185"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="186" Name="Gobo 186"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="187" Name="Gobo 187"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="188" Name="Gobo 188"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="189" Name="Gobo 189"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="190" Name="Gobo 190"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="191" Name="Gobo 191"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="192" Name="Gobo 192"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="193" Name="Gobo 193"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="194" Name="Gobo 194"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="195" Name="Gobo 195"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="196" Name="Gobo 196"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="197" Name="Gobo 197"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="198" Name="Gobo 198"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="199" Name="Gobo 199"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="200" Name="Gobo 200"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="201" Name="Gobo 201"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="202" Name="Gobo 202"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="203" Name="Gobo 203"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="204" Name="Gobo 204"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="205" Name="Gobo 205"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="206" Name="Gobo 206"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="207" Name="Gobo 207"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="208" Name="Gobo 208"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="209" Name="Gobo 209"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="210" Name="Gobo 210"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="211" Name="Gobo 211"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="212" Name="Gobo 212"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="213" Name="Gobo 213"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="214" Name="Gobo 214"/>
+        <Slot Color="0.312700,0.329000,100.000000" MediaFileName="215" Name="Gobo 215"/>
+      </Wheel>
+      <Wheel Name="Virtual Color Wheel">
+        <Slot Color="0.312700,0.329000,100.000000" Name="White (8000K)"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Blue"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Cyan"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Green"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Yellow"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Red"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Magenta"/>
+      </Wheel>
+      <Wheel Name="Custom Gobo Wheel">
+        <Slot Color="0.312700,0.329000,100.000000" Name="Open"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 1"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 2"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 3"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 4"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 5"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 6"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 7"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 8"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 9"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 10"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 11"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 12"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 13"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 14"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 15"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 16"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 17"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 18"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 19"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 20"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 21"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 22"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 23"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 24"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 25"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 26"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 27"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 28"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 29"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 30"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 31"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 32"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 33"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 34"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 35"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 36"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 37"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 38"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 39"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 40"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 41"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 42"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 43"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 44"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 45"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 46"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 47"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 48"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 49"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 50"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 51"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 52"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 53"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 54"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 55"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 56"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 57"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 58"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 59"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 60"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 61"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 62"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 63"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 64"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 65"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 66"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 67"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 68"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 69"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 70"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 71"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 72"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 73"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 74"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 75"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 76"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 77"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 78"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 79"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 80"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 81"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 82"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 83"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 84"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 85"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 86"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 87"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 88"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 89"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 90"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 91"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 92"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 93"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 94"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 95"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 96"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 97"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 98"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 99"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 100"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 101"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 102"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 103"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 104"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 105"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 106"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 107"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 108"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 109"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 110"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 111"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 112"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 113"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 114"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 115"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 116"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 117"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 118"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 119"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 120"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 121"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 122"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 123"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 124"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 125"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 126"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 127"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 128"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 129"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 130"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 131"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 132"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 133"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 134"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 135"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 136"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 137"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 138"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 139"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 140"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 141"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 142"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 143"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 144"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 145"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 146"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 147"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 148"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 149"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 150"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 151"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 152"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 153"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 154"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 155"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 156"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 157"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 158"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 159"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 160"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 161"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 162"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 163"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 164"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 165"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 166"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 167"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 168"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 169"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 170"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 171"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 172"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 173"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 174"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 175"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 176"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 177"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 178"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 179"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 180"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 181"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 182"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 183"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 184"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 185"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 186"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 187"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 188"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 189"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 190"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 191"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 192"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 193"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 194"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 195"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 196"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 197"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 198"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 199"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 200"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 201"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 202"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 203"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 204"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 205"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 206"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 207"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 208"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 209"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 210"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 211"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 212"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 213"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 214"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 215"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 216"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 217"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 218"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 219"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 220"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 221"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 222"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 223"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 224"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 225"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 226"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 227"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 228"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 229"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 230"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 231"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 232"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 233"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 234"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 235"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 236"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 237"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 238"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 239"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 240"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 241"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 242"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 243"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 244"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 245"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 246"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 247"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 248"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 249"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Custom Gobo 250"/>
+      </Wheel>
+    </Wheels>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="" Height="0.200000" Length="0.500000" Name="Base1" PrimitiveType="Base" Width="0.500000"/>
+      <Model File="" Height="0.700000" Length="0.800000" Name="Yoke 1" PrimitiveType="Yoke" Width="0.100000"/>
+      <Model File="" Height="0.800000" Length="0.500000" Name="Head 1" PrimitiveType="Head" Width="0.500000"/>
+      <Model File="" Height="0.002000" Length="0.050000" Name="Beam" PrimitiveType="Cylinder" Width="0.050000"/>
+      <Model File="base" Height="0.085351" Length="0.251150" Name="base" PrimitiveType="Undefined" Width="0.192479"/>
+      <Model File="yoke" Height="0.198240" Length="0.233043" Name="yoke" PrimitiveType="Undefined" Width="0.087045"/>
+      <Model File="head" Height="0.188384" Length="0.174000" Name="head" PrimitiveType="Undefined" Width="0.143593"/>
+      <Model File="" Height="0.001000" Length="0.070000" Name="beam" PrimitiveType="Cylinder" Width="0.070000"/>
+      <Model File="" Height="0.050000" Length="0.150000" Name="pigtail" PrimitiveType="Pigtail" Width="0.050000"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+        <Axis Model="yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.074000}{0,0,0,1}">
+          <Axis Model="head" Name="Head" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.155000}{0,0,0,1}">
+            <Beam BeamAngle="16.000000" BeamRadius="0.025000" BeamType="Spot" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="16.000000" LampType="LED" LuminousFlux="250.000000" Model="Beam" Name="Beam" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.109000}{0,0,0,1}" PowerConsumption="90.000000"/>
+          </Axis>
+        </Axis>
+        <Geometry Model="pigtail" Name="pigtail" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.121693}{0.000000,0.000000,1.000000,-0.036662}{0,0,0,1}"/>
+      </Geometry>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="Mode 1">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="32768/2" Geometry="Yoke" Highlight="None" Offset="1,2">
+            <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Pan" DMXFrom="0/2" Name="Pan" OriginalAttribute="Pan" PhysicalFrom="-225.000000" PhysicalTo="225.000000" RealFade="1.567000">
+                <ChannelSet DMXFrom="0/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32768/2" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="32769/2" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="32768/2" Geometry="Head" Highlight="None" Offset="3,4">
+            <LogicalChannel Attribute="Tilt" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Tilt" DMXFrom="0/2" Name="Tilt" OriginalAttribute="Tilt" PhysicalFrom="-135.000000" PhysicalTo="135.000000" RealFade="0.800000">
+                <ChannelSet DMXFrom="0/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32768/2" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="32769/2" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="5">
+            <LogicalChannel Attribute="PositionMSpeed" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="PositionMSpeed" DMXFrom="0/1" Name="PositionMSpeed" OriginalAttribute="Pan/Tilt speed , Pan/Tilt time" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Standard mode" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Max Speed Mode" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2/1" Name="Time from 02 s to 255 sec / Speed from max to min" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="6">
+            <LogicalChannel Attribute="Control1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Control1" DMXFrom="0/1" Name="No function" OriginalAttribute="Special functions" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="No function" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="PanTiltMode" DMXFrom="50/1" Name="PanTiltMode" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="50/1" Name="Pan/Tilt speed mode" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="60/1" Name="Pan/Tilt time mode" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="BlackoutMode" DMXFrom="70/1" Name="BlackoutMode" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="70/1" Name="Blackout while pan/tilt moving" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="80/1" Name="Disabled blackout while pan/tilt moving" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Control2" DMXFrom="90/1" Name="ProjectionMode 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="90/1" Name="Ceiling projection On" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="95/1" Name="Ceiling projection Off" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="100/1" Name="Rear projection On" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="105/1" Name="Rear projection Off" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="110/1" Name="NoFeature" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="Control3" DMXFrom="130/1" Name="ProjectionMode 2" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="130/1" Name="Keep aspect ratio On" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="135/1" Name="Keep aspect ratio Off" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="PositionReset" DMXFrom="140/1" Name="PositionReset" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="140/1" Name="Pan/Tilt reset" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="150/1" Name="NoFeature 2" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="FocusReset" DMXFrom="180/1" Name="FocusReset" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="180/1" Name="Focus reset" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="ProjectorReset" DMXFrom="190/1" Name="ProjectorReset" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="190/1" Name="Graphic engine reset" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="FixtureGlobalReset" DMXFrom="200/1" Name="FixtureGlobalReset" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="200/1" Name="Total reset" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Control4" DMXFrom="210/1" Name="InputHDMI" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="210/1" Name="Internal HDMI" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="220/1" Name="External HDMI" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Control5" DMXFrom="230/1" Name="AutoKeystoning" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="230/1" Name="Save AutoKeystoning" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="235/1" Name="NoFeature 3" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="Control6" DMXFrom="240/1" Name="SyncNAS" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="240/1" Name="Synchronization of the Local NAS content with NAS" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="245/1" Name="NoFeature 4" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="128/1" Geometry="Head" Highlight="None" Offset="7">
+            <LogicalChannel Attribute="Zoom" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Zoom" DMXFrom="0/1" Name="DigitalZoom" OriginalAttribute="Digital zoom" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="128/1" Name="Real size" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="129/1" Name="Max" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="128/1" Geometry="Head" Highlight="None" Offset="8">
+            <LogicalChannel Attribute="Focus1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Focus1" DMXFrom="0/1" Name="Focus1" OriginalAttribute="Focus" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="128/1" Geometry="Head" Highlight="None" Offset="9">
+            <LogicalChannel Attribute="Blade1A" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Blade1A" DMXFrom="0/1" Name="VerticalKeystoning" OriginalAttribute="Keystoning Vertical" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Vertical keystoning" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="128/1" Geometry="Head" Highlight="None" Offset="10">
+            <LogicalChannel Attribute="Blade2A" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Blade2A" DMXFrom="0/1" Name="HorizontalKeystoning" OriginalAttribute="Keystoning Horizontal" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Horizontal keystoning" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="11">
+            <LogicalChannel Attribute="ColorSub_C" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorSub_C" DMXFrom="0/1" Name="Cyan" OriginalAttribute="Cyan" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="12">
+            <LogicalChannel Attribute="ColorSub_M" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorSub_M" DMXFrom="0/1" Name="Magenta" OriginalAttribute="Magenta" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="13">
+            <LogicalChannel Attribute="ColorSub_Y" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorSub_Y" DMXFrom="0/1" Name="Yellow" OriginalAttribute="Yellow" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="14">
+            <LogicalChannel Attribute="ColorMacro1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorMacro1" DMXFrom="0/1" Name="ColorMacro1 1" OriginalAttribute="Virtual colour wheel" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Virtual Color Wheel">
+                <ChannelSet DMXFrom="0/1" Name="White (8000K)" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="1"/>
+                <ChannelSet DMXFrom="16/1" Name="Blue" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="2"/>
+                <ChannelSet DMXFrom="17/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="56/1" Name="Cyan" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="3"/>
+                <ChannelSet DMXFrom="57/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="96/1" Name="Green" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="4"/>
+                <ChannelSet DMXFrom="97/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="135/1" Name="Yellow" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="5"/>
+                <ChannelSet DMXFrom="136/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="175/1" Name="Red" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="6"/>
+                <ChannelSet DMXFrom="176/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="215/1" Name="Magenta" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="7"/>
+                <ChannelSet DMXFrom="216/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="247/1" Name="Blue" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="2"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="248/1" Name="NoFeature" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="15">
+            <LogicalChannel Attribute="ColorMacro2" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorMacro2" DMXFrom="0/1" Name="ColourEffect" OriginalAttribute="Colour Effect wheel" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="No function" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Horizontal linear shade  white - - &gt;black" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2/1" Name="Horizontal Linear shade  black - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="3/1" Name="Vertical linear shade  black - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4/1" Name="Vertical linear shade  white - - &gt;black" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="5/1" Name="Diagonal shade  white - - &gt;black" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="6/1" Name="Diagonal shade  black - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="7/1" Name="Horizontal linear shade  white - - &gt;red" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="8/1" Name="Horizontal Linear shade  red - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="9/1" Name="Vertical linear shade  red - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="10/1" Name="Vertical linear shade  white - - &gt;red" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="11/1" Name="Diagonal shade  white - - &gt;red" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="12/1" Name="Diagonal shade  red - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="13/1" Name="Horizontal linear shade  white - - &gt;green" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="14/1" Name="Horizontal Linear shade  green - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="15/1" Name="Vertical linear shade  green - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="16/1" Name="Vertical linear shade  white - - &gt;green" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="17/1" Name="Diagonal shade  white - - &gt;green" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="18/1" Name="Diagonal shade  green - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="19/1" Name="Horizontal linear shade  white - - &gt;blue" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="20/1" Name="Horizontal Linear shade  blue - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="21/1" Name="Vertical linear shade  blue - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="22/1" Name="Vertical linear shade  white - - &gt;blue" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="23/1" Name="Diagonal shade  white - - &gt;blue" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="24/1" Name="Diagonal shade  blue - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="25/1" Name="Horizontal linear shade  white - - &gt;cyan" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="26/1" Name="Horizontal Linear shade  cyan - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="27/1" Name="Vertical linear shade  cyan - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="28/1" Name="Vertical linear shade  white - - &gt;cyan" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="29/1" Name="Diagonal shade  white - - &gt;cyan" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="30/1" Name="Diagonal shade  cyan - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="31/1" Name="Horizontal linear shade  white - - &gt;magenta" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32/1" Name="Horizontal Linear shade  magenta - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="33/1" Name="Vertical linear shade  magenta - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="34/1" Name="Vertical linear shade  white - - &gt;magenta" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="35/1" Name="Diagonal shade  white - - &gt;magenta" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="36/1" Name="Diagonal shade  magenta - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="37/1" Name="Horizontal linear shade  white - - &gt;yellow" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="38/1" Name="Horizontal Linear shade  yellow - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="39/1" Name="Vertical linear shade  yellow - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="40/1" Name="Vertical linear shade  white - - &gt;yellow" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="41/1" Name="Diagonal shade  white - - &gt;yellow" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="42/1" Name="Diagonal shade  yellow - - &gt;white" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="43/1" Name="RGBW shades" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="44/1" Name="CMYW shades" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="45/1" Name="RGBY shades" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="46/1" Name="RMBG shades" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="47/1" Name="Reserved" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="50/1" Name="Colour changing black - - &gt;white  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="51/1" Name="Colour changing black - - &gt;white  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="52/1" Name="Colour changing red - - &gt;white  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="53/1" Name="Colour changing red - - &gt;white  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="54/1" Name="Colour changing green - - &gt;white  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="55/1" Name="Colour changing green - - &gt;white  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="56/1" Name="Colour changing blue - - &gt;white  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="57/1" Name="Colour changing blue - - &gt;white  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="58/1" Name="Colour changing yellow - - &gt;white  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="59/1" Name="Colour changing yellow - - &gt;white  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="60/1" Name="Colour changing magenta - - &gt;white  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="61/1" Name="Colour changing magenta - - &gt;white  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="62/1" Name="Colour changing cyan - - &gt;white  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="63/1" Name="Colour changing cyan - - &gt;white  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="64/1" Name="Colour changing (slow) red - - &gt;green - - &gt;blue - - &gt;yellow" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="65/1" Name="Colour changing (fastest) red - - &gt;green - - &gt;blue - - &gt;yellow / Colour changing (fast) red - - &gt;green - - &gt;blue - - &gt;yellow" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="66/1" Name="Reserved" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="70/1" Name="Horizontal linear shade  white - - &gt;black and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="71/1" Name="Horizontal linear shade  white - - &gt;black and vice versa fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="72/1" Name="Vertical linear shade  white - - &gt;black and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="73/1" Name="Vertical linear shade  white - - &gt;black and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="74/1" Name="Diagonal shade  black - - &gt;white and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="75/1" Name="Diagonal shade  black - - &gt;white and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="76/1" Name="Shade black - - &gt;white  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="77/1" Name="Shade black - - &gt;white  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="78/1" Name="Shade black - - &gt;white  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="79/1" Name="Shade black - - &gt;white  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="80/1" Name="Horizontal linear shade  white - - &gt;red and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="81/1" Name="Horizontal linear shade  white - - &gt;red and vice versa fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="82/1" Name="Vertical linear shade  white - - &gt;red and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="83/1" Name="Vertical linear shade  white - - &gt;red and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="84/1" Name="Diagonal shade  red - - &gt;white and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="85/1" Name="Diagonal shade  red - - &gt;white and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="86/1" Name="Shade red - - &gt;white  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="87/1" Name="Shade red - - &gt;white  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="88/1" Name="Shade red - - &gt;white  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="89/1" Name="Shade red - - &gt;white  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="90/1" Name="Horizontal linear shade  white - - &gt;green and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="91/1" Name="Horizontal linear shade  white - - &gt;green and vice versa fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="92/1" Name="Vertical linear shade  white - - &gt;green and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="93/1" Name="Vertical linear shade  white - - &gt;green and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="94/1" Name="Diagonal shade  green - - &gt;white and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="95/1" Name="Diagonal shade  green - - &gt;white and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="96/1" Name="Shade green - - &gt;white  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="97/1" Name="Shade green - - &gt;white  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="98/1" Name="Shade green - - &gt;white  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="99/1" Name="Shade green - - &gt;white  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="100/1" Name="Horizontal linear shade  white - - &gt;blue and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="101/1" Name="Horizontal linear shade  white - - &gt;blue and vice versa fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="102/1" Name="Vertical linear shade  white - - &gt;blue and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="103/1" Name="Vertical linear shade  white - - &gt;blue and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="104/1" Name="Diagonal shade  blue - - &gt;white and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="105/1" Name="Diagonal shade  blue - - &gt;white and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="106/1" Name="Shade blue - - &gt;white  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="107/1" Name="Shade blue - - &gt;white  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="108/1" Name="Shade blue - - &gt;white  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="109/1" Name="Shade blue - - &gt;white  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="110/1" Name="Horizontal linear shade  white - - &gt;cyan and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="111/1" Name="Horizontal linear shade  white - - &gt;cyan and vice versa fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="112/1" Name="Vertical linear shade  white - - &gt;cyan and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="113/1" Name="Vertical linear shade  white - - &gt;cyan and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="114/1" Name="Diagonal shade  cyan - - &gt;white and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="115/1" Name="Diagonal shade  cyan - - &gt;white and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="116/1" Name="Shade cyan - - &gt;white  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="117/1" Name="Shade cyan - - &gt;white  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="118/1" Name="Shade cyan - - &gt;white  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="119/1" Name="Shade cyan - - &gt;white  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="120/1" Name="Horizontal linear shade  white - - &gt;magenta and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="121/1" Name="Horizontal linear shade  white - - &gt;magenta and vice versa fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="122/1" Name="Vertical linear shade  white - - &gt;magenta and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="123/1" Name="Vertical linear shade  white - - &gt;magenta and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="124/1" Name="Diagonal shade  magenta - - &gt;white and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="125/1" Name="Diagonal shade  magenta - - &gt;white and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="126/1" Name="Shade magenta - - &gt;white  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="127/1" Name="Shade magenta - - &gt;white  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="128/1" Name="Shade magenta - - &gt;white  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="129/1" Name="Shade magenta - - &gt;white  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="130/1" Name="Horizontal linear shade  white - - &gt;yellow and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="131/1" Name="Horizontal linear shade  white - - &gt;yellow and vice versa fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="132/1" Name="Vertical linear shade  white - - &gt;yellow and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="133/1" Name="Vertical linear shade  white - - &gt;yellow and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="134/1" Name="Diagonal shade  yellow - - &gt;white and vice versa  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="135/1" Name="Diagonal shade  yellow - - &gt;white and vice versa  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="136/1" Name="Shade yellow - - &gt;white  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="137/1" Name="Shade yellow - - &gt;white  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="138/1" Name="Shade yellow - - &gt;white  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="139/1" Name="Shade yellow - - &gt;white  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="140/1" Name="RGBW shades  slow rotation   clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="141/1" Name="RGBW shades  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="142/1" Name="RGBW shades  slow rotation   anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="143/1" Name="RGBW shades  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="144/1" Name="Random colours slowly  black between colours" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="145/1" Name="Random colours fast  black between colours" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="146/1" Name="Random colours slowly  white between colours" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="147/1" Name="Random colours fast  white between colours" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="148/1" Name="Random colours slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="149/1" Name="Random colours fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="150/1" Name="Horizontal black shade - - &gt;random colour  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="151/1" Name="Horizontal black shade - - &gt;random colour  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="152/1" Name="Vertical black shade - - &gt;random colour  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="153/1" Name="Vertical black shade - - &gt;random colour  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="154/1" Name="Diagonal black shade - - &gt;random colour  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="155/1" Name="Diagonal black shade - - &gt;random colour  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="156/1" Name="Black shade - - &gt;random colour  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="157/1" Name="Black shade - - &gt;random colour  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="158/1" Name="Black shade - - &gt;random colour  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="159/1" Name="Black shade - - &gt;random colour  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="160/1" Name="Random colour in two corners  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="161/1" Name="Random colour in two corners  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="162/1" Name="Random colour in two corners  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="163/1" Name="Random colour in two corners  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="164/1" Name="Random colour in four corners  slow rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="165/1" Name="Random colour in four corners  fast rotation  clockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="166/1" Name="Random colour in four corners  slow rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="167/1" Name="Random colour in four corners  fast rotation  anticlockwise" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="168/1" Name="Horizontal colour transition  slowly  random" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="169/1" Name="Horizontal colour transition  fast  random" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="170/1" Name="Vertical colour transition  slowly  random" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="171/1" Name="Vertical colour transition  fast  random" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="172/1" Name="Diagonal colour transition  slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="173/1" Name="Diagonal colour transition  fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="174/1" Name="Horizontal/Vertical/Diagonal colour transition slowly" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="175/1" Name="Horizontal/Vertical/Diagonal colour transition fast" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="176/1" Name="Reserved" PhysicalFrom="0.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="16">
+            <LogicalChannel Attribute="MediaFolder" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="MediaFolder" DMXFrom="0/1" Name="MediaFolderGobo 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Deault-Factory Digital gobo wheel" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32/1" Name="Internal Custom Digital gobo wheel" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="64/1" Name="External Custom Digital gobo wheel (USB)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="96/1" Name="Local NAS content" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="128/1" Name="Remote NAS content" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="144/1" Name="NoFeature 2" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="17">
+            <LogicalChannel Attribute="Gobo1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Gobo1" DMXFrom="0/1" ModeFrom="0/1" ModeMaster="Base_MediaFolder" ModeTo="31/1" Name="Gobo1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Gobo">
+                <ChannelSet DMXFrom="0/1" Name="Open" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="1"/>
+                <ChannelSet DMXFrom="1/1" Name="Gobo 001" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="2"/>
+                <ChannelSet DMXFrom="2/1" Name="Gobo 002" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="3"/>
+                <ChannelSet DMXFrom="3/1" Name="Gobo 003" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="4"/>
+                <ChannelSet DMXFrom="5/1" Name="Gobo 004" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="5"/>
+                <ChannelSet DMXFrom="6/1" Name="Gobo 005" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="6"/>
+                <ChannelSet DMXFrom="7/1" Name="Gobo 006" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="7"/>
+                <ChannelSet DMXFrom="8/1" Name="Gobo 007" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="8"/>
+                <ChannelSet DMXFrom="9/1" Name="Gobo 008" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="9"/>
+                <ChannelSet DMXFrom="10/1" Name="Gobo 009" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="10"/>
+                <ChannelSet DMXFrom="12/1" Name="Gobo 010" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="11"/>
+                <ChannelSet DMXFrom="13/1" Name="Gobo 011" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="12"/>
+                <ChannelSet DMXFrom="14/1" Name="Gobo 012" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="13"/>
+                <ChannelSet DMXFrom="15/1" Name="Gobo 013" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="14"/>
+                <ChannelSet DMXFrom="16/1" Name="Gobo 014" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="15"/>
+                <ChannelSet DMXFrom="17/1" Name="Gobo 015" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="16"/>
+                <ChannelSet DMXFrom="19/1" Name="Gobo 016" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="17"/>
+                <ChannelSet DMXFrom="20/1" Name="Gobo 017" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="18"/>
+                <ChannelSet DMXFrom="21/1" Name="Gobo 018" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="19"/>
+                <ChannelSet DMXFrom="22/1" Name="Gobo 019" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="20"/>
+                <ChannelSet DMXFrom="23/1" Name="Gobo 020" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="21"/>
+                <ChannelSet DMXFrom="24/1" Name="Gobo 021" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="22"/>
+                <ChannelSet DMXFrom="26/1" Name="Gobo 022" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="23"/>
+                <ChannelSet DMXFrom="27/1" Name="Gobo 023" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="24"/>
+                <ChannelSet DMXFrom="28/1" Name="Gobo 024" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="25"/>
+                <ChannelSet DMXFrom="29/1" Name="Gobo 025" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="26"/>
+                <ChannelSet DMXFrom="30/1" Name="Gobo 026" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="27"/>
+                <ChannelSet DMXFrom="31/1" Name="Gobo 027" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="28"/>
+                <ChannelSet DMXFrom="33/1" Name="Gobo 028" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="29"/>
+                <ChannelSet DMXFrom="34/1" Name="Gobo 029" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="30"/>
+                <ChannelSet DMXFrom="35/1" Name="Gobo 030" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="31"/>
+                <ChannelSet DMXFrom="36/1" Name="Gobo 031" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="32"/>
+                <ChannelSet DMXFrom="37/1" Name="Gobo 032" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="33"/>
+                <ChannelSet DMXFrom="38/1" Name="Gobo 033" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="34"/>
+                <ChannelSet DMXFrom="40/1" Name="Gobo 034" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="35"/>
+                <ChannelSet DMXFrom="41/1" Name="Gobo 035" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="36"/>
+                <ChannelSet DMXFrom="42/1" Name="Gobo 036" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="37"/>
+                <ChannelSet DMXFrom="43/1" Name="Gobo 037" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="38"/>
+                <ChannelSet DMXFrom="44/1" Name="Gobo 038" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="39"/>
+                <ChannelSet DMXFrom="45/1" Name="Gobo 039" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="40"/>
+                <ChannelSet DMXFrom="46/1" Name="Gobo 040" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="41"/>
+                <ChannelSet DMXFrom="48/1" Name="Gobo 041" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="42"/>
+                <ChannelSet DMXFrom="49/1" Name="Gobo 042" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="43"/>
+                <ChannelSet DMXFrom="50/1" Name="Gobo 043" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="44"/>
+                <ChannelSet DMXFrom="51/1" Name="Gobo 044" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="45"/>
+                <ChannelSet DMXFrom="52/1" Name="Gobo 045" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="46"/>
+                <ChannelSet DMXFrom="53/1" Name="Gobo 046" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="47"/>
+                <ChannelSet DMXFrom="55/1" Name="Gobo 047" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="48"/>
+                <ChannelSet DMXFrom="56/1" Name="Gobo 048" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="49"/>
+                <ChannelSet DMXFrom="57/1" Name="Gobo 049" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="50"/>
+                <ChannelSet DMXFrom="58/1" Name="Gobo 050" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="51"/>
+                <ChannelSet DMXFrom="59/1" Name="Gobo 051" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="52"/>
+                <ChannelSet DMXFrom="60/1" Name="Gobo 052" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="53"/>
+                <ChannelSet DMXFrom="62/1" Name="Gobo 053" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="54"/>
+                <ChannelSet DMXFrom="63/1" Name="Gobo 054" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="55"/>
+                <ChannelSet DMXFrom="64/1" Name="Gobo 055" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="56"/>
+                <ChannelSet DMXFrom="65/1" Name="Gobo 056" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="57"/>
+                <ChannelSet DMXFrom="66/1" Name="Gobo 057" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="58"/>
+                <ChannelSet DMXFrom="67/1" Name="Gobo 058" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="59"/>
+                <ChannelSet DMXFrom="69/1" Name="Gobo 059" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="60"/>
+                <ChannelSet DMXFrom="70/1" Name="Gobo 060" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="61"/>
+                <ChannelSet DMXFrom="71/1" Name="Gobo 061" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="62"/>
+                <ChannelSet DMXFrom="72/1" Name="Gobo 062" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="63"/>
+                <ChannelSet DMXFrom="73/1" Name="Gobo 063" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="64"/>
+                <ChannelSet DMXFrom="74/1" Name="Gobo 064" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="65"/>
+                <ChannelSet DMXFrom="76/1" Name="Gobo 065" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="66"/>
+                <ChannelSet DMXFrom="77/1" Name="Gobo 066" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="67"/>
+                <ChannelSet DMXFrom="78/1" Name="Gobo 067" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="68"/>
+                <ChannelSet DMXFrom="79/1" Name="Gobo 068" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="69"/>
+                <ChannelSet DMXFrom="80/1" Name="Gobo 069" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="70"/>
+                <ChannelSet DMXFrom="81/1" Name="Gobo 070" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="71"/>
+                <ChannelSet DMXFrom="83/1" Name="Gobo 071" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="72"/>
+                <ChannelSet DMXFrom="84/1" Name="Gobo 072" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="73"/>
+                <ChannelSet DMXFrom="85/1" Name="Gobo 073" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="74"/>
+                <ChannelSet DMXFrom="86/1" Name="Gobo 074" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="75"/>
+                <ChannelSet DMXFrom="87/1" Name="Gobo 075" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="76"/>
+                <ChannelSet DMXFrom="88/1" Name="Gobo 076" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="77"/>
+                <ChannelSet DMXFrom="89/1" Name="Gobo 077" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="78"/>
+                <ChannelSet DMXFrom="91/1" Name="Gobo 078" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="79"/>
+                <ChannelSet DMXFrom="92/1" Name="Gobo 079" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="80"/>
+                <ChannelSet DMXFrom="93/1" Name="Gobo 080" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="81"/>
+                <ChannelSet DMXFrom="94/1" Name="Gobo 081" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="82"/>
+                <ChannelSet DMXFrom="95/1" Name="Gobo 082" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="83"/>
+                <ChannelSet DMXFrom="96/1" Name="Gobo 083" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="84"/>
+                <ChannelSet DMXFrom="98/1" Name="Gobo 084" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="85"/>
+                <ChannelSet DMXFrom="99/1" Name="Gobo 085" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="86"/>
+                <ChannelSet DMXFrom="100/1" Name="Gobo 086" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="87"/>
+                <ChannelSet DMXFrom="101/1" Name="Gobo 087" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="88"/>
+                <ChannelSet DMXFrom="102/1" Name="Gobo 088" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="89"/>
+                <ChannelSet DMXFrom="103/1" Name="Gobo 089" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="90"/>
+                <ChannelSet DMXFrom="105/1" Name="Gobo 090" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="91"/>
+                <ChannelSet DMXFrom="106/1" Name="Gobo 091" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="92"/>
+                <ChannelSet DMXFrom="107/1" Name="Gobo 092" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="93"/>
+                <ChannelSet DMXFrom="108/1" Name="Gobo 093" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="94"/>
+                <ChannelSet DMXFrom="109/1" Name="Gobo 094" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="95"/>
+                <ChannelSet DMXFrom="110/1" Name="Gobo 095" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="96"/>
+                <ChannelSet DMXFrom="112/1" Name="Gobo 096" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="97"/>
+                <ChannelSet DMXFrom="113/1" Name="Gobo 097" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="98"/>
+                <ChannelSet DMXFrom="114/1" Name="Gobo 098" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="99"/>
+                <ChannelSet DMXFrom="115/1" Name="Gobo 099" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="100"/>
+                <ChannelSet DMXFrom="116/1" Name="Gobo 100" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="101"/>
+                <ChannelSet DMXFrom="117/1" Name="Gobo 101" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="102"/>
+                <ChannelSet DMXFrom="119/1" Name="Gobo 102" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="103"/>
+                <ChannelSet DMXFrom="120/1" Name="Gobo 103" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="104"/>
+                <ChannelSet DMXFrom="121/1" Name="Gobo 104" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="105"/>
+                <ChannelSet DMXFrom="122/1" Name="Gobo 105" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="106"/>
+                <ChannelSet DMXFrom="123/1" Name="Gobo 106" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="107"/>
+                <ChannelSet DMXFrom="124/1" Name="Gobo 107" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="108"/>
+                <ChannelSet DMXFrom="126/1" Name="Gobo 108" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="109"/>
+                <ChannelSet DMXFrom="127/1" Name="Gobo 109" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="110"/>
+                <ChannelSet DMXFrom="128/1" Name="Gobo 110" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="111"/>
+                <ChannelSet DMXFrom="129/1" Name="Gobo 111" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="112"/>
+                <ChannelSet DMXFrom="130/1" Name="Gobo 112" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="113"/>
+                <ChannelSet DMXFrom="131/1" Name="Gobo 113" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="114"/>
+                <ChannelSet DMXFrom="132/1" Name="Gobo 114" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="115"/>
+                <ChannelSet DMXFrom="134/1" Name="Gobo 115" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="116"/>
+                <ChannelSet DMXFrom="135/1" Name="Gobo 116" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="117"/>
+                <ChannelSet DMXFrom="136/1" Name="Gobo 117" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="118"/>
+                <ChannelSet DMXFrom="137/1" Name="Gobo 118" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="119"/>
+                <ChannelSet DMXFrom="138/1" Name="Gobo 119" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="120"/>
+                <ChannelSet DMXFrom="139/1" Name="Gobo 120" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="121"/>
+                <ChannelSet DMXFrom="141/1" Name="Gobo 121" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="122"/>
+                <ChannelSet DMXFrom="142/1" Name="Gobo 122" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="123"/>
+                <ChannelSet DMXFrom="143/1" Name="Gobo 123" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="124"/>
+                <ChannelSet DMXFrom="144/1" Name="Gobo 124" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="125"/>
+                <ChannelSet DMXFrom="145/1" Name="Gobo 125" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="126"/>
+                <ChannelSet DMXFrom="146/1" Name="Gobo 126" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="127"/>
+                <ChannelSet DMXFrom="148/1" Name="Gobo 127" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="128"/>
+                <ChannelSet DMXFrom="149/1" Name="Gobo 128" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="129"/>
+                <ChannelSet DMXFrom="150/1" Name="Gobo 129" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="130"/>
+                <ChannelSet DMXFrom="151/1" Name="Gobo 130" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="131"/>
+                <ChannelSet DMXFrom="152/1" Name="Gobo 131" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="132"/>
+                <ChannelSet DMXFrom="153/1" Name="Gobo 132" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="133"/>
+                <ChannelSet DMXFrom="155/1" Name="Gobo 133" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="134"/>
+                <ChannelSet DMXFrom="156/1" Name="Gobo 134" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="135"/>
+                <ChannelSet DMXFrom="157/1" Name="Gobo 135" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="136"/>
+                <ChannelSet DMXFrom="158/1" Name="Gobo 136" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="137"/>
+                <ChannelSet DMXFrom="159/1" Name="Gobo 137" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="138"/>
+                <ChannelSet DMXFrom="160/1" Name="Gobo 138" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="139"/>
+                <ChannelSet DMXFrom="162/1" Name="Gobo 139" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="140"/>
+                <ChannelSet DMXFrom="163/1" Name="Gobo 140" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="141"/>
+                <ChannelSet DMXFrom="164/1" Name="Gobo 141" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="142"/>
+                <ChannelSet DMXFrom="165/1" Name="Gobo 142" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="143"/>
+                <ChannelSet DMXFrom="166/1" Name="Gobo 143" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="144"/>
+                <ChannelSet DMXFrom="167/1" Name="Gobo 144" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="145"/>
+                <ChannelSet DMXFrom="168/1" Name="Gobo 145" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="146"/>
+                <ChannelSet DMXFrom="170/1" Name="Gobo 146" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="147"/>
+                <ChannelSet DMXFrom="171/1" Name="Gobo 147" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="148"/>
+                <ChannelSet DMXFrom="172/1" Name="Gobo 148" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="149"/>
+                <ChannelSet DMXFrom="173/1" Name="Gobo 149" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="150"/>
+                <ChannelSet DMXFrom="174/1" Name="Gobo 150" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="151"/>
+                <ChannelSet DMXFrom="175/1" Name="Gobo 151" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="152"/>
+                <ChannelSet DMXFrom="177/1" Name="Gobo 152" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="153"/>
+                <ChannelSet DMXFrom="178/1" Name="Gobo 153" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="154"/>
+                <ChannelSet DMXFrom="179/1" Name="Gobo 154" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="155"/>
+                <ChannelSet DMXFrom="180/1" Name="Gobo 155" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="156"/>
+                <ChannelSet DMXFrom="181/1" Name="Gobo 156" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="157"/>
+                <ChannelSet DMXFrom="182/1" Name="Gobo 157" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="158"/>
+                <ChannelSet DMXFrom="184/1" Name="Gobo 158" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="159"/>
+                <ChannelSet DMXFrom="185/1" Name="Gobo 159" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="160"/>
+                <ChannelSet DMXFrom="186/1" Name="Gobo 160" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="161"/>
+                <ChannelSet DMXFrom="187/1" Name="Gobo 161" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="162"/>
+                <ChannelSet DMXFrom="188/1" Name="Gobo 162" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="163"/>
+                <ChannelSet DMXFrom="189/1" Name="Gobo 163" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="164"/>
+                <ChannelSet DMXFrom="191/1" Name="Gobo 164" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="165"/>
+                <ChannelSet DMXFrom="192/1" Name="Gobo 165" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="166"/>
+                <ChannelSet DMXFrom="193/1" Name="Gobo 166" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="167"/>
+                <ChannelSet DMXFrom="194/1" Name="Gobo 167" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="168"/>
+                <ChannelSet DMXFrom="195/1" Name="Gobo 168" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="169"/>
+                <ChannelSet DMXFrom="196/1" Name="Gobo 169" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="170"/>
+                <ChannelSet DMXFrom="198/1" Name="Gobo 170" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="171"/>
+                <ChannelSet DMXFrom="199/1" Name="Gobo 171" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="172"/>
+                <ChannelSet DMXFrom="200/1" Name="Gobo 172" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="173"/>
+                <ChannelSet DMXFrom="201/1" Name="Gobo 173" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="174"/>
+                <ChannelSet DMXFrom="202/1" Name="Gobo 174" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="175"/>
+                <ChannelSet DMXFrom="203/1" Name="Gobo 175" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="176"/>
+                <ChannelSet DMXFrom="205/1" Name="Gobo 176" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="177"/>
+                <ChannelSet DMXFrom="206/1" Name="Gobo 177" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="178"/>
+                <ChannelSet DMXFrom="207/1" Name="Gobo 178" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="179"/>
+                <ChannelSet DMXFrom="208/1" Name="Gobo 179" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="180"/>
+                <ChannelSet DMXFrom="209/1" Name="Gobo 180" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="181"/>
+                <ChannelSet DMXFrom="210/1" Name="Gobo 181" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="182"/>
+                <ChannelSet DMXFrom="211/1" Name="Gobo 182" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="183"/>
+                <ChannelSet DMXFrom="213/1" Name="Gobo 183" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="184"/>
+                <ChannelSet DMXFrom="214/1" Name="Gobo 184" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="185"/>
+                <ChannelSet DMXFrom="215/1" Name="Gobo 185" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="186"/>
+                <ChannelSet DMXFrom="216/1" Name="Gobo 186" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="187"/>
+                <ChannelSet DMXFrom="217/1" Name="Gobo 187" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="188"/>
+                <ChannelSet DMXFrom="218/1" Name="Gobo 188" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="189"/>
+                <ChannelSet DMXFrom="220/1" Name="Gobo 189" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="190"/>
+                <ChannelSet DMXFrom="221/1" Name="Gobo 190" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="191"/>
+                <ChannelSet DMXFrom="222/1" Name="Gobo 191" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="192"/>
+                <ChannelSet DMXFrom="223/1" Name="Gobo 192" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="193"/>
+                <ChannelSet DMXFrom="224/1" Name="Gobo 193" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="194"/>
+                <ChannelSet DMXFrom="225/1" Name="Gobo 194" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="195"/>
+                <ChannelSet DMXFrom="227/1" Name="Gobo 195" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="196"/>
+                <ChannelSet DMXFrom="228/1" Name="Gobo 196" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="197"/>
+                <ChannelSet DMXFrom="229/1" Name="Gobo 197" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="198"/>
+                <ChannelSet DMXFrom="230/1" Name="Gobo 198" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="199"/>
+                <ChannelSet DMXFrom="231/1" Name="Gobo 199" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="200"/>
+                <ChannelSet DMXFrom="232/1" Name="Gobo 200" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="201"/>
+                <ChannelSet DMXFrom="234/1" Name="Gobo 201" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="202"/>
+                <ChannelSet DMXFrom="235/1" Name="Gobo 202" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="203"/>
+                <ChannelSet DMXFrom="236/1" Name="Gobo 203" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="204"/>
+                <ChannelSet DMXFrom="237/1" Name="Gobo 204" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="205"/>
+                <ChannelSet DMXFrom="238/1" Name="Gobo 205" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="206"/>
+                <ChannelSet DMXFrom="239/1" Name="Gobo 206" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="207"/>
+                <ChannelSet DMXFrom="241/1" Name="Gobo 207" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="208"/>
+                <ChannelSet DMXFrom="242/1" Name="Gobo 208" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="209"/>
+                <ChannelSet DMXFrom="243/1" Name="Gobo 209" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="210"/>
+                <ChannelSet DMXFrom="244/1" Name="Gobo 210" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="211"/>
+                <ChannelSet DMXFrom="245/1" Name="Gobo 211" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="212"/>
+                <ChannelSet DMXFrom="246/1" Name="Gobo 212" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="213"/>
+                <ChannelSet DMXFrom="248/1" Name="Gobo 213" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="214"/>
+                <ChannelSet DMXFrom="249/1" Name="Gobo 214" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="215"/>
+                <ChannelSet DMXFrom="250/1" Name="Gobo 215" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="216"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Gobo1WheelRandom" DMXFrom="251/1" ModeFrom="0/1" ModeMaster="Base_MediaFolder" ModeTo="31/1" Name="Gobo1WheelRandom" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Gobo">
+                <ChannelSet DMXFrom="251/1" Name="Gobos presentation (random)" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Gobo1WheelSpin" DMXFrom="252/1" ModeFrom="0/1" ModeMaster="Base_MediaFolder" ModeTo="31/1" Name="Gobo1WheelSpin" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Gobo">
+                <ChannelSet DMXFrom="252/1" Name="Gobos presentation (alphabetical)" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="253/1" ModeFrom="0/1" ModeMaster="Base_MediaFolder" ModeTo="31/1" Name="NoFeature 4" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="Gobo1" DMXFrom="0/1" ModeFrom="32/1" ModeMaster="Base_MediaFolder" ModeTo="143/1" Name="CustomGobo1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Custom Gobo Wheel">
+                <ChannelSet DMXFrom="0/1" Name="Open" WheelSlotIndex="1"/>
+                <ChannelSet DMXFrom="1/1" Name="Custom Gobo 1" WheelSlotIndex="2"/>
+                <ChannelSet DMXFrom="2/1" Name="Custom Gobo 2" WheelSlotIndex="3"/>
+                <ChannelSet DMXFrom="3/1" Name="Custom Gobo 3" WheelSlotIndex="4"/>
+                <ChannelSet DMXFrom="4/1" Name="Custom Gobo 4" WheelSlotIndex="5"/>
+                <ChannelSet DMXFrom="5/1" Name="Custom Gobo 5" WheelSlotIndex="6"/>
+                <ChannelSet DMXFrom="6/1" Name="Custom Gobo 6" WheelSlotIndex="7"/>
+                <ChannelSet DMXFrom="7/1" Name="Custom Gobo 7" WheelSlotIndex="8"/>
+                <ChannelSet DMXFrom="8/1" Name="Custom Gobo 8" WheelSlotIndex="9"/>
+                <ChannelSet DMXFrom="9/1" Name="Custom Gobo 9" WheelSlotIndex="10"/>
+                <ChannelSet DMXFrom="10/1" Name="Custom Gobo 10" WheelSlotIndex="11"/>
+                <ChannelSet DMXFrom="11/1" Name="Custom Gobo 11" WheelSlotIndex="12"/>
+                <ChannelSet DMXFrom="12/1" Name="Custom Gobo 12" WheelSlotIndex="13"/>
+                <ChannelSet DMXFrom="13/1" Name="Custom Gobo 13" WheelSlotIndex="14"/>
+                <ChannelSet DMXFrom="14/1" Name="Custom Gobo 14" WheelSlotIndex="15"/>
+                <ChannelSet DMXFrom="15/1" Name="Custom Gobo 15" WheelSlotIndex="16"/>
+                <ChannelSet DMXFrom="16/1" Name="Custom Gobo 16" WheelSlotIndex="17"/>
+                <ChannelSet DMXFrom="17/1" Name="Custom Gobo 17" WheelSlotIndex="18"/>
+                <ChannelSet DMXFrom="18/1" Name="Custom Gobo 18" WheelSlotIndex="19"/>
+                <ChannelSet DMXFrom="19/1" Name="Custom Gobo 19" WheelSlotIndex="20"/>
+                <ChannelSet DMXFrom="20/1" Name="Custom Gobo 20" WheelSlotIndex="21"/>
+                <ChannelSet DMXFrom="21/1" Name="Custom Gobo 21" WheelSlotIndex="22"/>
+                <ChannelSet DMXFrom="22/1" Name="Custom Gobo 22" WheelSlotIndex="23"/>
+                <ChannelSet DMXFrom="23/1" Name="Custom Gobo 23" WheelSlotIndex="24"/>
+                <ChannelSet DMXFrom="24/1" Name="Custom Gobo 24" WheelSlotIndex="25"/>
+                <ChannelSet DMXFrom="25/1" Name="Custom Gobo 25" WheelSlotIndex="26"/>
+                <ChannelSet DMXFrom="26/1" Name="Custom Gobo 26" WheelSlotIndex="27"/>
+                <ChannelSet DMXFrom="27/1" Name="Custom Gobo 27" WheelSlotIndex="28"/>
+                <ChannelSet DMXFrom="28/1" Name="Custom Gobo 28" WheelSlotIndex="29"/>
+                <ChannelSet DMXFrom="29/1" Name="Custom Gobo 29" WheelSlotIndex="30"/>
+                <ChannelSet DMXFrom="30/1" Name="Custom Gobo 30" WheelSlotIndex="31"/>
+                <ChannelSet DMXFrom="31/1" Name="Custom Gobo 31" WheelSlotIndex="32"/>
+                <ChannelSet DMXFrom="32/1" Name="Custom Gobo 32" WheelSlotIndex="33"/>
+                <ChannelSet DMXFrom="33/1" Name="Custom Gobo 33" WheelSlotIndex="34"/>
+                <ChannelSet DMXFrom="34/1" Name="Custom Gobo 34" WheelSlotIndex="35"/>
+                <ChannelSet DMXFrom="35/1" Name="Custom Gobo 35" WheelSlotIndex="36"/>
+                <ChannelSet DMXFrom="36/1" Name="Custom Gobo 36" WheelSlotIndex="37"/>
+                <ChannelSet DMXFrom="37/1" Name="Custom Gobo 37" WheelSlotIndex="38"/>
+                <ChannelSet DMXFrom="38/1" Name="Custom Gobo 38" WheelSlotIndex="39"/>
+                <ChannelSet DMXFrom="39/1" Name="Custom Gobo 39" WheelSlotIndex="40"/>
+                <ChannelSet DMXFrom="40/1" Name="Custom Gobo 40" WheelSlotIndex="41"/>
+                <ChannelSet DMXFrom="41/1" Name="Custom Gobo 41" WheelSlotIndex="42"/>
+                <ChannelSet DMXFrom="42/1" Name="Custom Gobo 42" WheelSlotIndex="43"/>
+                <ChannelSet DMXFrom="43/1" Name="Custom Gobo 43" WheelSlotIndex="44"/>
+                <ChannelSet DMXFrom="44/1" Name="Custom Gobo 44" WheelSlotIndex="45"/>
+                <ChannelSet DMXFrom="45/1" Name="Custom Gobo 45" WheelSlotIndex="46"/>
+                <ChannelSet DMXFrom="46/1" Name="Custom Gobo 46" WheelSlotIndex="47"/>
+                <ChannelSet DMXFrom="47/1" Name="Custom Gobo 47" WheelSlotIndex="48"/>
+                <ChannelSet DMXFrom="48/1" Name="Custom Gobo 48" WheelSlotIndex="49"/>
+                <ChannelSet DMXFrom="49/1" Name="Custom Gobo 49" WheelSlotIndex="50"/>
+                <ChannelSet DMXFrom="50/1" Name="Custom Gobo 50" WheelSlotIndex="51"/>
+                <ChannelSet DMXFrom="51/1" Name="Custom Gobo 51" WheelSlotIndex="52"/>
+                <ChannelSet DMXFrom="52/1" Name="Custom Gobo 52" WheelSlotIndex="53"/>
+                <ChannelSet DMXFrom="53/1" Name="Custom Gobo 53" WheelSlotIndex="54"/>
+                <ChannelSet DMXFrom="54/1" Name="Custom Gobo 54" WheelSlotIndex="55"/>
+                <ChannelSet DMXFrom="55/1" Name="Custom Gobo 55" WheelSlotIndex="56"/>
+                <ChannelSet DMXFrom="56/1" Name="Custom Gobo 56" WheelSlotIndex="57"/>
+                <ChannelSet DMXFrom="57/1" Name="Custom Gobo 57" WheelSlotIndex="58"/>
+                <ChannelSet DMXFrom="58/1" Name="Custom Gobo 58" WheelSlotIndex="59"/>
+                <ChannelSet DMXFrom="59/1" Name="Custom Gobo 59" WheelSlotIndex="60"/>
+                <ChannelSet DMXFrom="60/1" Name="Custom Gobo 60" WheelSlotIndex="61"/>
+                <ChannelSet DMXFrom="61/1" Name="Custom Gobo 61" WheelSlotIndex="62"/>
+                <ChannelSet DMXFrom="62/1" Name="Custom Gobo 62" WheelSlotIndex="63"/>
+                <ChannelSet DMXFrom="63/1" Name="Custom Gobo 63" WheelSlotIndex="64"/>
+                <ChannelSet DMXFrom="64/1" Name="Custom Gobo 64" WheelSlotIndex="65"/>
+                <ChannelSet DMXFrom="65/1" Name="Custom Gobo 65" WheelSlotIndex="66"/>
+                <ChannelSet DMXFrom="66/1" Name="Custom Gobo 66" WheelSlotIndex="67"/>
+                <ChannelSet DMXFrom="67/1" Name="Custom Gobo 67" WheelSlotIndex="68"/>
+                <ChannelSet DMXFrom="68/1" Name="Custom Gobo 68" WheelSlotIndex="69"/>
+                <ChannelSet DMXFrom="69/1" Name="Custom Gobo 69" WheelSlotIndex="70"/>
+                <ChannelSet DMXFrom="70/1" Name="Custom Gobo 70" WheelSlotIndex="71"/>
+                <ChannelSet DMXFrom="71/1" Name="Custom Gobo 71" WheelSlotIndex="72"/>
+                <ChannelSet DMXFrom="72/1" Name="Custom Gobo 72" WheelSlotIndex="73"/>
+                <ChannelSet DMXFrom="73/1" Name="Custom Gobo 73" WheelSlotIndex="74"/>
+                <ChannelSet DMXFrom="74/1" Name="Custom Gobo 74" WheelSlotIndex="75"/>
+                <ChannelSet DMXFrom="75/1" Name="Custom Gobo 75" WheelSlotIndex="76"/>
+                <ChannelSet DMXFrom="76/1" Name="Custom Gobo 76" WheelSlotIndex="77"/>
+                <ChannelSet DMXFrom="77/1" Name="Custom Gobo 77" WheelSlotIndex="78"/>
+                <ChannelSet DMXFrom="78/1" Name="Custom Gobo 78" WheelSlotIndex="79"/>
+                <ChannelSet DMXFrom="79/1" Name="Custom Gobo 79" WheelSlotIndex="80"/>
+                <ChannelSet DMXFrom="80/1" Name="Custom Gobo 80" WheelSlotIndex="81"/>
+                <ChannelSet DMXFrom="81/1" Name="Custom Gobo 81" WheelSlotIndex="82"/>
+                <ChannelSet DMXFrom="82/1" Name="Custom Gobo 82" WheelSlotIndex="83"/>
+                <ChannelSet DMXFrom="83/1" Name="Custom Gobo 83" WheelSlotIndex="84"/>
+                <ChannelSet DMXFrom="84/1" Name="Custom Gobo 84" WheelSlotIndex="85"/>
+                <ChannelSet DMXFrom="85/1" Name="Custom Gobo 85" WheelSlotIndex="86"/>
+                <ChannelSet DMXFrom="86/1" Name="Custom Gobo 86" WheelSlotIndex="87"/>
+                <ChannelSet DMXFrom="87/1" Name="Custom Gobo 87" WheelSlotIndex="88"/>
+                <ChannelSet DMXFrom="88/1" Name="Custom Gobo 88" WheelSlotIndex="89"/>
+                <ChannelSet DMXFrom="89/1" Name="Custom Gobo 89" WheelSlotIndex="90"/>
+                <ChannelSet DMXFrom="90/1" Name="Custom Gobo 90" WheelSlotIndex="91"/>
+                <ChannelSet DMXFrom="91/1" Name="Custom Gobo 91" WheelSlotIndex="92"/>
+                <ChannelSet DMXFrom="92/1" Name="Custom Gobo 92" WheelSlotIndex="93"/>
+                <ChannelSet DMXFrom="93/1" Name="Custom Gobo 93" WheelSlotIndex="94"/>
+                <ChannelSet DMXFrom="94/1" Name="Custom Gobo 94" WheelSlotIndex="95"/>
+                <ChannelSet DMXFrom="95/1" Name="Custom Gobo 95" WheelSlotIndex="96"/>
+                <ChannelSet DMXFrom="96/1" Name="Custom Gobo 96" WheelSlotIndex="97"/>
+                <ChannelSet DMXFrom="97/1" Name="Custom Gobo 97" WheelSlotIndex="98"/>
+                <ChannelSet DMXFrom="98/1" Name="Custom Gobo 98" WheelSlotIndex="99"/>
+                <ChannelSet DMXFrom="99/1" Name="Custom Gobo 99" WheelSlotIndex="100"/>
+                <ChannelSet DMXFrom="100/1" Name="Custom Gobo 100" WheelSlotIndex="101"/>
+                <ChannelSet DMXFrom="101/1" Name="Custom Gobo 101" WheelSlotIndex="102"/>
+                <ChannelSet DMXFrom="102/1" Name="Custom Gobo 102" WheelSlotIndex="103"/>
+                <ChannelSet DMXFrom="103/1" Name="Custom Gobo 103" WheelSlotIndex="104"/>
+                <ChannelSet DMXFrom="104/1" Name="Custom Gobo 104" WheelSlotIndex="105"/>
+                <ChannelSet DMXFrom="105/1" Name="Custom Gobo 105" WheelSlotIndex="106"/>
+                <ChannelSet DMXFrom="106/1" Name="Custom Gobo 106" WheelSlotIndex="107"/>
+                <ChannelSet DMXFrom="107/1" Name="Custom Gobo 107" WheelSlotIndex="108"/>
+                <ChannelSet DMXFrom="108/1" Name="Custom Gobo 108" WheelSlotIndex="109"/>
+                <ChannelSet DMXFrom="109/1" Name="Custom Gobo 109" WheelSlotIndex="110"/>
+                <ChannelSet DMXFrom="110/1" Name="Custom Gobo 110" WheelSlotIndex="111"/>
+                <ChannelSet DMXFrom="111/1" Name="Custom Gobo 111" WheelSlotIndex="112"/>
+                <ChannelSet DMXFrom="112/1" Name="Custom Gobo 112" WheelSlotIndex="113"/>
+                <ChannelSet DMXFrom="113/1" Name="Custom Gobo 113" WheelSlotIndex="114"/>
+                <ChannelSet DMXFrom="114/1" Name="Custom Gobo 114" WheelSlotIndex="115"/>
+                <ChannelSet DMXFrom="115/1" Name="Custom Gobo 115" WheelSlotIndex="116"/>
+                <ChannelSet DMXFrom="116/1" Name="Custom Gobo 116" WheelSlotIndex="117"/>
+                <ChannelSet DMXFrom="117/1" Name="Custom Gobo 117" WheelSlotIndex="118"/>
+                <ChannelSet DMXFrom="118/1" Name="Custom Gobo 118" WheelSlotIndex="119"/>
+                <ChannelSet DMXFrom="119/1" Name="Custom Gobo 119" WheelSlotIndex="120"/>
+                <ChannelSet DMXFrom="120/1" Name="Custom Gobo 120" WheelSlotIndex="121"/>
+                <ChannelSet DMXFrom="121/1" Name="Custom Gobo 121" WheelSlotIndex="122"/>
+                <ChannelSet DMXFrom="122/1" Name="Custom Gobo 122" WheelSlotIndex="123"/>
+                <ChannelSet DMXFrom="123/1" Name="Custom Gobo 123" WheelSlotIndex="124"/>
+                <ChannelSet DMXFrom="124/1" Name="Custom Gobo 124" WheelSlotIndex="125"/>
+                <ChannelSet DMXFrom="125/1" Name="Custom Gobo 125" WheelSlotIndex="126"/>
+                <ChannelSet DMXFrom="126/1" Name="Custom Gobo 126" WheelSlotIndex="127"/>
+                <ChannelSet DMXFrom="127/1" Name="Custom Gobo 127" WheelSlotIndex="128"/>
+                <ChannelSet DMXFrom="128/1" Name="Custom Gobo 128" WheelSlotIndex="129"/>
+                <ChannelSet DMXFrom="129/1" Name="Custom Gobo 129" WheelSlotIndex="130"/>
+                <ChannelSet DMXFrom="130/1" Name="Custom Gobo 130" WheelSlotIndex="131"/>
+                <ChannelSet DMXFrom="131/1" Name="Custom Gobo 131" WheelSlotIndex="132"/>
+                <ChannelSet DMXFrom="132/1" Name="Custom Gobo 132" WheelSlotIndex="133"/>
+                <ChannelSet DMXFrom="133/1" Name="Custom Gobo 133" WheelSlotIndex="134"/>
+                <ChannelSet DMXFrom="134/1" Name="Custom Gobo 134" WheelSlotIndex="135"/>
+                <ChannelSet DMXFrom="135/1" Name="Custom Gobo 135" WheelSlotIndex="136"/>
+                <ChannelSet DMXFrom="136/1" Name="Custom Gobo 136" WheelSlotIndex="137"/>
+                <ChannelSet DMXFrom="137/1" Name="Custom Gobo 137" WheelSlotIndex="138"/>
+                <ChannelSet DMXFrom="138/1" Name="Custom Gobo 138" WheelSlotIndex="139"/>
+                <ChannelSet DMXFrom="139/1" Name="Custom Gobo 139" WheelSlotIndex="140"/>
+                <ChannelSet DMXFrom="140/1" Name="Custom Gobo 140" WheelSlotIndex="141"/>
+                <ChannelSet DMXFrom="141/1" Name="Custom Gobo 141" WheelSlotIndex="142"/>
+                <ChannelSet DMXFrom="142/1" Name="Custom Gobo 142" WheelSlotIndex="143"/>
+                <ChannelSet DMXFrom="143/1" Name="Custom Gobo 143" WheelSlotIndex="144"/>
+                <ChannelSet DMXFrom="144/1" Name="Custom Gobo 144" WheelSlotIndex="145"/>
+                <ChannelSet DMXFrom="145/1" Name="Custom Gobo 145" WheelSlotIndex="146"/>
+                <ChannelSet DMXFrom="146/1" Name="Custom Gobo 146" WheelSlotIndex="147"/>
+                <ChannelSet DMXFrom="147/1" Name="Custom Gobo 147" WheelSlotIndex="148"/>
+                <ChannelSet DMXFrom="148/1" Name="Custom Gobo 148" WheelSlotIndex="149"/>
+                <ChannelSet DMXFrom="149/1" Name="Custom Gobo 149" WheelSlotIndex="150"/>
+                <ChannelSet DMXFrom="150/1" Name="Custom Gobo 150" WheelSlotIndex="151"/>
+                <ChannelSet DMXFrom="151/1" Name="Custom Gobo 151" WheelSlotIndex="152"/>
+                <ChannelSet DMXFrom="152/1" Name="Custom Gobo 152" WheelSlotIndex="153"/>
+                <ChannelSet DMXFrom="153/1" Name="Custom Gobo 153" WheelSlotIndex="154"/>
+                <ChannelSet DMXFrom="154/1" Name="Custom Gobo 154" WheelSlotIndex="155"/>
+                <ChannelSet DMXFrom="155/1" Name="Custom Gobo 155" WheelSlotIndex="156"/>
+                <ChannelSet DMXFrom="156/1" Name="Custom Gobo 156" WheelSlotIndex="157"/>
+                <ChannelSet DMXFrom="157/1" Name="Custom Gobo 157" WheelSlotIndex="158"/>
+                <ChannelSet DMXFrom="158/1" Name="Custom Gobo 158" WheelSlotIndex="159"/>
+                <ChannelSet DMXFrom="159/1" Name="Custom Gobo 159" WheelSlotIndex="160"/>
+                <ChannelSet DMXFrom="160/1" Name="Custom Gobo 160" WheelSlotIndex="161"/>
+                <ChannelSet DMXFrom="161/1" Name="Custom Gobo 161" WheelSlotIndex="162"/>
+                <ChannelSet DMXFrom="162/1" Name="Custom Gobo 162" WheelSlotIndex="163"/>
+                <ChannelSet DMXFrom="163/1" Name="Custom Gobo 163" WheelSlotIndex="164"/>
+                <ChannelSet DMXFrom="164/1" Name="Custom Gobo 164" WheelSlotIndex="165"/>
+                <ChannelSet DMXFrom="165/1" Name="Custom Gobo 165" WheelSlotIndex="166"/>
+                <ChannelSet DMXFrom="166/1" Name="Custom Gobo 166" WheelSlotIndex="167"/>
+                <ChannelSet DMXFrom="167/1" Name="Custom Gobo 167" WheelSlotIndex="168"/>
+                <ChannelSet DMXFrom="168/1" Name="Custom Gobo 168" WheelSlotIndex="169"/>
+                <ChannelSet DMXFrom="169/1" Name="Custom Gobo 169" WheelSlotIndex="170"/>
+                <ChannelSet DMXFrom="170/1" Name="Custom Gobo 170" WheelSlotIndex="171"/>
+                <ChannelSet DMXFrom="171/1" Name="Custom Gobo 171" WheelSlotIndex="172"/>
+                <ChannelSet DMXFrom="172/1" Name="Custom Gobo 172" WheelSlotIndex="173"/>
+                <ChannelSet DMXFrom="173/1" Name="Custom Gobo 173" WheelSlotIndex="174"/>
+                <ChannelSet DMXFrom="174/1" Name="Custom Gobo 174" WheelSlotIndex="175"/>
+                <ChannelSet DMXFrom="175/1" Name="Custom Gobo 175" WheelSlotIndex="176"/>
+                <ChannelSet DMXFrom="176/1" Name="Custom Gobo 176" WheelSlotIndex="177"/>
+                <ChannelSet DMXFrom="177/1" Name="Custom Gobo 177" WheelSlotIndex="178"/>
+                <ChannelSet DMXFrom="178/1" Name="Custom Gobo 178" WheelSlotIndex="179"/>
+                <ChannelSet DMXFrom="179/1" Name="Custom Gobo 179" WheelSlotIndex="180"/>
+                <ChannelSet DMXFrom="180/1" Name="Custom Gobo 180" WheelSlotIndex="181"/>
+                <ChannelSet DMXFrom="181/1" Name="Custom Gobo 181" WheelSlotIndex="182"/>
+                <ChannelSet DMXFrom="182/1" Name="Custom Gobo 182" WheelSlotIndex="183"/>
+                <ChannelSet DMXFrom="183/1" Name="Custom Gobo 183" WheelSlotIndex="184"/>
+                <ChannelSet DMXFrom="184/1" Name="Custom Gobo 184" WheelSlotIndex="185"/>
+                <ChannelSet DMXFrom="185/1" Name="Custom Gobo 185" WheelSlotIndex="186"/>
+                <ChannelSet DMXFrom="186/1" Name="Custom Gobo 186" WheelSlotIndex="187"/>
+                <ChannelSet DMXFrom="187/1" Name="Custom Gobo 187" WheelSlotIndex="188"/>
+                <ChannelSet DMXFrom="188/1" Name="Custom Gobo 188" WheelSlotIndex="189"/>
+                <ChannelSet DMXFrom="189/1" Name="Custom Gobo 189" WheelSlotIndex="190"/>
+                <ChannelSet DMXFrom="190/1" Name="Custom Gobo 190" WheelSlotIndex="191"/>
+                <ChannelSet DMXFrom="191/1" Name="Custom Gobo 191" WheelSlotIndex="192"/>
+                <ChannelSet DMXFrom="192/1" Name="Custom Gobo 192" WheelSlotIndex="193"/>
+                <ChannelSet DMXFrom="193/1" Name="Custom Gobo 193" WheelSlotIndex="194"/>
+                <ChannelSet DMXFrom="194/1" Name="Custom Gobo 194" WheelSlotIndex="195"/>
+                <ChannelSet DMXFrom="195/1" Name="Custom Gobo 195" WheelSlotIndex="196"/>
+                <ChannelSet DMXFrom="196/1" Name="Custom Gobo 196" WheelSlotIndex="197"/>
+                <ChannelSet DMXFrom="197/1" Name="Custom Gobo 197" WheelSlotIndex="198"/>
+                <ChannelSet DMXFrom="198/1" Name="Custom Gobo 198" WheelSlotIndex="199"/>
+                <ChannelSet DMXFrom="199/1" Name="Custom Gobo 199" WheelSlotIndex="200"/>
+                <ChannelSet DMXFrom="200/1" Name="Custom Gobo 200" WheelSlotIndex="201"/>
+                <ChannelSet DMXFrom="201/1" Name="Custom Gobo 201" WheelSlotIndex="202"/>
+                <ChannelSet DMXFrom="202/1" Name="Custom Gobo 202" WheelSlotIndex="203"/>
+                <ChannelSet DMXFrom="203/1" Name="Custom Gobo 203" WheelSlotIndex="204"/>
+                <ChannelSet DMXFrom="204/1" Name="Custom Gobo 204" WheelSlotIndex="205"/>
+                <ChannelSet DMXFrom="205/1" Name="Custom Gobo 205" WheelSlotIndex="206"/>
+                <ChannelSet DMXFrom="206/1" Name="Custom Gobo 206" WheelSlotIndex="207"/>
+                <ChannelSet DMXFrom="207/1" Name="Custom Gobo 207" WheelSlotIndex="208"/>
+                <ChannelSet DMXFrom="208/1" Name="Custom Gobo 208" WheelSlotIndex="209"/>
+                <ChannelSet DMXFrom="209/1" Name="Custom Gobo 209" WheelSlotIndex="210"/>
+                <ChannelSet DMXFrom="210/1" Name="Custom Gobo 210" WheelSlotIndex="211"/>
+                <ChannelSet DMXFrom="211/1" Name="Custom Gobo 211" WheelSlotIndex="212"/>
+                <ChannelSet DMXFrom="212/1" Name="Custom Gobo 212" WheelSlotIndex="213"/>
+                <ChannelSet DMXFrom="213/1" Name="Custom Gobo 213" WheelSlotIndex="214"/>
+                <ChannelSet DMXFrom="214/1" Name="Custom Gobo 214" WheelSlotIndex="215"/>
+                <ChannelSet DMXFrom="215/1" Name="Custom Gobo 215" WheelSlotIndex="216"/>
+                <ChannelSet DMXFrom="216/1" Name="Custom Gobo 216" WheelSlotIndex="217"/>
+                <ChannelSet DMXFrom="217/1" Name="Custom Gobo 217" WheelSlotIndex="218"/>
+                <ChannelSet DMXFrom="218/1" Name="Custom Gobo 218" WheelSlotIndex="219"/>
+                <ChannelSet DMXFrom="219/1" Name="Custom Gobo 219" WheelSlotIndex="220"/>
+                <ChannelSet DMXFrom="220/1" Name="Custom Gobo 220" WheelSlotIndex="221"/>
+                <ChannelSet DMXFrom="221/1" Name="Custom Gobo 221" WheelSlotIndex="222"/>
+                <ChannelSet DMXFrom="222/1" Name="Custom Gobo 222" WheelSlotIndex="223"/>
+                <ChannelSet DMXFrom="223/1" Name="Custom Gobo 223" WheelSlotIndex="224"/>
+                <ChannelSet DMXFrom="224/1" Name="Custom Gobo 224" WheelSlotIndex="225"/>
+                <ChannelSet DMXFrom="225/1" Name="Custom Gobo 225" WheelSlotIndex="226"/>
+                <ChannelSet DMXFrom="226/1" Name="Custom Gobo 226" WheelSlotIndex="227"/>
+                <ChannelSet DMXFrom="227/1" Name="Custom Gobo 227" WheelSlotIndex="228"/>
+                <ChannelSet DMXFrom="228/1" Name="Custom Gobo 228" WheelSlotIndex="229"/>
+                <ChannelSet DMXFrom="229/1" Name="Custom Gobo 229" WheelSlotIndex="230"/>
+                <ChannelSet DMXFrom="230/1" Name="Custom Gobo 230" WheelSlotIndex="231"/>
+                <ChannelSet DMXFrom="231/1" Name="Custom Gobo 231" WheelSlotIndex="232"/>
+                <ChannelSet DMXFrom="232/1" Name="Custom Gobo 232" WheelSlotIndex="233"/>
+                <ChannelSet DMXFrom="233/1" Name="Custom Gobo 233" WheelSlotIndex="234"/>
+                <ChannelSet DMXFrom="234/1" Name="Custom Gobo 234" WheelSlotIndex="235"/>
+                <ChannelSet DMXFrom="235/1" Name="Custom Gobo 235" WheelSlotIndex="236"/>
+                <ChannelSet DMXFrom="236/1" Name="Custom Gobo 236" WheelSlotIndex="237"/>
+                <ChannelSet DMXFrom="237/1" Name="Custom Gobo 237" WheelSlotIndex="238"/>
+                <ChannelSet DMXFrom="238/1" Name="Custom Gobo 238" WheelSlotIndex="239"/>
+                <ChannelSet DMXFrom="239/1" Name="Custom Gobo 239" WheelSlotIndex="240"/>
+                <ChannelSet DMXFrom="240/1" Name="Custom Gobo 240" WheelSlotIndex="241"/>
+                <ChannelSet DMXFrom="241/1" Name="Custom Gobo 241" WheelSlotIndex="242"/>
+                <ChannelSet DMXFrom="242/1" Name="Custom Gobo 242" WheelSlotIndex="243"/>
+                <ChannelSet DMXFrom="243/1" Name="Custom Gobo 243" WheelSlotIndex="244"/>
+                <ChannelSet DMXFrom="244/1" Name="Custom Gobo 244" WheelSlotIndex="245"/>
+                <ChannelSet DMXFrom="245/1" Name="Custom Gobo 245" WheelSlotIndex="246"/>
+                <ChannelSet DMXFrom="246/1" Name="Custom Gobo 246" WheelSlotIndex="247"/>
+                <ChannelSet DMXFrom="247/1" Name="Custom Gobo 247" WheelSlotIndex="248"/>
+                <ChannelSet DMXFrom="248/1" Name="Custom Gobo 248" WheelSlotIndex="249"/>
+                <ChannelSet DMXFrom="249/1" Name="Custom Gobo 249" WheelSlotIndex="250"/>
+                <ChannelSet DMXFrom="250/1" Name="Custom Gobo 250" WheelSlotIndex="251"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Gobo1WheelRandom" DMXFrom="251/1" ModeFrom="32/1" ModeMaster="Base_MediaFolder" ModeTo="143/1" Name="CustomGobo1WheelRandom" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Custom Gobo Wheel">
+                <ChannelSet DMXFrom="251/1" Name="Custom Gobos presentation (random)" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Gobo1WheelSpin" DMXFrom="252/1" ModeFrom="32/1" ModeMaster="Base_MediaFolder" ModeTo="143/1" Name="CustomGobo1WheelSpin" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Custom Gobo Wheel">
+                <ChannelSet DMXFrom="252/1" Name="Custom Gobos presentation (alphabetical)" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="253/1" ModeFrom="32/1" ModeMaster="Base_MediaFolder" ModeTo="143/1" Name="NoFeature 8" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="0/1" ModeFrom="144/1" ModeMaster="Base_MediaFolder" ModeTo="255/1" Name="NoFeature" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="18">
+            <LogicalChannel Attribute="Video" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Video" DMXFrom="0/1" Name="Video speed control" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Original speed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Pause" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2/1" Name="Speed from min (1/4x) to original" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="128/1" Name="Speed from original to max (4x)" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/2" Geometry="Head" Highlight="None" Offset="19,20">
+            <LogicalChannel Attribute="Gobo1Pos" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Gobo1Pos" DMXFrom="0/2" ModeFrom="0/1" ModeMaster="Base_MediaFolder" ModeTo="31/1" Name="Gobo1Pos" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Gobo">
+                <ChannelSet DMXFrom="0/2" Name="Gobo indexing" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Gobo1PosRotate" DMXFrom="32768/2" ModeFrom="0/1" ModeMaster="Base_MediaFolder" ModeTo="31/1" Name="Gobo1PosRotate 1" OriginalAttribute="" PhysicalFrom="-1212.000000" PhysicalTo="1212.000000" RealFade="0.000000" Wheel="Gobo">
+                <ChannelSet DMXFrom="32768/2" Name="Fast to slow 1/7" PhysicalFrom="720.000000" PhysicalTo="600.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="35328/2" Name="Fast to slow 2/7" PhysicalFrom="600.000000" PhysicalTo="490.463000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="37888/2" Name="Fast to slow 3/7" PhysicalFrom="490.463000" PhysicalTo="372.285000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="40448/2" Name="Fast to slow 4/7" PhysicalFrom="372.285000" PhysicalTo="270.068000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="43008/2" Name="Fast to slow 5/7" PhysicalFrom="270.068000" PhysicalTo="156.522000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="45568/2" Name="Fast to slow 6/7" PhysicalFrom="156.522000" PhysicalTo="44.815000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="48128/2" Name="Fast to slow 7/7" PhysicalFrom="44.815000" PhysicalTo="11.285000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="49152/2" Name="No rotation middle" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="49664/2" Name="Empty Channel Set" PhysicalFrom="-11.285000" PhysicalTo="-44.815000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="50688/2" Name="Empty Channel Set" PhysicalFrom="-44.815000" PhysicalTo="-156.522000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="53248/2" Name="Empty Channel Set" PhysicalFrom="-156.522000" PhysicalTo="-270.068000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="55808/2" Name="Empty Channel Set" PhysicalFrom="-270.068000" PhysicalTo="-372.285000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="58368/2" Name="Empty Channel Set" PhysicalFrom="-372.285000" PhysicalTo="-490.463000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="60928/2" Name="Empty Channel Set" PhysicalFrom="-490.463000" PhysicalTo="-600.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="63488/2" Name="Empty Channel Set" PhysicalFrom="-600.000000" PhysicalTo="-720.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Gobo1Pos" DMXFrom="0/2" ModeFrom="32/1" ModeMaster="Base_MediaFolder" ModeTo="143/1" Name="CustomGobo1Pos" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000" Wheel="Custom Gobo Wheel">
+                <ChannelSet DMXFrom="0/2" Name="Empty Channel Set" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/2" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Gobo1PosRotate" DMXFrom="32768/2" ModeFrom="32/1" ModeMaster="Base_MediaFolder" ModeTo="143/1" Name="CustomGobo1PosRotate 1" OriginalAttribute="" PhysicalFrom="-1212.000000" PhysicalTo="1212.000000" RealFade="0.000000" Wheel="Custom Gobo Wheel">
+                <ChannelSet DMXFrom="32768/2" Name="Fast to slow 1/7" PhysicalFrom="720.000000" PhysicalTo="600.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="35328/2" Name="Fast to slow 2/7" PhysicalFrom="600.000000" PhysicalTo="490.463000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="37888/2" Name="Fast to slow 3/7" PhysicalFrom="490.463000" PhysicalTo="372.285000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="40448/2" Name="Fast to slow 4/7" PhysicalFrom="372.285000" PhysicalTo="270.068000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="43008/2" Name="Fast to slow 5/7" PhysicalFrom="270.068000" PhysicalTo="156.522000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="45568/2" Name="Fast to slow 6/7" PhysicalFrom="156.522000" PhysicalTo="44.815000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="48128/2" Name="Fast to slow 7/7" PhysicalFrom="44.815000" PhysicalTo="11.285000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="49152/2" Name="No rotation middle" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="49664/2" Name="Empty Channel Set" PhysicalFrom="-11.285000" PhysicalTo="-44.815000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="50688/2" Name="Empty Channel Set" PhysicalFrom="-44.815000" PhysicalTo="-156.522000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="53248/2" Name="Empty Channel Set" PhysicalFrom="-156.522000" PhysicalTo="-270.068000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="55808/2" Name="Empty Channel Set" PhysicalFrom="-270.068000" PhysicalTo="-372.285000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="58368/2" Name="Empty Channel Set" PhysicalFrom="-372.285000" PhysicalTo="-490.463000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="60928/2" Name="Empty Channel Set" PhysicalFrom="-490.463000" PhysicalTo="-600.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="63488/2" Name="Empty Channel Set" PhysicalFrom="-600.000000" PhysicalTo="-720.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="0/2" ModeFrom="144/1" ModeMaster="Base_MediaFolder" ModeTo="255/1" Name="NoFeature" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="21">
+            <LogicalChannel Attribute="Effects1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Effects1" DMXFrom="0/1" Name="Effects 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Open" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Random transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2/1" Name="Transition with blending" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="3/1" Name="Transition from left to right - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4/1" Name="Transition from right to left - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="5/1" Name="Stripe transition from left to right - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="6/1" Name="Stripe transition from right to left - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="7/1" Name="3-stripe transition from left to right - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="8/1" Name="3-stripe transition from right to left - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="9/1" Name="6-stripe transition from left to right - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="10/1" Name="6-stripe transition from right to left - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="11/1" Name="Transition up to down - vertically" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="12/1" Name="Transition down to up - vertically" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="13/1" Name="Stripe transition up to down - vertically" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="14/1" Name="Stripe transition down to up - vertically" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="15/1" Name="3-stripe transition up to down - vertically" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="16/1" Name="3-stripe transition down to up - vertically" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="17/1" Name="6-stripe transition up to down - vertically" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="18/1" Name="6-stripe transition down to up - vertically" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="19/1" Name="Transition 2 from left to right - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="20/1" Name="Transition 2 from right to left - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="21/1" Name="Transition 2 from up to down - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="22/1" Name="Transition 2 from down to up - horizontally" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="23/1" Name="Iris transition out to in" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="24/1" Name="Iris transition in to out" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="25/1" Name="Iris transition out to in - diffusion edge" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="26/1" Name="Iris transition in to out - diffusion edge" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="27/1" Name="Iris transition 3 out to in" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="28/1" Name="Iris transition 3 in to out" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="29/1" Name="Moving transition from left to right" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="30/1" Name="Moving transition from right to left" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="31/1" Name="Moving transition up to down" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32/1" Name="Moving transition down to up" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="33/1" Name="Drop transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="34/1" Name="Simple transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="35/1" Name="Pixel transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="36/1" Name="Transition via blending" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="37/1" Name="Transition with white output" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="38/1" Name="Crossing transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="39/1" Name="Picture in picture transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="40/1" Name="Direct transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="41/1" Name="Transition with vertical rotation" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="42/1" Name="Transition with horizontal rotation" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="43/1" Name="Transition with diagonal rotation" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="44/1" Name="Transition with diagonal rotation - opposite direction" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="45/1" Name="Zoom out transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="46/1" Name="Zoom in transition" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="47/1" Name="Zoom transition in horizontal direction" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="48/1" Name="Zoom transition in vertical direction" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="49/1" Name="NoFeature1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="Effects1" DMXFrom="80/1" Name="Effects 2" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="80/1" Name="Kaleidoscope 1" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="81/1" Name="Kaleidoscope 2" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="82/1" Name="Kaleidoscope 3" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="83/1" Name="Kaleidoscope 4" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="84/1" Name="Kaleidoscope 5" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="85/1" Name="Sunflower kaleidoscope (coarse)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="86/1" Name="Sunflower kaleidoscope (soft)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="87/1" Name="Sunflower kaleidoscope (slow)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="88/1" Name="Sunflower kaleidoscope (faster)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="89/1" Name="Sunflower kaleidoscope (fastest)" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="90/1" Name="NoFeature2" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="Effects1" DMXFrom="100/1" Name="Effects 3" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="100/1" Name="Circle iris in/out" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="101/1" Name="Circle iris in/out (diffusion edge)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="102/1" Name="Vertical ellipse iris in/out" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="103/1" Name="Horizontal ellipse iris in/out" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="104/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="105/1" Name="Positive/negative (black and white)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="106/1" Name="White/negative (black and white)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="107/1" Name="Positive/negative (colored)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="108/1" Name="Pixeling" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="109/1" Name="NoFeature 6" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="Effects1" DMXFrom="180/1" Name="Effects 4" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="180/1" Name="Circular iris" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="181/1" Name="Elliptical iris - vertical" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="182/1" Name="Elliptical iris - horizontal" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="183/1" Name="Black mask" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="184/1" Name="Inverse black mask" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="185/1" Name="White mask" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="186/1" Name="Inverse white mask" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="187/1" Name="Gobo/Video movement in horizontal axis" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="188/1" Name="Gobo/Video movement in vertical axis" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="189/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="190/1" Name="Crossfade effect" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="191/1" Name="Addition effect" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="192/1" Name="Substraction effect" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="193/1" Name="Multiplication effect" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="194/1" Name="Minimum effect" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="195/1" Name="Maximum effect" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="196/1" Name="NoFeature 8" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="22">
+            <LogicalChannel Attribute="Effects1Fade" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Effects1Fade" DMXFrom="0/1" ModeFrom="0/1" ModeMaster="Head_Effects1" ModeTo="48/1" Name="Effects1Fade1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Presentation" PhysicalFrom="0.800000" PhysicalTo="0.800000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Time min to max" PhysicalFrom="0.100000" PhysicalTo="25.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="251/1" Name="Stop" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Effects1Fade" DMXFrom="0/1" ModeFrom="100/1" ModeMaster="Head_Effects1" ModeTo="108/1" Name="Effects1Fade2" OriginalAttribute="" PhysicalFrom="0.100000" PhysicalTo="12.600000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Presentation" PhysicalFrom="0.800000" PhysicalTo="0.800000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Time from min to max" PhysicalFrom="0.100000" PhysicalTo="12.600000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="127/1" Name="Stop" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="129/1" Name="Time from max to min" PhysicalFrom="12.600000" PhysicalTo="0.100000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Stop" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Effects1Fade" DMXFrom="0/1" ModeFrom="80/1" ModeMaster="Head_Effects1" ModeTo="86/1" Name="Effects1Fade3" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Presentation" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Effect speed from to max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Effects1Fade" DMXFrom="0/1" ModeFrom="87/1" ModeMaster="Head_Effects1" ModeTo="89/1" Name="Effects1Fade4" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Presentation (4 corners)" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Number of corners from min to max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Effects1Fade" DMXFrom="0/1" ModeFrom="180/1" ModeMaster="Head_Effects1" ModeTo="182/1" Name="Effects1Fade5" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Open" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Iris from open to close" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Effects1Fade" DMXFrom="0/1" ModeFrom="183/1" ModeMaster="Head_Effects1" ModeTo="186/1" Name="Effects1Fade6" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Open" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="Mask effect from min level to max level" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Effects1Fade" DMXFrom="0/1" ModeFrom="187/1" ModeMaster="Head_Effects1" ModeTo="188/1" Name="Effects1Fade7" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Movent from edge to center" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="128/1" Name="Center" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="129/1" Name="Movent from center to edge" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Effects1Fade" DMXFrom="0/1" ModeFrom="190/1" ModeMaster="Head_Effects1" ModeTo="195/1" Name="Effects1Fade8" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Continuous effect changing" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="32/1" Geometry="Head" Highlight="32/1" Offset="23">
+            <LogicalChannel Attribute="Shutter1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Shutter1" DMXFrom="0/1" Name="Shutter1 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Closed" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32/1" Name="Open" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1Strobe" DMXFrom="64/1" Name="Strobe" OriginalAttribute="Shutter/Strobe - all zones" PhysicalFrom="0.303000" PhysicalTo="20.202000" RealFade="0.000000">
+                <ChannelSet DMXFrom="64/1" Name="Slow to fast 1/10" PhysicalFrom="0.303030" PhysicalTo="0.405405" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="67/1" Name="Slow to fast 2/10" PhysicalFrom="0.458015" PhysicalTo="0.508474" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="69/1" Name="Slow to fast 3/10" PhysicalFrom="0.560748" PhysicalTo="0.666667" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="72/1" Name="Slow to fast 4/10" PhysicalFrom="0.714286" PhysicalTo="0.821918" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="75/1" Name="Slow to fast 5/10" PhysicalFrom="1.034483" PhysicalTo="2.727272" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="79/1" Name="Slow to fast 6/10" PhysicalFrom="3.333333" PhysicalTo="3.999999" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="83/1" Name="Slow to fast 7/10" PhysicalFrom="4.285713" PhysicalTo="4.999999" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="86/1" Name="Slow to fast 8/10" PhysicalFrom="5.454544" PhysicalTo="6.666665" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="89/1" Name="Slow to fast 9/10" PhysicalFrom="7.499999" PhysicalTo="9.999998" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="92/1" Name="Slow to fast 10/10" PhysicalFrom="11.999998" PhysicalTo="29.999994" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1" DMXFrom="96/1" Name="Shutter1 2" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="96/1" Name="Open" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1StrobePulseOpen" DMXFrom="128/1" Name="Shutter1StrobePulseOpen" OriginalAttribute="Shutter/Strobe - all zones" PhysicalFrom="0.126000" PhysicalTo="0.504000" RealFade="0.000000">
+                <ChannelSet DMXFrom="128/1" Name="Slow to fast 1/7" PhysicalFrom="0.119218" PhysicalTo="0.178827" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="131/1" Name="Slow to fast 2/7" PhysicalFrom="0.208638" PhysicalTo="0.238436" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="133/1" Name="Slow to fast 3/7" PhysicalFrom="0.268240" PhysicalTo="0.298063" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="135/1" Name="Slow to fast 4/7" PhysicalFrom="0.327869" PhysicalTo="0.357654" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="137/1" Name="Slow to fast 5/7" PhysicalFrom="0.387447" PhysicalTo="0.417362" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="139/1" Name="Slow to fast 6/7" PhysicalFrom="0.447227" PhysicalTo="0.476872" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="141/1" Name="Slow to fast 7/7" PhysicalFrom="0.536481" PhysicalTo="0.655738" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1StrobePulseClose" DMXFrom="144/1" Name="Shutter1StrobePulseClose" OriginalAttribute="Shutter/Strobe - all zones" PhysicalFrom="0.504000" PhysicalTo="0.126000" RealFade="0.000000">
+                <ChannelSet DMXFrom="144/1" Name="Fast to slow 1/7" PhysicalFrom="0.655738" PhysicalTo="0.655738" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="146/1" Name="Fast to slow 2/7" PhysicalFrom="0.476872" PhysicalTo="0.447227" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="148/1" Name="Fast to slow 3/7" PhysicalFrom="0.417362" PhysicalTo="0.387447" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="150/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="151/1" Name="Fast to slow 4/7" PhysicalFrom="0.357654" PhysicalTo="0.357654" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="152/1" Name="Fast to slow 5/7" PhysicalFrom="0.298063" PhysicalTo="0.298063" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="154/1" Name="Fast to sloe 6/7" PhysicalFrom="0.238436" PhysicalTo="0.208638" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="156/1" Name="Fast to slow 7/7" PhysicalFrom="0.178827" PhysicalTo="0.119218" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1" DMXFrom="160/1" Name="Shutter1 3" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="160/1" Name="Open" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1StrobeRandom" DMXFrom="192/1" Name="StrobeRandom" OriginalAttribute="" PhysicalFrom="0.125000" PhysicalTo="10.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="192/1" Name="Random strobe from slow to fast" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1" DMXFrom="224/1" Name="Shutter1 4" OriginalAttribute="" PhysicalFrom="1.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="224/1" Name="Open" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Head" Highlight="None" Offset="24">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="Dimmer" OriginalAttribute="Dimmer" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="0-00-00T00:00:00" Text="Initial release robe2gdtf v0.2" UserID="0"/>
+      <Revision Date="2020-02-18T13:14:15" Text="18022020" UserID="18"/>
+      <Revision Date="2020-02-21T13:08:10" Text="21022020v3" UserID="18"/>
+      <Revision Date="2020-02-25T07:43:45" Text="25022020" UserID="18"/>
+      <Revision Date="2020-07-03T08:19:07" Text="03072020" UserID="18"/>
+      <Revision Date="2020-07-08T09:26:28" Text="real_values" UserID="36"/>
+        <Revision Text="08072020, Uploaded to GDTF Share." Date="2020-07-09T12:58:33" UserID="1734"/>
+        </Revisions>
+    <FTPresets/>
+    <Protocols>
+      <FTRDM DeviceModelID="0x7A" ManufacturerID="0x5253"/>
+    </Protocols>
+  </FixtureType>
+
+</GDTF>

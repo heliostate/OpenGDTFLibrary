@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.0">
+
+  <FixtureType Description="REC is a new architectural outdoor flood lighting series. 2 models fully customizable with multiple white and color variants, beam options, color finishes and accessories. All models are factory color calibrated for perfect consistency and can be monitored through our proprietary VMS (Virtual Monitoring System)" FixtureTypeID="F387A583-AA1A-44DA-B79A-E1038A5676CE" LongName="GSARC_REC L-N Q" Manufacturer="GSARC" Name="REC L-N Q" RefFT="" ShortName="REC L-N Q" Thumbnail="REC L-N">
+    <AttributeDefinitions>
+      <ActivationGroups>
+        <ActivationGroup Name="ColorRGB"/>
+      </ActivationGroups>
+      <FeatureGroups>
+        <FeatureGroup Name="Color" Pretty="Color">
+          <Feature Name="RGB"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorAdd_R" PhysicalUnit="ColorComponent" Pretty="R"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorAdd_G" PhysicalUnit="ColorComponent" Pretty="G"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorAdd_B" PhysicalUnit="ColorComponent" Pretty="B"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorAdd_W" PhysicalUnit="ColorComponent" Pretty="White"/>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="LuminousIntensity" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="REC L-N_Body" Height="0.263495" Length="0.508000" Name="Body" PrimitiveType="Undefined" Width="0.279319"/>
+      <Model File="" Height="0.002000" Length="0.039800" Name="Pixel" PrimitiveType="Cylinder" Width="0.039800"/>
+      <Model File="" Height="0.002000" Length="0.039800" Name="Red 1" PrimitiveType="Cylinder" Width="0.039800"/>
+      <Model File="" Height="0.002000" Length="0.039800" Name="Green 1" PrimitiveType="Cylinder" Width="0.039800"/>
+      <Model File="" Height="0.002000" Length="0.039800" Name="Blue 1" PrimitiveType="Cylinder" Width="0.039800"/>
+      <Model File="" Height="0.002000" Length="0.039800" Name="White 1" PrimitiveType="Cylinder" Width="0.039800"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+        <Geometry Name="Red Pixels" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.255000}{0,0,0,1}">
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Red 1" Name="Red 1" Position="{1.000000,0.000000,0.000000,-0.175000}{0.000000,1.000000,0.000000,-0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Red 1" Name="Red 2" Position="{1.000000,0.000000,0.000000,-0.075000}{0.000000,1.000000,0.000000,-0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Red 1" Name="Red 3" Position="{1.000000,0.000000,0.000000,0.025000}{0.000000,1.000000,0.000000,-0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Red 1" Name="Red 4" Position="{1.000000,0.000000,0.000000,0.125000}{0.000000,1.000000,0.000000,-0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Red 1" Name="Red 5" Position="{1.000000,0.000000,0.000000,-0.175000}{0.000000,1.000000,0.000000,0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Red 1" Name="Red 6" Position="{1.000000,0.000000,0.000000,-0.075000}{0.000000,1.000000,0.000000,0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Red 1" Name="Red 7" Position="{1.000000,0.000000,0.000000,0.025000}{0.000000,1.000000,0.000000,0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Red 1" Name="Red 8" Position="{1.000000,0.000000,0.000000,0.125000}{0.000000,1.000000,0.000000,0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+        </Geometry>
+        <Geometry Name="Green Pixels" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.255000}{0,0,0,1}">
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Green 1" Name="Green 1" Position="{1.000000,0.000000,0.000000,-0.125000}{0.000000,1.000000,0.000000,-0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Green 1" Name="Green 2" Position="{1.000000,0.000000,0.000000,-0.025000}{0.000000,1.000000,0.000000,-0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Green 1" Name="Green 3" Position="{1.000000,0.000000,0.000000,0.075000}{0.000000,1.000000,0.000000,-0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Green 1" Name="Green 4" Position="{1.000000,0.000000,0.000000,0.175000}{0.000000,1.000000,0.000000,-0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Green 1" Name="Green 5" Position="{1.000000,0.000000,0.000000,-0.125000}{0.000000,1.000000,0.000000,0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Green 1" Name="Green 6" Position="{1.000000,0.000000,0.000000,-0.025000}{0.000000,1.000000,0.000000,0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Green 1" Name="Green 7" Position="{1.000000,0.000000,0.000000,0.075000}{0.000000,1.000000,0.000000,0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Green 1" Name="Green 8" Position="{1.000000,0.000000,0.000000,0.175000}{0.000000,1.000000,0.000000,0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+        </Geometry>
+        <Geometry Name="Blue Pixels" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.255000}{0,0,0,1}">
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Blue 1" Name="Blue 1" Position="{1.000000,0.000000,0.000000,-0.175000}{0.000000,1.000000,0.000000,-0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Blue 1" Name="Blue 2" Position="{1.000000,0.000000,0.000000,-0.075000}{0.000000,1.000000,0.000000,-0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Blue 1" Name="Blue 3" Position="{1.000000,0.000000,0.000000,0.025000}{0.000000,1.000000,0.000000,-0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Blue 1" Name="Blue 4" Position="{1.000000,0.000000,0.000000,0.125000}{0.000000,1.000000,0.000000,-0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Blue 1" Name="Blue 5" Position="{1.000000,0.000000,0.000000,-0.175000}{0.000000,1.000000,0.000000,0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Blue 1" Name="Blue 6" Position="{1.000000,0.000000,0.000000,-0.075000}{0.000000,1.000000,0.000000,0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Blue 1" Name="Blue 7" Position="{1.000000,0.000000,0.000000,0.025000}{0.000000,1.000000,0.000000,0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="Blue 1" Name="Blue 8" Position="{1.000000,0.000000,0.000000,0.125000}{0.000000,1.000000,0.000000,0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+        </Geometry>
+        <Geometry Name="White Pixels" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.255000}{0,0,0,1}">
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="White 1" Name="White 1" Position="{1.000000,0.000000,0.000000,-0.125000}{0.000000,1.000000,0.000000,-0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="White 1" Name="White 2" Position="{1.000000,0.000000,0.000000,-0.025000}{0.000000,1.000000,0.000000,-0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="White 1" Name="White 3" Position="{1.000000,0.000000,0.000000,0.075000}{0.000000,1.000000,0.000000,-0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="White 1" Name="White 4" Position="{1.000000,0.000000,0.000000,0.175000}{0.000000,1.000000,0.000000,-0.027500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="White 1" Name="White 5" Position="{1.000000,0.000000,0.000000,-0.125000}{0.000000,1.000000,0.000000,0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="White 1" Name="White 6" Position="{1.000000,0.000000,0.000000,-0.025000}{0.000000,1.000000,0.000000,0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="White 1" Name="White 7" Position="{1.000000,0.000000,0.000000,0.075000}{0.000000,1.000000,0.000000,0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+          <Beam BeamAngle="5.000000" BeamRadius="0.019900" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="5.000000" LampType="LED" LuminousFlux="100.000000" Model="White 1" Name="White 8" Position="{1.000000,0.000000,0.000000,0.175000}{0.000000,1.000000,0.000000,0.082500}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+        </Geometry>
+      </Geometry>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Body" Name="4Channel">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Red Pixels" Highlight="255/1" Offset="1">
+            <LogicalChannel Attribute="ColorAdd_R" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_R" DMXFrom="0/1" Name="ColorAdd_R 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Green Pixels" Highlight="255/1" Offset="2">
+            <LogicalChannel Attribute="ColorAdd_G" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_G" DMXFrom="0/1" Name="ColorAdd_G 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Blue Pixels" Highlight="255/1" Offset="3">
+            <LogicalChannel Attribute="ColorAdd_B" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_B" DMXFrom="0/1" Name="ColorAdd_B 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="White Pixels" Highlight="255/1" Offset="4">
+            <LogicalChannel Attribute="ColorAdd_W" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_W" DMXFrom="0/1" Name="ColorAdd_W 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/4" Geometry="Body" Highlight="4294967295/4" Offset="">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/4" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4294967295/4" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations>
+          <Relation Follower="Red Pixels_ColorAdd_R.ColorAdd_R.ColorAdd_R 1" Master="Body_Dimmer" Name="ColorAdd_R" Type="Multiply"/>
+          <Relation Follower="Green Pixels_ColorAdd_G.ColorAdd_G.ColorAdd_G 1" Master="Body_Dimmer" Name="ColorAdd_G" Type="Multiply"/>
+          <Relation Follower="Blue Pixels_ColorAdd_B.ColorAdd_B.ColorAdd_B 1" Master="Body_Dimmer" Name="ColorAdd_B" Type="Multiply"/>
+          <Relation Follower="White Pixels_ColorAdd_W.ColorAdd_W.ColorAdd_W 1" Master="Body_Dimmer" Name="ColorAdd_W" Type="Multiply"/>
+        </Relations>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2020-08-11T08:08:41" Text="Offical" UserID="31"/>
+      <Revision Date="2020-08-11T08:44:31" Text="Offical" UserID="31"/>
+      <Revision Date="2020-08-18T09:00:45" Text="Offical" UserID="31"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols>
+      <FTRDM DeviceModelID="0x4329" ManufacturerID="0x4753"/>
+    </Protocols>
+  </FixtureType>
+
+</GDTF>

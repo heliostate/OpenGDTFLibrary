@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="Official Martin Professional File" FixtureTypeID="B968C375-5395-4C2D-B6C5-EE420AED3137" LongName="P3 Global" Manufacturer="Martin Professional" Name="P3 Global" RefFT="" ShortName="P3 Global" Thumbnail="thumbnail">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Video" Pretty="Video">
+          <Feature Name="Video"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Color" Pretty="Color">
+          <Feature Name="Color"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Video.Video" Name="Playmode" PhysicalUnit="None" Pretty="Playmode"/>
+        <Attribute Feature="Video.Video" Name="Video" PhysicalUnit="None" Pretty="Video"/>
+        <Attribute Feature="Color.Color" Name="CTC" PhysicalUnit="None" Pretty="CTC"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties>
+        <OperatingTemperature High="50.000000" Low="0.000000"/>
+        <Weight Value="3.000000"/>
+        <LegHeight Value="0.000000"/>
+      </Properties>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="" Height="0.044550" Length="0.482600" Name="Base" PrimitiveType="Cube" Width="0.360000"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="P3 Global">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Geometry="Base" Highlight="155/1" InitialFunction="Base_Playmode.Playmode.Screen Control" Offset="1">
+            <LogicalChannel Attribute="Playmode" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="Yes">
+              <ChannelFunction Attribute="Playmode" DMXFrom="0/1" Default="0/1" Name="Screen Control" OriginalAttribute="Screen Control" PhysicalFrom="0.000000" PhysicalTo="15.000000" RealAcceleration="0.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Live Input" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="128/1" Name="Freeze" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="136/1" Name="Blackout" PhysicalFrom="2.000000" PhysicalTo="2.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="144/1" Name="Device Number" PhysicalFrom="3.000000" PhysicalTo="3.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="152/1" Name="White" PhysicalFrom="4.000000" PhysicalTo="4.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="160/1" Name="Red" PhysicalFrom="5.000000" PhysicalTo="5.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="168/1" Name="Green" PhysicalFrom="6.000000" PhysicalTo="6.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="176/1" Name="Blue" PhysicalFrom="7.000000" PhysicalTo="7.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="184/1" Name="White Gradient" PhysicalFrom="8.000000" PhysicalTo="8.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="192/1" Name="Red Gradient" PhysicalFrom="9.000000" PhysicalTo="9.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="200/1" Name="Green Gradient" PhysicalFrom="10.000000" PhysicalTo="10.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="208/1" Name="Blue Gradient" PhysicalFrom="11.000000" PhysicalTo="11.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="216/1" Name="Colour Bars" PhysicalFrom="12.000000" PhysicalTo="12.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="224/1" Name="Scrolling Greyscale" PhysicalFrom="13.000000" PhysicalTo="13.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="232/1" Name="Scrolling Lines" PhysicalFrom="14.000000" PhysicalTo="14.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="240/1" Name="Alignment Bar" PhysicalFrom="15.000000" PhysicalTo="15.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="248/1" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Geometry="Base" Highlight="None" InitialFunction="Base_Video.Video.Preset Recall" Offset="2">
+            <LogicalChannel Attribute="Video" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="Yes">
+              <ChannelFunction Attribute="Video" DMXFrom="0/1" Default="0/1" Name="Preset Recall" OriginalAttribute="Preset Recall" PhysicalFrom="0.000000" PhysicalTo="50.000000" RealAcceleration="0.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="No Change" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="51/1" Name="Preset 1" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="55/1" Name="Preset 2" PhysicalFrom="2.000000" PhysicalTo="2.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="59/1" Name="Preset 3" PhysicalFrom="3.000000" PhysicalTo="3.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="63/1" Name="Preset 4" PhysicalFrom="4.000000" PhysicalTo="4.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="67/1" Name="Preset 5" PhysicalFrom="5.000000" PhysicalTo="5.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="71/1" Name="Preset 6" PhysicalFrom="6.000000" PhysicalTo="6.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="75/1" Name="Preset 7" PhysicalFrom="7.000000" PhysicalTo="7.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="79/1" Name="Preset 8" PhysicalFrom="8.000000" PhysicalTo="8.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="83/1" Name="Preset 9" PhysicalFrom="9.000000" PhysicalTo="9.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="87/1" Name="Preset 10" PhysicalFrom="10.000000" PhysicalTo="10.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="91/1" Name="Preset 11" PhysicalFrom="11.000000" PhysicalTo="11.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="95/1" Name="Preset 12" PhysicalFrom="12.000000" PhysicalTo="12.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="99/1" Name="Preset 13" PhysicalFrom="13.000000" PhysicalTo="13.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="103/1" Name="Preset 14" PhysicalFrom="14.000000" PhysicalTo="14.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="107/1" Name="Preset 15" PhysicalFrom="15.000000" PhysicalTo="15.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="111/1" Name="Preset 16" PhysicalFrom="16.000000" PhysicalTo="16.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="115/1" Name="Preset 17" PhysicalFrom="17.000000" PhysicalTo="17.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="119/1" Name="Preset 18" PhysicalFrom="18.000000" PhysicalTo="18.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="123/1" Name="Preset 19" PhysicalFrom="19.000000" PhysicalTo="19.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="127/1" Name="Preset 20" PhysicalFrom="20.000000" PhysicalTo="20.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="131/1" Name="Preset 21" PhysicalFrom="21.000000" PhysicalTo="21.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="135/1" Name="Preset 22" PhysicalFrom="22.000000" PhysicalTo="22.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="139/1" Name="Preset 23" PhysicalFrom="23.000000" PhysicalTo="23.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="143/1" Name="Preset 24" PhysicalFrom="24.000000" PhysicalTo="24.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="147/1" Name="Preset 25" PhysicalFrom="25.000000" PhysicalTo="25.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="151/1" Name="Preset 26" PhysicalFrom="26.000000" PhysicalTo="26.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="155/1" Name="Preset 27" PhysicalFrom="27.000000" PhysicalTo="27.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="159/1" Name="Preset 28" PhysicalFrom="28.000000" PhysicalTo="28.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="163/1" Name="Preset 29" PhysicalFrom="29.000000" PhysicalTo="29.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="167/1" Name="Preset 30" PhysicalFrom="30.000000" PhysicalTo="30.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="171/1" Name="Preset 31" PhysicalFrom="31.000000" PhysicalTo="31.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="175/1" Name="Preset 32" PhysicalFrom="32.000000" PhysicalTo="32.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="179/1" Name="Preset 33" PhysicalFrom="33.000000" PhysicalTo="33.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="183/1" Name="Preset 34" PhysicalFrom="34.000000" PhysicalTo="34.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="187/1" Name="Preset 35" PhysicalFrom="35.000000" PhysicalTo="35.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="191/1" Name="Preset 36" PhysicalFrom="36.000000" PhysicalTo="36.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="195/1" Name="Preset 37" PhysicalFrom="37.000000" PhysicalTo="37.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="199/1" Name="Preset 38" PhysicalFrom="38.000000" PhysicalTo="38.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="203/1" Name="Preset 39" PhysicalFrom="39.000000" PhysicalTo="39.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="207/1" Name="Preset 40" PhysicalFrom="40.000000" PhysicalTo="40.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="211/1" Name="Preset 41" PhysicalFrom="41.000000" PhysicalTo="41.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="215/1" Name="Preset 42" PhysicalFrom="42.000000" PhysicalTo="42.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="219/1" Name="Preset 43" PhysicalFrom="43.000000" PhysicalTo="43.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="223/1" Name="Preset 44" PhysicalFrom="44.000000" PhysicalTo="44.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="227/1" Name="Preset 45" PhysicalFrom="45.000000" PhysicalTo="45.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="231/1" Name="Preset 46" PhysicalFrom="46.000000" PhysicalTo="46.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="235/1" Name="Preset 47" PhysicalFrom="47.000000" PhysicalTo="47.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="239/1" Name="Preset 48" PhysicalFrom="48.000000" PhysicalTo="48.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="243/1" Name="Preset 49" PhysicalFrom="49.000000" PhysicalTo="49.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="247/1" Name="Preset 50" PhysicalFrom="50.000000" PhysicalTo="50.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="251/1" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Geometry="Base" Highlight="None" InitialFunction="Base_CTC.CTC.Colour Temperature" Offset="3,4">
+            <LogicalChannel Attribute="CTC" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="CTC" DMXFrom="0/2" Default="32768/2" Name="Colour Temperature" OriginalAttribute="Colour Temperature" PhysicalFrom="2000.000000" PhysicalTo="11000.000000" RealAcceleration="0.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/2" Name="2000K" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="8738/2" Name="3200K" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="8739/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32768/2" Name="6500K" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32769/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="55341/2" Name="9600K" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="55342/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="65535/2" Name="11000K" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+    <Revision Text="2020-12-21, Uploaded to GDTF Share." Date="2020-12-21T20:24:09" UserID="4163"/></Revisions>
+    <FTPresets/>
+    <Protocols>
+      <FTRDM DeviceModelID="0xA9" ManufacturerID="0x4D50"/>
+    </Protocols>
+  </FixtureType>
+
+<preserveWhiteSpace></preserveWhiteSpace><formatOutput>1</formatOutput></GDTF>

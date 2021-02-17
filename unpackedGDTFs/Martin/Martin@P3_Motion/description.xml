@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="Official Martin Professional File" FixtureTypeID="B4EA0C3C-1DA9-4120-9268-8E8395DE0DB0" LongName="P3 Motion" Manufacturer="Martin Professional" Name="P3 Motion" RefFT="" ShortName="P3 Motion" Thumbnail="thumbnail">
+    <AttributeDefinitions>
+      <ActivationGroups>
+        <ActivationGroup Name="XYZ"/>
+        <ActivationGroup Name="PanTilt"/>
+      </ActivationGroups>
+      <FeatureGroups>
+        <FeatureGroup Name="Position" Pretty="Position">
+          <Feature Name="XYZ"/>
+          <Feature Name="PanTilt"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute ActivationGroup="XYZ" Feature="Position.XYZ" Name="XYZ_X" PhysicalUnit="Length" Pretty="X"/>
+        <Attribute ActivationGroup="XYZ" Feature="Position.XYZ" Name="XYZ_Y" PhysicalUnit="Length" Pretty="Y"/>
+        <Attribute ActivationGroup="PanTilt" Feature="Position.PanTilt" Name="Pan" PhysicalUnit="Angle" Pretty="P"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties>
+        <OperatingTemperature High="50.000000" Low="0.000000"/>
+        <Weight Value="3.000000"/>
+        <LegHeight Value="0.000000"/>
+      </Properties>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="" Height="0.010000" Length="1.000000" Name="Base" PrimitiveType="Cube" Width="1.000000"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,0.000000,-1.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0,0,0,1}"/>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="P3 Motion">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Geometry="Base" Highlight="None" InitialFunction="Base_XYZ_X.XYZ_X.X Position" Offset="1,2">
+            <LogicalChannel Attribute="XYZ_X" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="XYZ_X" DMXFrom="0/2" Default="32767/2" Name="X Position" OriginalAttribute="X Position" PhysicalFrom="-1.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/2" Name="Left" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32767/2" Name="Center" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32769/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="65535/2" Name="Right" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Geometry="Base" Highlight="None" InitialFunction="Base_XYZ_Y.XYZ_Y.Y Position" Offset="3,4">
+            <LogicalChannel Attribute="XYZ_Y" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="XYZ_Y" DMXFrom="0/2" Default="32767/2" Name="Y Position" OriginalAttribute="Y Position" PhysicalFrom="-1.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/2" Name="Up" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32767/2" Name="Center" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32769/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="65535/2" Name="Down" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Geometry="Base" Highlight="None" InitialFunction="Base_Pan.Pan.Rotation" Offset="5,6">
+            <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Pan" DMXFrom="0/2" Default="32767/2" Name="Rotation" OriginalAttribute="Rotation" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealAcceleration="0.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/2" Name="CCW" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32767/2" Name="Center" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="32769/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="65535/2" Name="CW" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+    <Revision Text="2020-12-21, Uploaded to GDTF Share." Date="2020-12-21T20:37:34" UserID="4163"/></Revisions>
+    <FTPresets/>
+    <Protocols>
+      <FTRDM DeviceModelID="0xA9" ManufacturerID="0x4D50"/>
+    </Protocols>
+  </FixtureType>
+
+<preserveWhiteSpace></preserveWhiteSpace><formatOutput>1</formatOutput></GDTF>

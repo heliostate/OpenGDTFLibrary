@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GDTF DataVersion="1.0">
+    <FixtureType Description="The MediaSpinner 100 AT is enhanced with a panel for the connection of audio, video and power supplies, so plasma screens, LCD diplays, projectors or loudspeakers and similar devices can be attached and rotated. The MediaSpinner 100 AT is constructed to enable the display and rotation of advertising banners - at exhibitions, on stage, in theatres and other applications where advertising needs to be highlighted and showcased. " FixtureTypeID="B3F44AFF-E466-431C-954B-8C5855C32BE6" LongName="MediaSpinner 100 AT" Manufacturer="Robe lighting" Name="MediaSpinner 100 AT" RefFT="" ShortName="MS100" Thumbnail="MediaSpinner_100_AT">
+        <AttributeDefinitions>
+            <ActivationGroups>
+                <ActivationGroup Name="PanTilt"/>
+            </ActivationGroups>
+            <FeatureGroups>
+                <FeatureGroup Name="Position" Pretty="Position">
+                    <Feature Name="PanTilt"/>
+                </FeatureGroup>
+                <FeatureGroup Name="Control" Pretty="Control">
+                    <Feature Name="Control"/>
+                </FeatureGroup>
+            </FeatureGroups>
+            <Attributes>
+                <Attribute ActivationGroup="PanTilt" Feature="Position.PanTilt" Name="Pan" PhysicalUnit="Angle" Pretty="P"/>
+                <Attribute Feature="Control.Control" Name="Control1" PhysicalUnit="None" Pretty="Ctrl1"/>
+                <Attribute Feature="Control.Control" Name="PositionMSpeed" PhysicalUnit="None" Pretty="Pos MSpeed"/>
+            </Attributes>
+        </AttributeDefinitions>
+        <Wheels/>
+        <PhysicalDescriptions>
+            <ColorSpace Mode="sRGB"/>
+            <Filters/>
+            <Emitters/>
+            <DMXProfiles/>
+            <CRIs/>
+        </PhysicalDescriptions>
+        <Models>
+            <Model File="base" Height="0.151500" Length="0.470231" Name="Geometry 1" PrimitiveType="Undefined" Width="0.393968"/>
+            <Model File="yoke" Height="0.068926" Length="0.360989" Name="yoke" PrimitiveType="Undefined" Width="0.178251"/>
+            <Model File="" Height="0.050000" Length="0.100000" Name="pigtail" PrimitiveType="Pigtail" Width="0.050000"/>
+            <Model File="" Height="0.050000" Length="0.100000" Name="pigtail 1" PrimitiveType="Pigtail" Width="0.050000"/>
+        </Models>
+        <Geometries>
+            <Geometry Model="Geometry 1" Name="base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+                <Axis Model="yoke" Name="yoke" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.137000}{0,0,0,1}"/>
+                <Geometry Model="pigtail" Name="pigtail" Position="{1.000000,0.000000,0.000000,0.109360}{0.000000,1.000000,0.000000,-0.235863}{0.000000,0.000000,1.000000,-0.063725}{0,0,0,1}"/>
+            </Geometry>
+        </Geometries>
+        <DMXModes>
+            <DMXMode Geometry="base" Name="Mode 1">
+                <DMXChannels>
+                    <DMXChannel DMXBreak="1" Default="32768/2" Geometry="yoke" Highlight="None" Offset="1,2">
+                        <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+                            <ChannelFunction Attribute="Pan" DMXFrom="0/2" Name="Pan" OriginalAttribute="" PhysicalFrom="-225.000000" PhysicalTo="225.000000" RealFade="3.000000">
+                                <ChannelSet DMXFrom="0/2" Name="" WheelSlotIndex="0"/>
+                                <ChannelSet DMXFrom="32768/2" Name="Center" WheelSlotIndex="-2147483648"/>
+                                <ChannelSet DMXFrom="32769/2" Name="" WheelSlotIndex="0"/>
+                            </ChannelFunction>
+                        </LogicalChannel>
+                    </DMXChannel>
+                    <DMXChannel DMXBreak="1" Default="0/1" Geometry="base" Highlight="None" Offset="3">
+                        <LogicalChannel Attribute="PositionMSpeed" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+                            <ChannelFunction Attribute="PositionMSpeed" DMXFrom="0/1" Name="Pan Speed" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                                <ChannelSet DMXFrom="0/1" Name="Standard mode" WheelSlotIndex="0"/>
+                                <ChannelSet DMXFrom="1/1" Name="Speed/Time max to min" WheelSlotIndex="0"/>
+                            </ChannelFunction>
+                        </LogicalChannel>
+                    </DMXChannel>
+                    <DMXChannel DMXBreak="1" Default="0/1" Geometry="base" Highlight="None" Offset="4">
+                        <LogicalChannel Attribute="Control1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+                            <ChannelFunction Attribute="Control1" DMXFrom="0/1" Name="Control" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                                <ChannelSet DMXFrom="0/1" Name="Standard operation fixture is controlled by channels 1 2 and 3" WheelSlotIndex="0"/>
+                                <ChannelSet DMXFrom="130/1" Name="Reset of pan" WheelSlotIndex="0"/>
+                                <ChannelSet DMXFrom="140/1" Name="Reserved" WheelSlotIndex="0"/>
+                                <ChannelSet DMXFrom="210/1" Name="Switching On power supply of load" WheelSlotIndex="0"/>
+                                <ChannelSet DMXFrom="220/1" Name="Reserved" WheelSlotIndex="0"/>
+                                <ChannelSet DMXFrom="230/1" Name="Switching Off power supply of load" WheelSlotIndex="0"/>
+                                <ChannelSet DMXFrom="240/1" Name="Reserved" WheelSlotIndex="0"/>
+                            </ChannelFunction>
+                        </LogicalChannel>
+                    </DMXChannel>
+                </DMXChannels>
+                <Relations/>
+                <FTMacros/>
+            </DMXMode>
+        </DMXModes>
+        <Revisions/>
+        <Revisions>
+            <Revision Text="23062020, Uploaded to GDTF Share." Date="2020-06-23T09:25:02" UserID="1734"/>
+        </Revisions>
+        <FTPresets/>
+        <Protocols/>
+    </FixtureType>
+</GDTF>

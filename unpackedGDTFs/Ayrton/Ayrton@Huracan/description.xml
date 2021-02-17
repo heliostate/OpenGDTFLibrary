@@ -70,12 +70,12 @@
         <Attribute ActivationGroup="Gobo1" Feature="Gobo.Gobo" Name="Gobo1" PhysicalUnit="None" Pretty="G1"/>
         <Attribute ActivationGroup="Gobo1" Feature="Gobo.Gobo" MainAttribute="Gobo1" Name="Gobo1SelectShake" PhysicalUnit="Frequency" Pretty="Select Shake"/>
         <Attribute ActivationGroup="Gobo1" Feature="Gobo.Gobo" MainAttribute="Gobo1" Name="Gobo1WheelSpin" PhysicalUnit="AngularSpeed" Pretty="Wheel Spin"/>
-        <Attribute ActivationGroup="Gobo1Pos" Feature="Gobo.Gobo" Name="Gobo1Pos" PhysicalUnit="Angle" Pretty="G1 &lt;&gt;"/>
+        <Attribute ActivationGroup="Gobo1Pos" Feature="Gobo.Gobo" Name="Gobo1Pos" PhysicalUnit="Angle" Pretty="G1 &lt;>"/>
         <Attribute ActivationGroup="Gobo1Pos" Feature="Gobo.Gobo" MainAttribute="Gobo1Pos" Name="Gobo1PosRotate" PhysicalUnit="AngularSpeed" Pretty="Rotate"/>
         <Attribute ActivationGroup="Gobo2" Feature="Gobo.Gobo" Name="Gobo2" PhysicalUnit="None" Pretty="G2"/>
         <Attribute ActivationGroup="Gobo2" Feature="Gobo.Gobo" MainAttribute="Gobo2" Name="Gobo2SelectShake" PhysicalUnit="Frequency" Pretty="Select Shake"/>
         <Attribute ActivationGroup="Gobo2" Feature="Gobo.Gobo" MainAttribute="Gobo2" Name="Gobo2WheelSpin" PhysicalUnit="AngularSpeed" Pretty="Wheel Spin"/>
-        <Attribute ActivationGroup="Gobo2Pos" Feature="Gobo.Gobo" Name="Gobo2Pos" PhysicalUnit="Angle" Pretty="G2 &lt;&gt;"/>
+        <Attribute ActivationGroup="Gobo2Pos" Feature="Gobo.Gobo" Name="Gobo2Pos" PhysicalUnit="Angle" Pretty="G2 &lt;>"/>
         <Attribute ActivationGroup="Gobo2Pos" Feature="Gobo.Gobo" MainAttribute="Gobo2Pos" Name="Gobo2PosRotate" PhysicalUnit="AngularSpeed" Pretty="Rotate"/>
         <Attribute ActivationGroup="AnimationWheel1" Feature="Gobo.Gobo" Name="AnimationWheel1" PhysicalUnit="None" Pretty="Anim1"/>
         <Attribute Color="0.312700,0.329000,100.000000" Feature="Gobo.Gobo" MainAttribute="AnimationWheel1" Name="AnimationWheelSpin" PhysicalUnit="AngularSpeed" Pretty="AnimationWheel1Spin"/>
@@ -164,32 +164,38 @@
         <Slot Color="0.312700,0.329000,100.000000" Name="Wheel Slot 1"/>
         <Slot Color="0.312700,0.329000,100.000000" MediaFileName="CMY-Anim" Name="AnimationWheelCMY"/>
       </Wheel>
+      <Wheel Name="ColorMacroWheel">
+        <Slot Color="0.312700,0.329000,100.000000" Name="Open"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Open 1"/>
+        <Slot Color="0.331700,0.268800,35.880000" Name="Lavender tint"/>
+        <Slot Color="0.312700,0.329000,100.000000" Name="Medium Bastard Amber"/>
+      </Wheel>
     </Wheels>
     <PhysicalDescriptions>
       <ColorSpace Mode="sRGB"/>
       <Filters>
         <Filter Color="0.224700,0.328700,78.740000" Name="Cyan">
-          <Measurement InterpolationTo="Linear" LuminousIntensity="0.000000" Physical="100.000000" Transmission="1.000000"/>
+          <Measurement InterpolationTo="Linear" Physical="100.000000" Transmission="1.000000"/>
         </Filter>
         <Filter Color="0.320900,0.154200,28.480000" Name="Magenta">
-          <Measurement InterpolationTo="Linear" LuminousIntensity="0.000000" Physical="100.000000" Transmission="1.000000"/>
+          <Measurement InterpolationTo="Linear" Physical="100.000000" Transmission="1.000000"/>
         </Filter>
         <Filter Color="0.419300,0.505300,92.780000" Name="Yellow">
-          <Measurement InterpolationTo="Linear" LuminousIntensity="0.000000" Physical="100.000000" Transmission="1.000000"/>
+          <Measurement InterpolationTo="Linear" Physical="100.000000" Transmission="1.000000"/>
         </Filter>
         <Filter Color="0.405000,0.374300,98.250000" Name="CTO">
-          <Measurement InterpolationTo="Linear" LuminousIntensity="0.000000" Physical="100.000000" Transmission="1.000000"/>
+          <Measurement InterpolationTo="Linear" Physical="100.000000" Transmission="1.000000"/>
         </Filter>
         <Filter Color="0.281300,0.299900,96.750000" Name="CTB">
-          <Measurement InterpolationTo="Linear" LuminousIntensity="0.000000" Physical="100.000000" Transmission="1.000000"/>
+          <Measurement InterpolationTo="Linear" Physical="100.000000" Transmission="1.000000"/>
         </Filter>
         <Filter Color="0.356200,0.310600,100.000000" Name="CTP">
-          <Measurement InterpolationTo="Linear" LuminousIntensity="0.000000" Physical="100.000000" Transmission="1.000000"/>
+          <Measurement InterpolationTo="Linear" Physical="100.000000" Transmission="1.000000"/>
         </Filter>
       </Filters>
       <Emitters>
         <Emitter Color="0.312700,0.329000,100.000000" DiodePart="" DominantWaveLength="0.000000" Name="LightSource">
-          <Measurement InterpolationTo="Linear" LuminousIntensity="1.000000" Physical="100.000000" Transmission="0.000000"/>
+          <Measurement InterpolationTo="Linear" LuminousIntensity="1.000000" Physical="100.000000"/>
         </Emitter>
       </Emitters>
       <DMXProfiles/>
@@ -796,20 +802,22 @@
               </ChannelFunction>
               <ChannelFunction Attribute="FanMode" DMXFrom="25/1" Name="FanControlMode" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
                 <ChannelSet DMXFrom="25/1" Name="Auto Fan" WheelSlotIndex="0"/>
-                <ChannelSet DMXFrom="30/1" Name="Stage Fan" WheelSlotIndex="0"/>
-                <ChannelSet DMXFrom="35/1" Name="Studio Fan" WheelSlotIndex="0"/>
-                <ChannelSet DMXFrom="40/1" Name="Silent Fan" WheelSlotIndex="0"/>
-                <ChannelSet DMXFrom="42/1" Name="Theatre Fan" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="27/1" Name="Stage Fan" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="29/1" Name="Silence Fan" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="31/1" Name="Super Silence Fan" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="33/1" Name="Constant Fan OFF" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="35/1" Name="Constant Fan ON" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="37/1" Name="unused" WheelSlotIndex="0"/>
               </ChannelFunction>
               <ChannelFunction Attribute="DimmerCurve" DMXFrom="45/1" Name="DimmerCurve" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
                 <ChannelSet DMXFrom="45/1" Name="Square Law" WheelSlotIndex="0"/>
                 <ChannelSet DMXFrom="50/1" Name="Linear" WheelSlotIndex="0"/>
               </ChannelFunction>
-              <ChannelFunction Attribute="LEDFrequency" DMXFrom="55/1" Name="LEDFrequency" OriginalAttribute="" PhysicalFrom="1200.000000" PhysicalTo="16000.000000" RealFade="0.000000">
-                <ChannelSet DMXFrom="55/1" Name="1200 Hz" WheelSlotIndex="0"/>
-                <ChannelSet DMXFrom="58/1" Name="2400 Hz" WheelSlotIndex="0"/>
-                <ChannelSet DMXFrom="61/1" Name="16000 Hz" WheelSlotIndex="0"/>
-                <ChannelSet DMXFrom="64/1" Name="25000 Hz" WheelSlotIndex="0"/>
+              <ChannelFunction Attribute="LEDFrequency" DMXFrom="55/1" Name="LEDFrequency" OriginalAttribute="" PhysicalFrom="1200.000000" PhysicalTo="25000.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="55/1" Name="1200 Hz" PhysicalFrom="1200.000000" PhysicalTo="1200.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="58/1" Name="2400 Hz" PhysicalFrom="2400.000000" PhysicalTo="2400.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="61/1" Name="16000 Hz" PhysicalFrom="16000.000000" PhysicalTo="16000.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="64/1" Name="25000 Hz" PhysicalFrom="25000.000000" PhysicalTo="25000.000000" WheelSlotIndex="0"/>
               </ChannelFunction>
               <ChannelFunction Attribute="Control1" DMXFrom="70/1" Name="GoboCorrection" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
                 <ChannelSet DMXFrom="70/1" Name="Gobo Correction Off" WheelSlotIndex="0"/>
@@ -825,7 +833,11 @@
                 <ChannelSet DMXFrom="96/1" Name="Reset P/T Fade On" WheelSlotIndex="0"/>
                 <ChannelSet DMXFrom="97/1" Name="Other Motor Reset" WheelSlotIndex="0"/>
               </ChannelFunction>
-              <ChannelFunction Attribute="NoFeature" DMXFrom="100/1" Name="unused" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+              <ChannelFunction Attribute="Control1" DMXFrom="100/1" Name="Frost Progressive" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="100/1" Name="Frost Progressive OFF" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="103/1" Name="Frost Progressive OFF" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="NoFeature" DMXFrom="106/1" Name="unused" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
             </LogicalChannel>
           </DMXChannel>
         </DMXChannels>
@@ -835,6 +847,8 @@
     </DMXModes>
     <Revisions>
       <Revision Date="2020-02-27T13:30:46" Text="created by Rene - finished v4" UserID="12"/>
+      <Revision Date="2020-12-08T14:40:20" Text="TEST-2" UserID="3058"/>
+      <Revision Date="2020-12-08T15:21:07" Text="TEST-3" UserID="3058"/>
     </Revisions>
     <FTPresets/>
     <Protocols>

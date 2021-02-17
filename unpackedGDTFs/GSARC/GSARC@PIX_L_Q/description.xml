@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.0">
+
+  <FixtureType Description="PIX is a new architectural outdoor matrix lighting series. 2 models all with the same aesthetic and fully customizable with multiple white and color variants, beam options, color finishes and accessories. All models are factory color calibrated for perfect consistency and can be monitored through our proprietary VMS (Virtual Monitoring System)" FixtureTypeID="D74A60D7-79FF-4F85-8427-6439AB163EF0" LongName="GSARC_PIX L Q" Manufacturer="GSARC" Name="PIX L Q" RefFT="" ShortName="PIX L Q" Thumbnail="PIX L">
+    <AttributeDefinitions>
+      <ActivationGroups>
+        <ActivationGroup Name="ColorRGB"/>
+      </ActivationGroups>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Color" Pretty="Color">
+          <Feature Name="RGB"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="LuminousIntensity" Pretty="Dim"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorAdd_W" PhysicalUnit="ColorComponent" Pretty="White"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorAdd_R" PhysicalUnit="ColorComponent" Pretty="R"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorAdd_G" PhysicalUnit="ColorComponent" Pretty="G"/>
+        <Attribute ActivationGroup="ColorRGB" Feature="Color.RGB" Name="ColorAdd_B" PhysicalUnit="ColorComponent" Pretty="B"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="PIX L_Body" Height="0.427300" Length="0.500000" Name="Body" PrimitiveType="Undefined" Width="0.500000"/>
+      <Model File="PIX S_Beam" Height="0.003000" Length="0.061166" Name="Pixel" PrimitiveType="Undefined" Width="0.061166"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+        <Geometry Name="Pixel" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.095000}{0.000000,0.000000,1.000000,-0.420000}{0,0,0,1}">
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 26" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 27" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 28" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 29" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 30" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 31" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 32" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 33" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 34" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 35" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 36" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 37" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 38" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 39" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 40" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 41" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 42" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 43" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 44" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 45" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 46" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 47" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 48" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 49" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+          <GeometryReference Geometry="Pixel 1" Name="Pixels_ 50" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}"/>
+        </Geometry>
+      </Geometry>
+      <Geometry Model="Body" Name="Body 1" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+        <Geometry Name="Pixels 2" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.095000}{0.000000,0.000000,1.000000,-0.420000}{0,0,0,1}">
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 51" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="1"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 52" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="5"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 53" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="9"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 54" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="13"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 55" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,-0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="17"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 56" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="21"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 57" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="25"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 58" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="29"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 59" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="33"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 60" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,-0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="37"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 61" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="41"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 62" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="45"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 63" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="49"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 64" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="53"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 65" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="57"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 66" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="61"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 67" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="65"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 68" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="69"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 69" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="73"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 70" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,0.100000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="77"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 71" Position="{1.000000,0.000000,0.000000,-0.200000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="81"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 72" Position="{1.000000,0.000000,0.000000,-0.100000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="85"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 73" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="89"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 74" Position="{1.000000,0.000000,0.000000,0.100000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="93"/>
+          </GeometryReference>
+          <GeometryReference Geometry="Pixels 1" Name="Pixels_ 75" Position="{1.000000,0.000000,0.000000,0.200000}{0.000000,1.000000,0.000000,0.200000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+            <Break DMXBreak="1" DMXOffset="97"/>
+          </GeometryReference>
+        </Geometry>
+      </Geometry>
+      <Beam BeamAngle="12.000000" BeamRadius="0.030600" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="6000.000000" FieldAngle="12.000000" LampType="LED" LuminousFlux="100.000000" Model="Pixel" Name="Pixels 1" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+      <Beam BeamAngle="12.000000" BeamRadius="0.030600" BeamType="Wash" ColorRenderingIndex="70" ColorTemperature="4000.000000" FieldAngle="12.000000" LampType="LED" LuminousFlux="100.000000" Model="Pixel" Name="Pixel 1" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}" PowerConsumption="10.000000"/>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Body" Name="4Channel">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Pixel" Highlight="255/1" Offset="1">
+            <LogicalChannel Attribute="ColorAdd_R" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_R" DMXFrom="0/1" Name="ColorAdd_R 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Pixel" Highlight="255/1" Offset="2">
+            <LogicalChannel Attribute="ColorAdd_G" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_G" DMXFrom="0/1" Name="ColorAdd_G 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Pixel" Highlight="255/1" Offset="3">
+            <LogicalChannel Attribute="ColorAdd_B" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_B" DMXFrom="0/1" Name="ColorAdd_B 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Pixel" Highlight="0/1" Offset="4">
+            <LogicalChannel Attribute="ColorAdd_W" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_W" DMXFrom="0/1" Name="ColorAdd_W 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/4" Geometry="Pixel" Highlight="4294967295/4" Offset="">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/4" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations>
+          <Relation Follower="Pixel_ColorAdd_R.ColorAdd_R.ColorAdd_R 1" Master="Pixel_Dimmer" Name="ColorAdd_R" Type="Multiply"/>
+          <Relation Follower="Pixel_ColorAdd_G.ColorAdd_G.ColorAdd_G 1" Master="Pixel_Dimmer" Name="ColorAdd_G" Type="Multiply"/>
+          <Relation Follower="Pixel_ColorAdd_B.ColorAdd_B.ColorAdd_B 1" Master="Pixel_Dimmer" Name="ColorAdd_B" Type="Multiply"/>
+          <Relation Follower="Pixel_ColorAdd_W.ColorAdd_W.ColorAdd_W 1" Master="Pixel_Dimmer" Name="ColorAdd_W" Type="Multiply"/>
+        </Relations>
+        <FTMacros/>
+      </DMXMode>
+      <DMXMode Geometry="Body 1" Name="100Channel">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Pixels 1" Highlight="255/1" Offset="1">
+            <LogicalChannel Attribute="ColorAdd_R" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_R" DMXFrom="0/1" Name="ColorAdd_R 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Pixels 1" Highlight="255/1" Offset="2">
+            <LogicalChannel Attribute="ColorAdd_G" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_G" DMXFrom="0/1" Name="ColorAdd_G 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="255/1" Geometry="Pixels 1" Highlight="255/1" Offset="3">
+            <LogicalChannel Attribute="ColorAdd_B" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_B" DMXFrom="0/1" Name="ColorAdd_B 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Pixels 1" Highlight="0/1" Offset="4">
+            <LogicalChannel Attribute="ColorAdd_W" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_W" DMXFrom="0/1" Name="ColorAdd_W 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/4" Geometry="Pixels 1" Highlight="4294967295/4" Offset="">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/4" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4294967295/4" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations>
+          <Relation Follower="Pixels 1_ColorAdd_R.ColorAdd_R.ColorAdd_R 1" Master="Pixels 1_Dimmer" Name="ColorAdd_R" Type="Multiply"/>
+          <Relation Follower="Pixels 1_ColorAdd_G.ColorAdd_G.ColorAdd_G 1" Master="Pixels 1_Dimmer" Name="ColorAdd_G" Type="Multiply"/>
+          <Relation Follower="Pixels 1_ColorAdd_B.ColorAdd_B.ColorAdd_B 1" Master="Pixels 1_Dimmer" Name="ColorAdd_B" Type="Multiply"/>
+          <Relation Follower="Pixels 1_ColorAdd_W.ColorAdd_W.ColorAdd_W 1" Master="Pixels 1_Dimmer" Name="ColorAdd_W" Type="Multiply"/>
+        </Relations>
+        <FTMacros/>
+      </DMXMode>
+      <DMXMode Geometry="Pixels 1" Name="Pixel">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Pixels 1" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="ColorAdd_R" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_R" DMXFrom="0/1" Name="ColorAdd_R 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Pixels 1" Highlight="None" Offset="2">
+            <LogicalChannel Attribute="ColorAdd_G" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_G" DMXFrom="0/1" Name="ColorAdd_G 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Pixels 1" Highlight="None" Offset="3">
+            <LogicalChannel Attribute="ColorAdd_B" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_B" DMXFrom="0/1" Name="ColorAdd_B 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Pixels 1" Highlight="None" Offset="4">
+            <LogicalChannel Attribute="ColorAdd_W" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="ColorAdd_W" DMXFrom="0/1" Name="ColorAdd_W 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/4" Geometry="Pixels 1" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/4" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2020-08-11T01:12:45" Text="Offical" UserID="31"/>
+      <Revision Date="2020-08-11T01:16:55" Text="Offical" UserID="31"/>
+      <Revision Date="2020-08-11T01:33:00" Text="Offical" UserID="31"/>
+      <Revision Date="2020-08-18T08:46:22" Text="Offical" UserID="31"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols>
+      <FTRDM DeviceModelID="0x42E8" ManufacturerID="0x4753"/>
+    </Protocols>
+  </FixtureType>
+
+</GDTF>

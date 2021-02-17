@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.0">
+
+  <FixtureType Description="EclFresnel is the LED replacement for a standard tungsten 1.000 W Fresnel. Featuring the output characteristics of a traditional Fresnel but with beam control, functional barn doors and a powerful source that focuses on outstanding colour rendition. The EclFresnel adds all the advantages of LED to the Fresnel." FixtureTypeID="645A6A2B-AF31-4E2C-A1FF-AD8C16B194D2" LongName="EclFresnelDY" Manufacturer="Prolights" Name="EclFresnelDY" RefFT="" ShortName="EclFRDY" Thumbnail="ECLIPSEFRESNELJDY">
+    <AttributeDefinitions>
+      <ActivationGroups>
+        <ActivationGroup Name="PanTilt"/>
+      </ActivationGroups>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Position" Pretty="Position">
+          <Feature Name="PanTilt"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Focus" Pretty="Focus">
+          <Feature Name="Focus"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Beam" Pretty="Beam">
+          <Feature Name="Beam"/>
+        </FeatureGroup>
+        <FeatureGroup Name="Control" Pretty="Control">
+          <Feature Name="Control"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="LuminousIntensity" Pretty="Dim"/>
+        <Attribute ActivationGroup="PanTilt" Feature="Position.PanTilt" Name="Pan" PhysicalUnit="Angle" Pretty="P"/>
+        <Attribute ActivationGroup="PanTilt" Feature="Position.PanTilt" Name="Tilt" PhysicalUnit="Angle" Pretty="T"/>
+        <Attribute Feature="Focus.Focus" Name="Zoom" PhysicalUnit="Angle" Pretty="Zoom"/>
+        <Attribute Feature="Beam.Beam" Name="Shutter1" PhysicalUnit="None" Pretty="Sh1"/>
+        <Attribute Feature="Beam.Beam" MainAttribute="Shutter1" Name="Shutter1Strobe" PhysicalUnit="Frequency" Pretty="Strobe1"/>
+        <Attribute Feature="Beam.Beam" Name="Effects1" PhysicalUnit="None" Pretty="FX1"/>
+        <Attribute Feature="Beam.Beam" Name="Effects1Rate" PhysicalUnit="Speed" Pretty="FX1 Rate"/>
+        <Attribute Feature="Control.Control" Name="DimmerMode" PhysicalUnit="None" Pretty="Dim Mode"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters>
+        <Emitter Color="0.312700,0.329000,100.000000" DiodePart="" DominantWaveLength="0.000000" Name="White Led">
+          <Measurement InterpolationTo="Linear" LuminousIntensity="79683.000000" Physical="100.000000">
+            <MeasurementPoint Energy="0.000214" WaveLength="360.000000"/>
+            <MeasurementPoint Energy="0.000157" WaveLength="361.000000"/>
+            <MeasurementPoint Energy="0.000198" WaveLength="362.000000"/>
+            <MeasurementPoint Energy="0.000211" WaveLength="363.000000"/>
+            <MeasurementPoint Energy="0.000324" WaveLength="364.000000"/>
+            <MeasurementPoint Energy="0.000116" WaveLength="365.000000"/>
+            <MeasurementPoint Energy="0.000208" WaveLength="366.000000"/>
+            <MeasurementPoint Energy="0.000163" WaveLength="367.000000"/>
+            <MeasurementPoint Energy="0.000272" WaveLength="368.000000"/>
+            <MeasurementPoint Energy="0.000420" WaveLength="369.000000"/>
+            <MeasurementPoint Energy="0.000369" WaveLength="370.000000"/>
+            <MeasurementPoint Energy="0.000285" WaveLength="371.000000"/>
+            <MeasurementPoint Energy="0.000137" WaveLength="372.000000"/>
+            <MeasurementPoint Energy="0.000195" WaveLength="373.000000"/>
+            <MeasurementPoint Energy="0.000250" WaveLength="374.000000"/>
+            <MeasurementPoint Energy="0.000263" WaveLength="375.000000"/>
+            <MeasurementPoint Energy="0.000220" WaveLength="376.000000"/>
+            <MeasurementPoint Energy="0.000370" WaveLength="377.000000"/>
+            <MeasurementPoint Energy="0.000164" WaveLength="378.000000"/>
+            <MeasurementPoint Energy="0.000394" WaveLength="379.000000"/>
+            <MeasurementPoint Energy="0.000302" WaveLength="380.000000"/>
+            <MeasurementPoint Energy="0.000311" WaveLength="381.000000"/>
+            <MeasurementPoint Energy="0.000279" WaveLength="382.000000"/>
+            <MeasurementPoint Energy="0.000208" WaveLength="383.000000"/>
+            <MeasurementPoint Energy="0.000339" WaveLength="384.000000"/>
+            <MeasurementPoint Energy="0.000316" WaveLength="385.000000"/>
+            <MeasurementPoint Energy="0.000324" WaveLength="386.000000"/>
+            <MeasurementPoint Energy="0.000155" WaveLength="387.000000"/>
+            <MeasurementPoint Energy="0.000286" WaveLength="388.000000"/>
+            <MeasurementPoint Energy="0.000221" WaveLength="389.000000"/>
+            <MeasurementPoint Energy="0.000326" WaveLength="390.000000"/>
+            <MeasurementPoint Energy="0.000359" WaveLength="391.000000"/>
+            <MeasurementPoint Energy="0.000385" WaveLength="392.000000"/>
+            <MeasurementPoint Energy="0.000430" WaveLength="393.000000"/>
+            <MeasurementPoint Energy="0.000384" WaveLength="394.000000"/>
+            <MeasurementPoint Energy="0.000450" WaveLength="395.000000"/>
+            <MeasurementPoint Energy="0.000392" WaveLength="396.000000"/>
+            <MeasurementPoint Energy="0.000357" WaveLength="397.000000"/>
+            <MeasurementPoint Energy="0.000398" WaveLength="398.000000"/>
+            <MeasurementPoint Energy="0.000412" WaveLength="399.000000"/>
+            <MeasurementPoint Energy="0.000457" WaveLength="400.000000"/>
+            <MeasurementPoint Energy="0.000594" WaveLength="401.000000"/>
+            <MeasurementPoint Energy="0.000578" WaveLength="402.000000"/>
+            <MeasurementPoint Energy="0.000755" WaveLength="403.000000"/>
+            <MeasurementPoint Energy="0.000837" WaveLength="404.000000"/>
+            <MeasurementPoint Energy="0.000927" WaveLength="405.000000"/>
+            <MeasurementPoint Energy="0.001094" WaveLength="406.000000"/>
+            <MeasurementPoint Energy="0.001189" WaveLength="407.000000"/>
+            <MeasurementPoint Energy="0.001449" WaveLength="408.000000"/>
+            <MeasurementPoint Energy="0.001691" WaveLength="409.000000"/>
+            <MeasurementPoint Energy="0.002078" WaveLength="410.000000"/>
+            <MeasurementPoint Energy="0.002452" WaveLength="411.000000"/>
+            <MeasurementPoint Energy="0.002820" WaveLength="412.000000"/>
+            <MeasurementPoint Energy="0.003275" WaveLength="413.000000"/>
+            <MeasurementPoint Energy="0.003962" WaveLength="414.000000"/>
+            <MeasurementPoint Energy="0.004650" WaveLength="415.000000"/>
+            <MeasurementPoint Energy="0.005464" WaveLength="416.000000"/>
+            <MeasurementPoint Energy="0.006473" WaveLength="417.000000"/>
+            <MeasurementPoint Energy="0.007600" WaveLength="418.000000"/>
+            <MeasurementPoint Energy="0.008903" WaveLength="419.000000"/>
+            <MeasurementPoint Energy="0.010162" WaveLength="420.000000"/>
+            <MeasurementPoint Energy="0.011566" WaveLength="421.000000"/>
+            <MeasurementPoint Energy="0.013467" WaveLength="422.000000"/>
+            <MeasurementPoint Energy="0.015593" WaveLength="423.000000"/>
+            <MeasurementPoint Energy="0.017901" WaveLength="424.000000"/>
+            <MeasurementPoint Energy="0.020680" WaveLength="425.000000"/>
+            <MeasurementPoint Energy="0.023682" WaveLength="426.000000"/>
+            <MeasurementPoint Energy="0.027246" WaveLength="427.000000"/>
+            <MeasurementPoint Energy="0.030494" WaveLength="428.000000"/>
+            <MeasurementPoint Energy="0.033971" WaveLength="429.000000"/>
+            <MeasurementPoint Energy="0.038763" WaveLength="430.000000"/>
+            <MeasurementPoint Energy="0.044176" WaveLength="431.000000"/>
+            <MeasurementPoint Energy="0.050025" WaveLength="432.000000"/>
+            <MeasurementPoint Energy="0.056354" WaveLength="433.000000"/>
+            <MeasurementPoint Energy="0.063584" WaveLength="434.000000"/>
+            <MeasurementPoint Energy="0.071563" WaveLength="435.000000"/>
+            <MeasurementPoint Energy="0.078636" WaveLength="436.000000"/>
+            <MeasurementPoint Energy="0.086514" WaveLength="437.000000"/>
+            <MeasurementPoint Energy="0.096803" WaveLength="438.000000"/>
+            <MeasurementPoint Energy="0.106925" WaveLength="439.000000"/>
+            <MeasurementPoint Energy="0.118800" WaveLength="440.000000"/>
+            <MeasurementPoint Energy="0.131761" WaveLength="441.000000"/>
+            <MeasurementPoint Energy="0.145073" WaveLength="442.000000"/>
+            <MeasurementPoint Energy="0.159752" WaveLength="443.000000"/>
+            <MeasurementPoint Energy="0.173058" WaveLength="444.000000"/>
+            <MeasurementPoint Energy="0.187444" WaveLength="445.000000"/>
+            <MeasurementPoint Energy="0.205718" WaveLength="446.000000"/>
+            <MeasurementPoint Energy="0.225842" WaveLength="447.000000"/>
+            <MeasurementPoint Energy="0.245936" WaveLength="448.000000"/>
+            <MeasurementPoint Energy="0.268425" WaveLength="449.000000"/>
+            <MeasurementPoint Energy="0.292226" WaveLength="450.000000"/>
+            <MeasurementPoint Energy="0.316400" WaveLength="451.000000"/>
+            <MeasurementPoint Energy="0.335565" WaveLength="452.000000"/>
+            <MeasurementPoint Energy="0.355691" WaveLength="453.000000"/>
+            <MeasurementPoint Energy="0.377264" WaveLength="454.000000"/>
+            <MeasurementPoint Energy="0.396251" WaveLength="455.000000"/>
+            <MeasurementPoint Energy="0.409066" WaveLength="456.000000"/>
+            <MeasurementPoint Energy="0.415929" WaveLength="457.000000"/>
+            <MeasurementPoint Energy="0.419093" WaveLength="458.000000"/>
+            <MeasurementPoint Energy="0.414581" WaveLength="459.000000"/>
+            <MeasurementPoint Energy="0.408266" WaveLength="460.000000"/>
+            <MeasurementPoint Energy="0.395063" WaveLength="461.000000"/>
+            <MeasurementPoint Energy="0.377218" WaveLength="462.000000"/>
+            <MeasurementPoint Energy="0.357446" WaveLength="463.000000"/>
+            <MeasurementPoint Energy="0.335209" WaveLength="464.000000"/>
+            <MeasurementPoint Energy="0.315080" WaveLength="465.000000"/>
+            <MeasurementPoint Energy="0.296187" WaveLength="466.000000"/>
+            <MeasurementPoint Energy="0.280036" WaveLength="467.000000"/>
+            <MeasurementPoint Energy="0.267224" WaveLength="468.000000"/>
+            <MeasurementPoint Energy="0.257145" WaveLength="469.000000"/>
+            <MeasurementPoint Energy="0.245428" WaveLength="470.000000"/>
+            <MeasurementPoint Energy="0.236306" WaveLength="471.000000"/>
+            <MeasurementPoint Energy="0.227474" WaveLength="472.000000"/>
+            <MeasurementPoint Energy="0.219809" WaveLength="473.000000"/>
+            <MeasurementPoint Energy="0.211789" WaveLength="474.000000"/>
+            <MeasurementPoint Energy="0.204816" WaveLength="475.000000"/>
+            <MeasurementPoint Energy="0.198801" WaveLength="476.000000"/>
+            <MeasurementPoint Energy="0.192743" WaveLength="477.000000"/>
+            <MeasurementPoint Energy="0.185635" WaveLength="478.000000"/>
+            <MeasurementPoint Energy="0.179082" WaveLength="479.000000"/>
+            <MeasurementPoint Energy="0.173493" WaveLength="480.000000"/>
+            <MeasurementPoint Energy="0.168353" WaveLength="481.000000"/>
+            <MeasurementPoint Energy="0.164357" WaveLength="482.000000"/>
+            <MeasurementPoint Energy="0.161386" WaveLength="483.000000"/>
+            <MeasurementPoint Energy="0.159916" WaveLength="484.000000"/>
+            <MeasurementPoint Energy="0.158405" WaveLength="485.000000"/>
+            <MeasurementPoint Energy="0.157945" WaveLength="486.000000"/>
+            <MeasurementPoint Energy="0.157220" WaveLength="487.000000"/>
+            <MeasurementPoint Energy="0.158066" WaveLength="488.000000"/>
+            <MeasurementPoint Energy="0.158641" WaveLength="489.000000"/>
+            <MeasurementPoint Energy="0.159294" WaveLength="490.000000"/>
+            <MeasurementPoint Energy="0.160175" WaveLength="491.000000"/>
+            <MeasurementPoint Energy="0.161770" WaveLength="492.000000"/>
+            <MeasurementPoint Energy="0.162195" WaveLength="493.000000"/>
+            <MeasurementPoint Energy="0.164241" WaveLength="494.000000"/>
+            <MeasurementPoint Energy="0.164911" WaveLength="495.000000"/>
+            <MeasurementPoint Energy="0.166403" WaveLength="496.000000"/>
+            <MeasurementPoint Energy="0.167297" WaveLength="497.000000"/>
+            <MeasurementPoint Energy="0.168789" WaveLength="498.000000"/>
+            <MeasurementPoint Energy="0.169338" WaveLength="499.000000"/>
+            <MeasurementPoint Energy="0.171259" WaveLength="500.000000"/>
+            <MeasurementPoint Energy="0.172691" WaveLength="501.000000"/>
+            <MeasurementPoint Energy="0.173999" WaveLength="502.000000"/>
+            <MeasurementPoint Energy="0.175025" WaveLength="503.000000"/>
+            <MeasurementPoint Energy="0.176580" WaveLength="504.000000"/>
+            <MeasurementPoint Energy="0.177886" WaveLength="505.000000"/>
+            <MeasurementPoint Energy="0.179210" WaveLength="506.000000"/>
+            <MeasurementPoint Energy="0.180157" WaveLength="507.000000"/>
+            <MeasurementPoint Energy="0.182038" WaveLength="508.000000"/>
+            <MeasurementPoint Energy="0.182378" WaveLength="509.000000"/>
+            <MeasurementPoint Energy="0.183727" WaveLength="510.000000"/>
+            <MeasurementPoint Energy="0.183957" WaveLength="511.000000"/>
+            <MeasurementPoint Energy="0.184998" WaveLength="512.000000"/>
+            <MeasurementPoint Energy="0.185924" WaveLength="513.000000"/>
+            <MeasurementPoint Energy="0.186866" WaveLength="514.000000"/>
+            <MeasurementPoint Energy="0.186958" WaveLength="515.000000"/>
+            <MeasurementPoint Energy="0.187864" WaveLength="516.000000"/>
+            <MeasurementPoint Energy="0.188959" WaveLength="517.000000"/>
+            <MeasurementPoint Energy="0.189546" WaveLength="518.000000"/>
+            <MeasurementPoint Energy="0.189955" WaveLength="519.000000"/>
+            <MeasurementPoint Energy="0.191059" WaveLength="520.000000"/>
+            <MeasurementPoint Energy="0.191343" WaveLength="521.000000"/>
+            <MeasurementPoint Energy="0.192008" WaveLength="522.000000"/>
+            <MeasurementPoint Energy="0.193164" WaveLength="523.000000"/>
+            <MeasurementPoint Energy="0.193403" WaveLength="524.000000"/>
+            <MeasurementPoint Energy="0.194331" WaveLength="525.000000"/>
+            <MeasurementPoint Energy="0.194763" WaveLength="526.000000"/>
+            <MeasurementPoint Energy="0.195394" WaveLength="527.000000"/>
+            <MeasurementPoint Energy="0.196179" WaveLength="528.000000"/>
+            <MeasurementPoint Energy="0.196748" WaveLength="529.000000"/>
+            <MeasurementPoint Energy="0.197624" WaveLength="530.000000"/>
+            <MeasurementPoint Energy="0.198805" WaveLength="531.000000"/>
+            <MeasurementPoint Energy="0.199074" WaveLength="532.000000"/>
+            <MeasurementPoint Energy="0.199804" WaveLength="533.000000"/>
+            <MeasurementPoint Energy="0.200717" WaveLength="534.000000"/>
+            <MeasurementPoint Energy="0.200837" WaveLength="535.000000"/>
+            <MeasurementPoint Energy="0.201636" WaveLength="536.000000"/>
+            <MeasurementPoint Energy="0.202019" WaveLength="537.000000"/>
+            <MeasurementPoint Energy="0.202786" WaveLength="538.000000"/>
+            <MeasurementPoint Energy="0.203440" WaveLength="539.000000"/>
+            <MeasurementPoint Energy="0.204228" WaveLength="540.000000"/>
+            <MeasurementPoint Energy="0.204519" WaveLength="541.000000"/>
+            <MeasurementPoint Energy="0.204906" WaveLength="542.000000"/>
+            <MeasurementPoint Energy="0.205525" WaveLength="543.000000"/>
+            <MeasurementPoint Energy="0.205792" WaveLength="544.000000"/>
+            <MeasurementPoint Energy="0.205778" WaveLength="545.000000"/>
+            <MeasurementPoint Energy="0.206280" WaveLength="546.000000"/>
+            <MeasurementPoint Energy="0.207002" WaveLength="547.000000"/>
+            <MeasurementPoint Energy="0.207034" WaveLength="548.000000"/>
+            <MeasurementPoint Energy="0.207362" WaveLength="549.000000"/>
+            <MeasurementPoint Energy="0.207134" WaveLength="550.000000"/>
+            <MeasurementPoint Energy="0.207590" WaveLength="551.000000"/>
+            <MeasurementPoint Energy="0.207445" WaveLength="552.000000"/>
+            <MeasurementPoint Energy="0.207333" WaveLength="553.000000"/>
+            <MeasurementPoint Energy="0.207416" WaveLength="554.000000"/>
+            <MeasurementPoint Energy="0.207488" WaveLength="555.000000"/>
+            <MeasurementPoint Energy="0.207262" WaveLength="556.000000"/>
+            <MeasurementPoint Energy="0.206866" WaveLength="557.000000"/>
+            <MeasurementPoint Energy="0.206371" WaveLength="558.000000"/>
+            <MeasurementPoint Energy="0.205884" WaveLength="559.000000"/>
+            <MeasurementPoint Energy="0.205439" WaveLength="560.000000"/>
+            <MeasurementPoint Energy="0.204954" WaveLength="561.000000"/>
+            <MeasurementPoint Energy="0.204835" WaveLength="562.000000"/>
+            <MeasurementPoint Energy="0.204299" WaveLength="563.000000"/>
+            <MeasurementPoint Energy="0.204151" WaveLength="564.000000"/>
+            <MeasurementPoint Energy="0.203373" WaveLength="565.000000"/>
+            <MeasurementPoint Energy="0.202636" WaveLength="566.000000"/>
+            <MeasurementPoint Energy="0.202045" WaveLength="567.000000"/>
+            <MeasurementPoint Energy="0.201475" WaveLength="568.000000"/>
+            <MeasurementPoint Energy="0.200419" WaveLength="569.000000"/>
+            <MeasurementPoint Energy="0.199736" WaveLength="570.000000"/>
+            <MeasurementPoint Energy="0.199016" WaveLength="571.000000"/>
+            <MeasurementPoint Energy="0.198709" WaveLength="572.000000"/>
+            <MeasurementPoint Energy="0.198262" WaveLength="573.000000"/>
+            <MeasurementPoint Energy="0.197317" WaveLength="574.000000"/>
+            <MeasurementPoint Energy="0.197297" WaveLength="575.000000"/>
+            <MeasurementPoint Energy="0.196476" WaveLength="576.000000"/>
+            <MeasurementPoint Energy="0.195529" WaveLength="577.000000"/>
+            <MeasurementPoint Energy="0.195156" WaveLength="578.000000"/>
+            <MeasurementPoint Energy="0.194770" WaveLength="579.000000"/>
+            <MeasurementPoint Energy="0.194295" WaveLength="580.000000"/>
+            <MeasurementPoint Energy="0.193813" WaveLength="581.000000"/>
+            <MeasurementPoint Energy="0.193454" WaveLength="582.000000"/>
+            <MeasurementPoint Energy="0.192729" WaveLength="583.000000"/>
+            <MeasurementPoint Energy="0.192493" WaveLength="584.000000"/>
+            <MeasurementPoint Energy="0.192280" WaveLength="585.000000"/>
+            <MeasurementPoint Energy="0.192091" WaveLength="586.000000"/>
+            <MeasurementPoint Energy="0.191724" WaveLength="587.000000"/>
+            <MeasurementPoint Energy="0.191922" WaveLength="588.000000"/>
+            <MeasurementPoint Energy="0.191742" WaveLength="589.000000"/>
+            <MeasurementPoint Energy="0.192439" WaveLength="590.000000"/>
+            <MeasurementPoint Energy="0.192207" WaveLength="591.000000"/>
+            <MeasurementPoint Energy="0.191994" WaveLength="592.000000"/>
+            <MeasurementPoint Energy="0.191647" WaveLength="593.000000"/>
+            <MeasurementPoint Energy="0.192012" WaveLength="594.000000"/>
+            <MeasurementPoint Energy="0.192038" WaveLength="595.000000"/>
+            <MeasurementPoint Energy="0.192541" WaveLength="596.000000"/>
+            <MeasurementPoint Energy="0.193194" WaveLength="597.000000"/>
+            <MeasurementPoint Energy="0.193080" WaveLength="598.000000"/>
+            <MeasurementPoint Energy="0.193775" WaveLength="599.000000"/>
+            <MeasurementPoint Energy="0.193500" WaveLength="600.000000"/>
+            <MeasurementPoint Energy="0.193761" WaveLength="601.000000"/>
+            <MeasurementPoint Energy="0.194522" WaveLength="602.000000"/>
+            <MeasurementPoint Energy="0.194909" WaveLength="603.000000"/>
+            <MeasurementPoint Energy="0.195095" WaveLength="604.000000"/>
+            <MeasurementPoint Energy="0.195801" WaveLength="605.000000"/>
+            <MeasurementPoint Energy="0.196262" WaveLength="606.000000"/>
+            <MeasurementPoint Energy="0.197021" WaveLength="607.000000"/>
+            <MeasurementPoint Energy="0.197615" WaveLength="608.000000"/>
+            <MeasurementPoint Energy="0.197658" WaveLength="609.000000"/>
+            <MeasurementPoint Energy="0.198175" WaveLength="610.000000"/>
+            <MeasurementPoint Energy="0.199018" WaveLength="611.000000"/>
+            <MeasurementPoint Energy="0.198789" WaveLength="612.000000"/>
+            <MeasurementPoint Energy="0.199382" WaveLength="613.000000"/>
+            <MeasurementPoint Energy="0.200095" WaveLength="614.000000"/>
+            <MeasurementPoint Energy="0.201134" WaveLength="615.000000"/>
+            <MeasurementPoint Energy="0.201664" WaveLength="616.000000"/>
+            <MeasurementPoint Energy="0.201832" WaveLength="617.000000"/>
+            <MeasurementPoint Energy="0.202160" WaveLength="618.000000"/>
+            <MeasurementPoint Energy="0.202705" WaveLength="619.000000"/>
+            <MeasurementPoint Energy="0.202239" WaveLength="620.000000"/>
+            <MeasurementPoint Energy="0.202958" WaveLength="621.000000"/>
+            <MeasurementPoint Energy="0.203070" WaveLength="622.000000"/>
+            <MeasurementPoint Energy="0.203203" WaveLength="623.000000"/>
+            <MeasurementPoint Energy="0.203220" WaveLength="624.000000"/>
+            <MeasurementPoint Energy="0.203065" WaveLength="625.000000"/>
+            <MeasurementPoint Energy="0.203560" WaveLength="626.000000"/>
+            <MeasurementPoint Energy="0.203599" WaveLength="627.000000"/>
+            <MeasurementPoint Energy="0.203478" WaveLength="628.000000"/>
+            <MeasurementPoint Energy="0.203025" WaveLength="629.000000"/>
+            <MeasurementPoint Energy="0.203583" WaveLength="630.000000"/>
+            <MeasurementPoint Energy="0.202516" WaveLength="631.000000"/>
+            <MeasurementPoint Energy="0.202064" WaveLength="632.000000"/>
+            <MeasurementPoint Energy="0.201682" WaveLength="633.000000"/>
+            <MeasurementPoint Energy="0.201023" WaveLength="634.000000"/>
+            <MeasurementPoint Energy="0.200518" WaveLength="635.000000"/>
+            <MeasurementPoint Energy="0.199882" WaveLength="636.000000"/>
+            <MeasurementPoint Energy="0.199069" WaveLength="637.000000"/>
+            <MeasurementPoint Energy="0.198027" WaveLength="638.000000"/>
+            <MeasurementPoint Energy="0.197168" WaveLength="639.000000"/>
+            <MeasurementPoint Energy="0.196343" WaveLength="640.000000"/>
+            <MeasurementPoint Energy="0.195064" WaveLength="641.000000"/>
+            <MeasurementPoint Energy="0.193744" WaveLength="642.000000"/>
+            <MeasurementPoint Energy="0.192846" WaveLength="643.000000"/>
+            <MeasurementPoint Energy="0.191510" WaveLength="644.000000"/>
+            <MeasurementPoint Energy="0.190218" WaveLength="645.000000"/>
+            <MeasurementPoint Energy="0.189434" WaveLength="646.000000"/>
+            <MeasurementPoint Energy="0.187899" WaveLength="647.000000"/>
+            <MeasurementPoint Energy="0.185785" WaveLength="648.000000"/>
+            <MeasurementPoint Energy="0.184719" WaveLength="649.000000"/>
+            <MeasurementPoint Energy="0.182908" WaveLength="650.000000"/>
+            <MeasurementPoint Energy="0.180994" WaveLength="651.000000"/>
+            <MeasurementPoint Energy="0.179486" WaveLength="652.000000"/>
+            <MeasurementPoint Energy="0.177469" WaveLength="653.000000"/>
+            <MeasurementPoint Energy="0.175639" WaveLength="654.000000"/>
+            <MeasurementPoint Energy="0.173417" WaveLength="655.000000"/>
+            <MeasurementPoint Energy="0.171347" WaveLength="656.000000"/>
+            <MeasurementPoint Energy="0.169770" WaveLength="657.000000"/>
+            <MeasurementPoint Energy="0.168001" WaveLength="658.000000"/>
+            <MeasurementPoint Energy="0.165855" WaveLength="659.000000"/>
+            <MeasurementPoint Energy="0.164163" WaveLength="660.000000"/>
+            <MeasurementPoint Energy="0.161741" WaveLength="661.000000"/>
+            <MeasurementPoint Energy="0.159312" WaveLength="662.000000"/>
+            <MeasurementPoint Energy="0.157248" WaveLength="663.000000"/>
+            <MeasurementPoint Energy="0.154403" WaveLength="664.000000"/>
+            <MeasurementPoint Energy="0.152508" WaveLength="665.000000"/>
+            <MeasurementPoint Energy="0.150136" WaveLength="666.000000"/>
+            <MeasurementPoint Energy="0.148227" WaveLength="667.000000"/>
+            <MeasurementPoint Energy="0.145634" WaveLength="668.000000"/>
+            <MeasurementPoint Energy="0.143449" WaveLength="669.000000"/>
+            <MeasurementPoint Energy="0.141406" WaveLength="670.000000"/>
+            <MeasurementPoint Energy="0.139417" WaveLength="671.000000"/>
+            <MeasurementPoint Energy="0.137250" WaveLength="672.000000"/>
+            <MeasurementPoint Energy="0.135141" WaveLength="673.000000"/>
+            <MeasurementPoint Energy="0.132422" WaveLength="674.000000"/>
+            <MeasurementPoint Energy="0.129974" WaveLength="675.000000"/>
+            <MeasurementPoint Energy="0.127919" WaveLength="676.000000"/>
+            <MeasurementPoint Energy="0.125607" WaveLength="677.000000"/>
+            <MeasurementPoint Energy="0.123165" WaveLength="678.000000"/>
+            <MeasurementPoint Energy="0.120915" WaveLength="679.000000"/>
+            <MeasurementPoint Energy="0.118794" WaveLength="680.000000"/>
+            <MeasurementPoint Energy="0.116202" WaveLength="681.000000"/>
+            <MeasurementPoint Energy="0.113409" WaveLength="682.000000"/>
+            <MeasurementPoint Energy="0.111385" WaveLength="683.000000"/>
+            <MeasurementPoint Energy="0.109306" WaveLength="684.000000"/>
+            <MeasurementPoint Energy="0.107170" WaveLength="685.000000"/>
+            <MeasurementPoint Energy="0.105425" WaveLength="686.000000"/>
+            <MeasurementPoint Energy="0.103281" WaveLength="687.000000"/>
+            <MeasurementPoint Energy="0.101167" WaveLength="688.000000"/>
+            <MeasurementPoint Energy="0.099198" WaveLength="689.000000"/>
+            <MeasurementPoint Energy="0.097075" WaveLength="690.000000"/>
+            <MeasurementPoint Energy="0.094524" WaveLength="691.000000"/>
+            <MeasurementPoint Energy="0.092637" WaveLength="692.000000"/>
+            <MeasurementPoint Energy="0.090523" WaveLength="693.000000"/>
+            <MeasurementPoint Energy="0.088505" WaveLength="694.000000"/>
+            <MeasurementPoint Energy="0.086364" WaveLength="695.000000"/>
+            <MeasurementPoint Energy="0.084449" WaveLength="696.000000"/>
+            <MeasurementPoint Energy="0.082345" WaveLength="697.000000"/>
+            <MeasurementPoint Energy="0.080258" WaveLength="698.000000"/>
+            <MeasurementPoint Energy="0.078571" WaveLength="699.000000"/>
+            <MeasurementPoint Energy="0.076553" WaveLength="700.000000"/>
+            <MeasurementPoint Energy="0.074847" WaveLength="701.000000"/>
+            <MeasurementPoint Energy="0.072879" WaveLength="702.000000"/>
+            <MeasurementPoint Energy="0.071153" WaveLength="703.000000"/>
+            <MeasurementPoint Energy="0.070065" WaveLength="704.000000"/>
+            <MeasurementPoint Energy="0.068630" WaveLength="705.000000"/>
+            <MeasurementPoint Energy="0.066504" WaveLength="706.000000"/>
+            <MeasurementPoint Energy="0.064908" WaveLength="707.000000"/>
+            <MeasurementPoint Energy="0.063198" WaveLength="708.000000"/>
+            <MeasurementPoint Energy="0.061395" WaveLength="709.000000"/>
+            <MeasurementPoint Energy="0.059976" WaveLength="710.000000"/>
+            <MeasurementPoint Energy="0.058464" WaveLength="711.000000"/>
+            <MeasurementPoint Energy="0.056751" WaveLength="712.000000"/>
+            <MeasurementPoint Energy="0.055328" WaveLength="713.000000"/>
+            <MeasurementPoint Energy="0.053918" WaveLength="714.000000"/>
+            <MeasurementPoint Energy="0.052583" WaveLength="715.000000"/>
+            <MeasurementPoint Energy="0.051235" WaveLength="716.000000"/>
+            <MeasurementPoint Energy="0.049753" WaveLength="717.000000"/>
+            <MeasurementPoint Energy="0.048438" WaveLength="718.000000"/>
+            <MeasurementPoint Energy="0.047109" WaveLength="719.000000"/>
+            <MeasurementPoint Energy="0.045901" WaveLength="720.000000"/>
+            <MeasurementPoint Energy="0.044608" WaveLength="721.000000"/>
+            <MeasurementPoint Energy="0.043144" WaveLength="722.000000"/>
+            <MeasurementPoint Energy="0.042025" WaveLength="723.000000"/>
+            <MeasurementPoint Energy="0.040753" WaveLength="724.000000"/>
+            <MeasurementPoint Energy="0.039595" WaveLength="725.000000"/>
+            <MeasurementPoint Energy="0.038597" WaveLength="726.000000"/>
+            <MeasurementPoint Energy="0.037421" WaveLength="727.000000"/>
+            <MeasurementPoint Energy="0.036413" WaveLength="728.000000"/>
+            <MeasurementPoint Energy="0.035396" WaveLength="729.000000"/>
+            <MeasurementPoint Energy="0.034379" WaveLength="730.000000"/>
+            <MeasurementPoint Energy="0.033365" WaveLength="731.000000"/>
+            <MeasurementPoint Energy="0.032399" WaveLength="732.000000"/>
+            <MeasurementPoint Energy="0.031454" WaveLength="733.000000"/>
+            <MeasurementPoint Energy="0.030513" WaveLength="734.000000"/>
+            <MeasurementPoint Energy="0.029571" WaveLength="735.000000"/>
+            <MeasurementPoint Energy="0.028817" WaveLength="736.000000"/>
+            <MeasurementPoint Energy="0.027941" WaveLength="737.000000"/>
+            <MeasurementPoint Energy="0.027146" WaveLength="738.000000"/>
+            <MeasurementPoint Energy="0.026255" WaveLength="739.000000"/>
+            <MeasurementPoint Energy="0.025464" WaveLength="740.000000"/>
+            <MeasurementPoint Energy="0.024766" WaveLength="741.000000"/>
+            <MeasurementPoint Energy="0.024038" WaveLength="742.000000"/>
+            <MeasurementPoint Energy="0.023250" WaveLength="743.000000"/>
+            <MeasurementPoint Energy="0.022520" WaveLength="744.000000"/>
+            <MeasurementPoint Energy="0.021938" WaveLength="745.000000"/>
+            <MeasurementPoint Energy="0.021314" WaveLength="746.000000"/>
+            <MeasurementPoint Energy="0.020593" WaveLength="747.000000"/>
+            <MeasurementPoint Energy="0.020044" WaveLength="748.000000"/>
+            <MeasurementPoint Energy="0.019506" WaveLength="749.000000"/>
+            <MeasurementPoint Energy="0.018852" WaveLength="750.000000"/>
+            <MeasurementPoint Energy="0.018339" WaveLength="751.000000"/>
+            <MeasurementPoint Energy="0.017653" WaveLength="752.000000"/>
+            <MeasurementPoint Energy="0.017177" WaveLength="753.000000"/>
+            <MeasurementPoint Energy="0.016704" WaveLength="754.000000"/>
+            <MeasurementPoint Energy="0.016219" WaveLength="755.000000"/>
+            <MeasurementPoint Energy="0.015710" WaveLength="756.000000"/>
+            <MeasurementPoint Energy="0.015241" WaveLength="757.000000"/>
+            <MeasurementPoint Energy="0.014838" WaveLength="758.000000"/>
+            <MeasurementPoint Energy="0.014381" WaveLength="759.000000"/>
+            <MeasurementPoint Energy="0.013860" WaveLength="760.000000"/>
+            <MeasurementPoint Energy="0.013448" WaveLength="761.000000"/>
+            <MeasurementPoint Energy="0.013031" WaveLength="762.000000"/>
+            <MeasurementPoint Energy="0.012602" WaveLength="763.000000"/>
+            <MeasurementPoint Energy="0.012187" WaveLength="764.000000"/>
+            <MeasurementPoint Energy="0.011941" WaveLength="765.000000"/>
+            <MeasurementPoint Energy="0.011394" WaveLength="766.000000"/>
+            <MeasurementPoint Energy="0.011131" WaveLength="767.000000"/>
+            <MeasurementPoint Energy="0.010794" WaveLength="768.000000"/>
+            <MeasurementPoint Energy="0.010516" WaveLength="769.000000"/>
+            <MeasurementPoint Energy="0.010228" WaveLength="770.000000"/>
+            <MeasurementPoint Energy="0.009936" WaveLength="771.000000"/>
+            <MeasurementPoint Energy="0.009517" WaveLength="772.000000"/>
+            <MeasurementPoint Energy="0.009253" WaveLength="773.000000"/>
+            <MeasurementPoint Energy="0.009034" WaveLength="774.000000"/>
+            <MeasurementPoint Energy="0.008704" WaveLength="775.000000"/>
+            <MeasurementPoint Energy="0.008451" WaveLength="776.000000"/>
+            <MeasurementPoint Energy="0.008192" WaveLength="777.000000"/>
+            <MeasurementPoint Energy="0.008010" WaveLength="778.000000"/>
+            <MeasurementPoint Energy="0.007743" WaveLength="779.000000"/>
+            <MeasurementPoint Energy="0.007321" WaveLength="780.000000"/>
+            <MeasurementPoint Energy="0.007113" WaveLength="781.000000"/>
+            <MeasurementPoint Energy="0.006934" WaveLength="782.000000"/>
+            <MeasurementPoint Energy="0.006758" WaveLength="783.000000"/>
+            <MeasurementPoint Energy="0.006499" WaveLength="784.000000"/>
+            <MeasurementPoint Energy="0.006236" WaveLength="785.000000"/>
+            <MeasurementPoint Energy="0.006105" WaveLength="786.000000"/>
+            <MeasurementPoint Energy="0.005833" WaveLength="787.000000"/>
+            <MeasurementPoint Energy="0.005688" WaveLength="788.000000"/>
+            <MeasurementPoint Energy="0.005513" WaveLength="789.000000"/>
+            <MeasurementPoint Energy="0.005376" WaveLength="790.000000"/>
+            <MeasurementPoint Energy="0.005200" WaveLength="791.000000"/>
+            <MeasurementPoint Energy="0.005050" WaveLength="792.000000"/>
+            <MeasurementPoint Energy="0.004901" WaveLength="793.000000"/>
+            <MeasurementPoint Energy="0.004629" WaveLength="794.000000"/>
+            <MeasurementPoint Energy="0.004516" WaveLength="795.000000"/>
+            <MeasurementPoint Energy="0.004326" WaveLength="796.000000"/>
+            <MeasurementPoint Energy="0.004268" WaveLength="797.000000"/>
+            <MeasurementPoint Energy="0.004165" WaveLength="798.000000"/>
+            <MeasurementPoint Energy="0.003963" WaveLength="799.000000"/>
+            <MeasurementPoint Energy="0.003832" WaveLength="800.000000"/>
+            <MeasurementPoint Energy="0.003692" WaveLength="801.000000"/>
+            <MeasurementPoint Energy="0.003619" WaveLength="802.000000"/>
+            <MeasurementPoint Energy="0.003418" WaveLength="803.000000"/>
+            <MeasurementPoint Energy="0.003369" WaveLength="804.000000"/>
+            <MeasurementPoint Energy="0.003224" WaveLength="805.000000"/>
+            <MeasurementPoint Energy="0.003016" WaveLength="806.000000"/>
+            <MeasurementPoint Energy="0.003017" WaveLength="807.000000"/>
+            <MeasurementPoint Energy="0.002982" WaveLength="808.000000"/>
+            <MeasurementPoint Energy="0.002869" WaveLength="809.000000"/>
+            <MeasurementPoint Energy="0.002734" WaveLength="810.000000"/>
+            <MeasurementPoint Energy="0.002625" WaveLength="811.000000"/>
+            <MeasurementPoint Energy="0.002673" WaveLength="812.000000"/>
+            <MeasurementPoint Energy="0.002401" WaveLength="813.000000"/>
+            <MeasurementPoint Energy="0.002376" WaveLength="814.000000"/>
+            <MeasurementPoint Energy="0.002278" WaveLength="815.000000"/>
+            <MeasurementPoint Energy="0.002200" WaveLength="816.000000"/>
+            <MeasurementPoint Energy="0.002265" WaveLength="817.000000"/>
+            <MeasurementPoint Energy="0.002152" WaveLength="818.000000"/>
+            <MeasurementPoint Energy="0.002165" WaveLength="819.000000"/>
+            <MeasurementPoint Energy="0.002082" WaveLength="820.000000"/>
+            <MeasurementPoint Energy="0.002051" WaveLength="821.000000"/>
+            <MeasurementPoint Energy="0.002101" WaveLength="822.000000"/>
+            <MeasurementPoint Energy="0.001885" WaveLength="823.000000"/>
+            <MeasurementPoint Energy="0.001925" WaveLength="824.000000"/>
+            <MeasurementPoint Energy="0.001844" WaveLength="825.000000"/>
+            <MeasurementPoint Energy="0.001830" WaveLength="826.000000"/>
+            <MeasurementPoint Energy="0.001785" WaveLength="827.000000"/>
+            <MeasurementPoint Energy="0.001716" WaveLength="828.000000"/>
+            <MeasurementPoint Energy="0.001561" WaveLength="829.000000"/>
+            <MeasurementPoint Energy="0.001448" WaveLength="830.000000"/>
+          </Measurement>
+        </Emitter>
+      </Emitters>
+      <DMXProfiles/>
+      <CRIs/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="C6033a" Height="0.122290" Length="0.030000" Name="Clamp" PrimitiveType="Undefined" Width="0.083745"/>
+      <Model File="Yoke(1)" Height="0.290000" Length="0.246000" Name="Yoke" PrimitiveType="Undefined" Width="0.038000"/>
+      <Model File="Body(2)" Height="0.342834" Length="0.265332" Name="Body" PrimitiveType="Undefined" Width="0.283500"/>
+      <Model File="" Height="0.010000" Length="0.200000" Name="Beam" PrimitiveType="Cylinder" Width="0.200000"/>
+    </Models>
+    <Geometries>
+      <Geometry Model="Clamp" Name="Clamp" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.270000}{0,0,0,1}">
+            <Beam BeamAngle="23.000000" BeamRadius="0.100000" BeamType="Spot" ColorRenderingIndex="95" ColorTemperature="5600.000000" FieldAngle="39.400000" LampType="LED" LuminousFlux="14424.000000" Model="Beam" Name="Beam" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.150000}{0,0,0,1}" PowerConsumption="230.000000"/>
+          </Axis>
+        </Axis>
+      </Geometry>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Clamp" Name="1ch">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam" Highlight="255/1" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Emitter="White Led" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Yoke" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Pan" DMXFrom="0/4" Name="Pan 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Body" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Tilt" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Tilt" DMXFrom="0/4" Name="Tilt 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Beam" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Zoom" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Zoom" DMXFrom="0/4" Name="Zoom 1" OriginalAttribute="" PhysicalFrom="15.000000" PhysicalTo="47.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4294967295/4" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+      <DMXMode Geometry="Clamp" Name="2ch">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/2" Geometry="Beam" Highlight="65535/2" Offset="1,2">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/2" Emitter="White Led" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/2" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="65535/2" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Yoke" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Pan" DMXFrom="0/4" Name="Pan 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Body" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Tilt" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Tilt" DMXFrom="0/4" Name="Tilt 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Beam" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Zoom" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Zoom" DMXFrom="0/4" Name="Zoom 1" OriginalAttribute="" PhysicalFrom="15.000000" PhysicalTo="47.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4294967295/4" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+      <DMXMode Geometry="Clamp" Name="2ch_2">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam" Highlight="255/1" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Emitter="White Led" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="10/1" Geometry="Beam" Highlight="None" Offset="2">
+            <LogicalChannel Attribute="Shutter1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="Yes">
+              <ChannelFunction Attribute="Shutter1" DMXFrom="0/1" Name="Open" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1Strobe" DMXFrom="11/1" Name="Strobe" OriginalAttribute="" PhysicalFrom="0.500000" PhysicalTo="15.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="11/1" Name="Slow" PhysicalFrom="0.500000" PhysicalTo="0.500000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="12/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Fast" PhysicalFrom="15.000000" PhysicalTo="15.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Yoke" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Pan" DMXFrom="0/4" Name="Pan 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Body" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Tilt" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Tilt" DMXFrom="0/4" Name="Tilt 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Beam" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Zoom" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Zoom" DMXFrom="0/4" Name="Zoom 1" OriginalAttribute="" PhysicalFrom="15.000000" PhysicalTo="47.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4294967295/4" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+      <DMXMode Geometry="Clamp" Name="3ch">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/2" Geometry="Beam" Highlight="65535/2" Offset="1,2">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/2" Emitter="White Led" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/2" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/2" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="65535/2" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="10/1" Geometry="Beam" Highlight="None" Offset="3">
+            <LogicalChannel Attribute="Shutter1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="Yes">
+              <ChannelFunction Attribute="Shutter1" DMXFrom="0/1" Name="Open" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1Strobe" DMXFrom="11/1" Name="Strobe" OriginalAttribute="" PhysicalFrom="0.500000" PhysicalTo="15.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="11/1" Name="Slow" PhysicalFrom="0.500000" PhysicalTo="0.500000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="12/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Fast" PhysicalFrom="15.000000" PhysicalTo="15.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Yoke" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Pan" DMXFrom="0/4" Name="Pan 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Body" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Tilt" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Tilt" DMXFrom="0/4" Name="Tilt 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Beam" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Zoom" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Zoom" DMXFrom="0/4" Name="Zoom 1" OriginalAttribute="" PhysicalFrom="15.000000" PhysicalTo="47.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4294967295/4" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+      <DMXMode Geometry="Clamp" Name="5ch">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam" Highlight="255/1" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="Grand" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Emitter="White Led" Name="Dimmer 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Closed" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="10/1" Geometry="Beam" Highlight="None" Offset="2">
+            <LogicalChannel Attribute="Shutter1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="Yes">
+              <ChannelFunction Attribute="Shutter1" DMXFrom="0/1" Name="Open" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Open" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Shutter1Strobe" DMXFrom="11/1" Name="Strobe" OriginalAttribute="" PhysicalFrom="0.500000" PhysicalTo="15.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="11/1" Name="Slow" PhysicalFrom="0.500000" PhysicalTo="0.500000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="12/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Fast" PhysicalFrom="15.000000" PhysicalTo="15.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam" Highlight="None" Offset="3">
+            <LogicalChannel Attribute="Effects1" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="Yes">
+              <ChannelFunction Attribute="Effects1" DMXFrom="0/1" Name="NoFeature" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="0.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="NoFeature" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+              <ChannelFunction Attribute="Effects1" DMXFrom="11/1" Name="AutoProgram" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="3.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="11/1" Name="AutoProgram1" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="71/1" Name="AutoProgram2" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="131/1" Name="AutoProgram1" PhysicalFrom="2.000000" PhysicalTo="2.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="191/1" Name="AutoProgram1" PhysicalFrom="3.000000" PhysicalTo="3.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="226/1" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Beam" Highlight="None" Offset="4">
+            <LogicalChannel Attribute="Effects1Rate" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Effects1Rate" DMXFrom="0/1" Name="Effects1Rate 1" OriginalAttribute="" PhysicalFrom="1.000000" PhysicalTo="10.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="Slow" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/1" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="255/1" Name="Fast" PhysicalFrom="10.000000" PhysicalTo="10.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Body" Highlight="None" Offset="5">
+            <LogicalChannel Attribute="DimmerMode" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="Yes">
+              <ChannelFunction Attribute="DimmerMode" DMXFrom="0/1" Name="DimmerMode 1" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="4.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/1" Name="AsFromMenu" PhysicalFrom="0.000000" PhysicalTo="0.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="52/1" Name="Off" PhysicalFrom="1.000000" PhysicalTo="1.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="102/1" Name="Fast" PhysicalFrom="2.000000" PhysicalTo="2.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="153/1" Name="MIddle" PhysicalFrom="3.000000" PhysicalTo="3.000000" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="204/1" Name="Slow" PhysicalFrom="4.000000" PhysicalTo="4.000000" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Yoke" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Pan" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Pan" DMXFrom="0/4" Name="Pan 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Body" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Tilt" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Tilt" DMXFrom="0/4" Name="Tilt 1" OriginalAttribute="" PhysicalFrom="-180.000000" PhysicalTo="180.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="2147483648/4" Name="Center" WheelSlotIndex="-2147483648"/>
+                <ChannelSet DMXFrom="2147483649/4" Name="" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+          <DMXChannel DMXBreak="1" Default="2147483648/4" Geometry="Beam" Highlight="None" Offset="">
+            <LogicalChannel Attribute="Zoom" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Zoom" DMXFrom="0/4" Name="Zoom 1" OriginalAttribute="" PhysicalFrom="15.000000" PhysicalTo="47.000000" RealFade="0.000000">
+                <ChannelSet DMXFrom="0/4" Name="Min" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="1/4" Name="" WheelSlotIndex="0"/>
+                <ChannelSet DMXFrom="4294967295/4" Name="Max" WheelSlotIndex="0"/>
+              </ChannelFunction>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2020-07-24T15:45:59" Text="Rev 0.2" UserID="941"/>
+      <Revision Date="2020-07-24T16:00:59" Text="Rev 0.5" UserID="941"/>
+      <Revision Date="2020-07-28T08:43:25" Text="Rev 1.0" UserID="941"/>
+      <Revision Date="2020-07-28T09:27:28" Text="Rev 1.0" UserID="941"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols>
+      <FTRDM DeviceModelID="0xD023" ManufacturerID="0x15D0"/>
+    </Protocols>
+  </FixtureType>
+
+</GDTF>
