@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="Yes" Description="" FixtureTypeID="8A6E2174-553E-11EB-A40F-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Martin Thrill Mini Profile" RefFT="" ShortName="Martin Thrill Mini Profile" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels>
+      <Wheel Name="Gobo Wheel 1">
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Blank gobo" Name=""/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Ap 2440 Swirl" Name="Ap 2440 Swirl.jpg"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT rmh 18" Name="MT rmh 18.jpg"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT rmh 17" Name="MT rmh 17.jpg"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT rmh 16" Name="MT rmh 16.jpg"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT rmh 15" Name="MT rmh 15.jpg"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT rmh 14" Name="MT rmh 14.jpg"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT rmh 13" Name="MT rmh 13.jpg"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT rmh 12" Name="MT rmh 12.jpg"/>
+      </Wheel>
+      <Wheel Name="Color Wheel 1">
+        <Slot Color="255.000000,0.000000,0.000000" Name="Custom"/>
+        <Slot Color="255.000000,127.000000,0.000000" Name="Custom"/>
+        <Slot Color="255.000000,255.000000,0.000000" Name="Custom"/>
+        <Slot Color="100.000000,255.000000,100.000000" Name="Custom"/>
+        <Slot Color="0.000000,0.000000,127.000000" Name="Custom"/>
+        <Slot Color="255.000000,0.000000,255.000000" Name="Custom"/>
+        <Slot Color="0.000000,180.000000,255.000000" Name="Custom"/>
+        <Slot Color="255.000000,170.000000,200.000000" Name="Custom"/>
+      </Wheel>
+    </Wheels>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.082695" Length="0.205542" Name="Base" PrimitiveType="Undefined" Width="0.190000"/>
+      <Model File="Yoke" Height="0.189875" Length="0.244761" Name="Yoke" PrimitiveType="Undefined" Width="0.080000"/>
+      <Model File="Body" Height="0.177874" Length="0.140315" Name="Body" PrimitiveType="Undefined" Width="0.126973"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.017500}{0.000000,0.000000,1.000000,-0.041347}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,0.017548}{0.000000,0.000000,1.000000,-0.134307}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,-0.000062}{0.000000,1.000000,0.000000,-0.000305}{0.000000,0.000000,1.000000,-0.070474}{0,0,0,1}"/>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-01-12T18:27:54" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

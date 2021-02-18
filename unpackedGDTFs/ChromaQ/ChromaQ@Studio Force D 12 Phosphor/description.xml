@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="68369FBD-675C-11EB-A421-2E4D546E0304" LongName="" Manufacturer="Custom" Name="ChromaQ Studio Force D 12 Phosphor" RefFT="" ShortName="ChromaQ Studio Force D 12 Phosphor" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.123721" Length="0.025400" Name="Base" PrimitiveType="Undefined" Width="0.115219"/>
+      <Model File="Yoke" Height="0.169970" Length="0.334518" Name="Yoke" PrimitiveType="Undefined" Width="0.149245"/>
+      <Model File="Body" Height="0.151165" Length="0.324088" Name="Body" PrimitiveType="Undefined" Width="0.188591"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.022853}{0.000000,0.000000,1.000000,-0.024537}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.077403}{0.000000,0.000000,1.000000,-0.146733}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,-0.000521}{0.000000,1.000000,0.000000,-0.054549}{0.000000,0.000000,1.000000,-0.063149}{0,0,0,1}"/>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-02-04T19:46:56" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

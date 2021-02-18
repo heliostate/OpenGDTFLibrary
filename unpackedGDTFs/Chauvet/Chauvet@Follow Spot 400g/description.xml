@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="C7E5DA4E-5BA4-11EB-A416-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Chauvet Follow Spot 400g" RefFT="" ShortName="Chauvet Follow Spot 400g" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels>
+      <Wheel Name="Gobo Wheel 1">
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Blank gobo" Name=""/>
+      </Wheel>
+      <Wheel Name="Gobo Wheel 1">
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Blank gobo" Name=""/>
+      </Wheel>
+      <Wheel Name="Color Wheel 1">
+        <Slot Color="255.000000,0.000000,0.000000" Name="Custom"/>
+        <Slot Color="0.000000,0.000000,255.000000" Name="Custom"/>
+        <Slot Color="0.000000,255.000000,0.000000" Name="Custom"/>
+        <Slot Color="255.000000,255.000000,0.000000" Name="Custom"/>
+        <Slot Color="255.000000,130.000000,0.000000" Name="Custom"/>
+        <Slot Color="255.000000,0.000000,255.000000" Name="Custom"/>
+        <Slot Color="64.000000,44.000000,255.000000" Name="MUV"/>
+      </Wheel>
+    </Wheels>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.123721" Length="0.025400" Name="Base" PrimitiveType="Undefined" Width="0.115219"/>
+      <Model File="Yoke" Height="0.127000" Length="0.298450" Name="Yoke" PrimitiveType="Undefined" Width="0.038100"/>
+      <Model File="Body" Height="0.622822" Length="0.282522" Name="Body" PrimitiveType="Undefined" Width="0.161390"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.022853}{0.000000,0.000000,1.000000,-0.030590}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.022853}{0.000000,0.000000,1.000000,-0.125361}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.206421}{0,0,0,1}"/>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-01-20T21:54:56" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

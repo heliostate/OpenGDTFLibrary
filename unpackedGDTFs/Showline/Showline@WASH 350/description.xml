@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="9BE2155B-6CA5-11EB-A421-2E4D546E0304" LongName="" Manufacturer="Custom" Name="SL WASH 350 Hang" RefFT="" ShortName="SL WASH 350 Hang" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.079500" Length="0.095500" Name="Base" PrimitiveType="Undefined" Width="0.006350"/>
+      <Model File="Base(1)" Height="0.063000" Length="0.063500" Name="Base(1)" PrimitiveType="Undefined" Width="0.025400"/>
+      <Model File="Base(2)" Height="0.122399" Length="0.313053" Name="Base(2)" PrimitiveType="Undefined" Width="0.349194"/>
+      <Model File="Yoke" Height="0.301063" Length="0.336067" Name="Yoke" PrimitiveType="Undefined" Width="0.124427"/>
+      <Model File="Body" Height="0.248500" Length="0.233848" Name="Body" PrimitiveType="Undefined" Width="0.233848"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000287}{0.000000,1.000000,0.000000,0.151025}{0.000000,0.000000,1.000000,-0.110852}{0,0,0,1}">
+        <Axis Model="Base(1)" Name="Base(1)" Position="{1.000000,0.000000,0.000000,-0.035314}{0.000000,1.000000,0.000000,-0.294139}{0.000000,0.000000,1.000000,-0.000597}{0,0,0,1}">
+          <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,0.035027}{0.000000,1.000000,0.000000,0.143114}{0.000000,0.000000,1.000000,-0.196392}{0,0,0,1}">
+            <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,-0.000000}{0.000000,0.000000,1.000000,-0.136107}{0,0,0,1}"/>
+          </Axis>
+        </Axis>
+        <Axis Model="Base(2)" Name="Base(2)" Position="{1.000000,0.000000,0.000000,-0.000287}{0.000000,1.000000,0.000000,-0.169809}{0.000000,0.000000,1.000000,0.014523}{0,0,0,1}"/>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-02-11T13:13:37" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

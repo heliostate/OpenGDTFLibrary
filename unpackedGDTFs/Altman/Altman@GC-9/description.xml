@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="EB1681F8-64EF-11EB-A421-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Altman Ground Cyc 9 Cells" RefFT="" ShortName="Altman Ground Cyc 9 Cells" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Yoke" Height="0.374865" Length="0.265430" Name="Yoke" PrimitiveType="Undefined" Width="0.323850"/>
+      <Model File="Yoke(1)" Height="0.241925" Length="0.228600" Name="Yoke(1)" PrimitiveType="Undefined" Width="0.323850"/>
+      <Model File="Yoke(2)" Height="0.241925" Length="0.228600" Name="Yoke(2)" PrimitiveType="Undefined" Width="0.323850"/>
+      <Model File="Yoke(3)" Height="0.241925" Length="0.228600" Name="Yoke(3)" PrimitiveType="Undefined" Width="0.323850"/>
+      <Model File="Yoke(4)" Height="0.241925" Length="0.228600" Name="Yoke(4)" PrimitiveType="Undefined" Width="0.323850"/>
+      <Model File="Yoke(5)" Height="0.241925" Length="0.228600" Name="Yoke(5)" PrimitiveType="Undefined" Width="0.323850"/>
+      <Model File="Yoke(6)" Height="0.241925" Length="0.228600" Name="Yoke(6)" PrimitiveType="Undefined" Width="0.323850"/>
+      <Model File="Yoke(7)" Height="0.241925" Length="0.228600" Name="Yoke(7)" PrimitiveType="Undefined" Width="0.323850"/>
+      <Model File="Yoke(8)" Height="0.374865" Length="0.265430" Name="Yoke(8)" PrimitiveType="Undefined" Width="0.323850"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,-0.942340}{0.000000,1.000000,0.000000,0.003925}{0.000000,0.000000,1.000000,0.200133}{0,0,0,1}"/>
+      <Axis Model="Yoke(1)" Name="Yoke(1)" Position="{1.000000,0.000000,0.000000,-0.695325}{0.000000,1.000000,0.000000,0.003956}{0.000000,0.000000,1.000000,0.266603}{0,0,0,1}"/>
+      <Axis Model="Yoke(2)" Name="Yoke(2)" Position="{1.000000,0.000000,0.000000,-0.466725}{0.000000,1.000000,0.000000,0.003956}{0.000000,0.000000,1.000000,0.266603}{0,0,0,1}"/>
+      <Axis Model="Yoke(3)" Name="Yoke(3)" Position="{1.000000,0.000000,0.000000,-0.238125}{0.000000,1.000000,0.000000,0.003956}{0.000000,0.000000,1.000000,0.266603}{0,0,0,1}"/>
+      <Axis Model="Yoke(4)" Name="Yoke(4)" Position="{1.000000,0.000000,0.000000,-0.009525}{0.000000,1.000000,0.000000,0.003956}{0.000000,0.000000,1.000000,0.266603}{0,0,0,1}"/>
+      <Axis Model="Yoke(5)" Name="Yoke(5)" Position="{1.000000,0.000000,0.000000,0.219075}{0.000000,1.000000,0.000000,0.003956}{0.000000,0.000000,1.000000,0.266603}{0,0,0,1}"/>
+      <Axis Model="Yoke(6)" Name="Yoke(6)" Position="{1.000000,0.000000,0.000000,0.447675}{0.000000,1.000000,0.000000,0.003956}{0.000000,0.000000,1.000000,0.266603}{0,0,0,1}"/>
+      <Axis Model="Yoke(7)" Name="Yoke(7)" Position="{1.000000,0.000000,0.000000,0.676275}{0.000000,1.000000,0.000000,0.003956}{0.000000,0.000000,1.000000,0.266603}{0,0,0,1}"/>
+      <Axis Model="Yoke(8)" Name="Yoke(8)" Position="{1.000000,0.000000,0.000000,0.923290}{0.000000,1.000000,0.000000,0.003953}{0.000000,0.000000,1.000000,0.200133}{0,0,0,1}"/>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Yoke" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Yoke" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-02-01T17:45:21" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

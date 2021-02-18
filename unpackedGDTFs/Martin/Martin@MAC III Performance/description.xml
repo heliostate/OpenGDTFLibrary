@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="846759B7-553E-11EB-A40F-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Martin MAC III Performance" RefFT="" ShortName="Martin MAC III Performance" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels>
+      <Wheel Name="Gobo Wheel 1">
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Blank gobo" Name=""/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Leaf Breakup (medium)" Name="MT Leaf Breakup (medium).dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Dot Breakup" Name="MT Dot Breakup.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Limbo" Name="MT Limbo.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Linear" Name="MT Linear.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Ray Traces" Name="MT Ray Traces.dds"/>
+      </Wheel>
+      <Wheel Name="Color Wheel 1">
+        <Slot Color="0.000000,100.000000,229.000000" Name="M101"/>
+        <Slot Color="0.000000,172.000000,73.000000" Name="M201"/>
+        <Slot Color="221.000000,0.000000,0.000000" Name="M302"/>
+        <Slot Color="249.000000,225.000000,238.000000" Name="M004"/>
+        <Slot Color="254.000000,241.000000,0.000000" Name="M601"/>
+        <Slot Color="37.000000,0.000000,112.000000" Name="R382"/>
+        <Slot Color="255.000000,0.000000,54.000000" Name="M301"/>
+      </Wheel>
+      <Wheel Name="Animation Wheel 1">
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Martin_Tribal_Waves_Anim.dds" Name="Martin_Tribal_Waves_Anim.dds"/>
+      </Wheel>
+    </Wheels>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.155500" Length="0.476015" Name="Base" PrimitiveType="Undefined" Width="0.429944"/>
+      <Model File="Yoke" Height="0.471076" Length="0.536332" Name="Yoke" PrimitiveType="Undefined" Width="0.161000"/>
+      <Model File="Body" Height="0.710580" Length="0.375311" Name="Body" PrimitiveType="Undefined" Width="0.304776"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.012028}{0.000000,0.000000,1.000000,-0.082291}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,0.012028}{0.000000,0.000000,1.000000,-0.323261}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000310}{0.000000,1.000000,0.000000,0.001903}{0.000000,0.000000,1.000000,-0.173225}{0,0,0,1}"/>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-01-12T18:27:46" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

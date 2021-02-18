@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="Yes" Description="" FixtureTypeID="7E4B1660-553E-11EB-A40F-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Martin MAC 101 RGB" RefFT="" ShortName="Martin MAC 101 RGB" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels>
+      <Wheel Name="Color Wheel 1">
+        <Slot Color="255.000000,180.000000,185.000000" Name="L790"/>
+        <Slot Color="255.000000,80.000000,104.000000" Name="L157"/>
+        <Slot Color="255.000000,1.000000,12.000000" Name="L332"/>
+        <Slot Color="255.000000,13.000000,25.000000" Name="L328"/>
+        <Slot Color="255.000000,46.000000,63.000000" Name="L345"/>
+        <Slot Color="143.000000,89.000000,207.000000" Name="L194"/>
+        <Slot Color="92.000000,2.000000,255.000000" Name="L181"/>
+        <Slot Color="30.000000,0.000000,255.000000" Name="L071"/>
+        <Slot Color="19.000000,26.000000,255.000000" Name="L120"/>
+        <Slot Color="31.000000,93.000000,255.000000" Name="L079"/>
+        <Slot Color="22.000000,161.000000,255.000000" Name="L132"/>
+        <Slot Color="255.000000,182.000000,200.000000" Name="L200"/>
+        <Slot Color="147.000000,214.000000,255.000000" Name="L161"/>
+        <Slot Color="99.000000,148.000000,240.000000" Name="L201"/>
+        <Slot Color="191.000000,226.000000,255.000000" Name="L202"/>
+        <Slot Color="79.000000,205.000000,252.000000" Name="L117"/>
+        <Slot Color="0.000000,168.000000,249.000000" Name="L353"/>
+        <Slot Color="0.000000,119.000000,231.000000" Name="L118"/>
+        <Slot Color="0.000000,255.000000,112.000000" Name="L116"/>
+        <Slot Color="0.000000,166.000000,86.000000" Name="L124"/>
+        <Slot Color="58.000000,255.000000,0.000000" Name="L139"/>
+        <Slot Color="198.000000,255.000000,8.000000" Name="L089"/>
+        <Slot Color="0.000000,222.000000,103.000000" Name="L122"/>
+        <Slot Color="81.000000,255.000000,5.000000" Name="L738"/>
+        <Slot Color="114.000000,250.000000,89.000000" Name="L088"/>
+        <Slot Color="215.000000,255.000000,40.000000" Name="L100"/>
+        <Slot Color="255.000000,70.000000,0.000000" Name="L104"/>
+        <Slot Color="255.000000,56.000000,0.000000" Name="L179"/>
+        <Slot Color="255.000000,111.000000,0.000000" Name="L105"/>
+        <Slot Color="255.000000,31.000000,0.000000" Name="L021"/>
+        <Slot Color="255.000000,25.000000,0.000000" Name="L778"/>
+        <Slot Color="255.000000,17.000000,0.000000" Name="L135"/>
+        <Slot Color="255.000000,10.000000,1.000000" Name="L164"/>
+      </Wheel>
+    </Wheels>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.068262" Length="0.191346" Name="Base" PrimitiveType="Undefined" Width="0.181000"/>
+      <Model File="Yoke" Height="0.175507" Length="0.238155" Name="Yoke" PrimitiveType="Undefined" Width="0.070000"/>
+      <Model File="Body" Height="0.092977" Length="0.166859" Name="Body" PrimitiveType="Undefined" Width="0.166859"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.025000}{0.000000,0.000000,1.000000,-0.034127}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.025000}{0.000000,0.000000,1.000000,-0.128097}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.050988}{0,0,0,1}"/>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-01-12T18:27:36" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

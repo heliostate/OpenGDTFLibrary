@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="Yes" Description="" FixtureTypeID="B38C7CE2-6C9E-11EB-A421-2E4D546E0304" LongName="" Manufacturer="Custom" Name="RTG Design CEL Color Wall RGBA" RefFT="" ShortName="RTG Design CEL Color Wall RGBA" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Yoke" Height="0.005080" Length="0.005080" Name="Yoke" PrimitiveType="Undefined" Width="0.004826"/>
+      <Model File="Yoke(1)" Height="0.004572" Length="0.146558" Name="Yoke(1)" PrimitiveType="Undefined" Width="0.094488"/>
+      <Model File="Body" Height="0.101600" Length="0.152400" Name="Body" PrimitiveType="Undefined" Width="0.101600"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.002540}{0,0,0,1}">
+        <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.048260}{0,0,0,1}"/>
+      </Axis>
+      <Axis Model="Yoke(1)" Name="Yoke(1)" Position="{1.000000,0.000000,0.000000,-0.000381}{0.000000,1.000000,0.000000,0.000254}{0.000000,0.000000,1.000000,-0.100806}{0,0,0,1}"/>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Yoke" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Yoke" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-02-11T12:24:11" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

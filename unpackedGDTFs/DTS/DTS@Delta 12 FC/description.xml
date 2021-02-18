@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="4E23274C-67E7-11EB-A421-2E4D546E0304" LongName="" Manufacturer="Custom" Name="DTS Delta 12 FC" RefFT="" ShortName="DTS Delta 12 FC" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.056034" Length="0.027985" Name="Base" PrimitiveType="Undefined" Width="0.175000"/>
+      <Model File="Base(1)" Height="0.056034" Length="0.027985" Name="Base(1)" PrimitiveType="Undefined" Width="0.175000"/>
+      <Model File="Yoke" Height="0.316835" Length="0.406000" Name="Yoke" PrimitiveType="Undefined" Width="0.217500"/>
+      <Model File="Body" Height="0.198542" Length="0.406000" Name="Body" PrimitiveType="Undefined" Width="0.295051"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.151790}{0.000000,1.000000,0.000000,-0.007868}{0.000000,0.000000,1.000000,-0.028017}{0,0,0,1}">
+        <Axis Model="Base(1)" Name="Base(1)" Position="{1.000000,0.000000,0.000000,-0.303579}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,0.000000}{0,0,0,1}">
+          <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,0.151790}{0.000000,1.000000,0.000000,-0.005626}{0.000000,0.000000,1.000000,-0.155668}{0,0,0,1}">
+            <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.012312}{0.000000,0.000000,1.000000,-0.117827}{0,0,0,1}"/>
+          </Axis>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-02-05T12:21:18" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

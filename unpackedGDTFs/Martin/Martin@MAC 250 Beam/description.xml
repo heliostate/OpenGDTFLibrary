@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="Yes" Description="" FixtureTypeID="7E4B1675-553E-11EB-A40F-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Martin MAC 250 Beam" RefFT="" ShortName="Martin MAC 250 Beam" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels>
+      <Wheel Name="Gobo Wheel 1">
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Blank gobo" Name=""/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Cone MX" Name="MT Cone MX.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT 2 Bars" Name="MT 2 Bars.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="3 Dots" Name="3 Dots.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="0516G03301Gobo1" Name="0516G03301Gobo1.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="9 deg" Name="9 deg.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="15 deg" Name="15 deg.dds"/>
+      </Wheel>
+    </Wheels>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.109784" Length="0.359664" Name="Base" PrimitiveType="Undefined" Width="0.363257"/>
+      <Model File="Yoke" Height="0.314452" Length="0.391525" Name="Yoke" PrimitiveType="Undefined" Width="0.159303"/>
+      <Model File="Body" Height="0.413258" Length="0.235437" Name="Body" PrimitiveType="Undefined" Width="0.209857"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.024466}{0.000000,0.000000,1.000000,-0.054892}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,0.024466}{0.000000,0.000000,1.000000,-0.223418}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.120638}{0,0,0,1}"/>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-01-12T18:27:36" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>
