@@ -53,6 +53,7 @@ class ZipFileGenerator
   end
 end
 
+i = 0
 Dir.foreach(gdtf_directory) do |manufacturer_directory|
   next if manufacturer_directory == '.' or manufacturer_directory == '..'
   manufacturer_path = "#{gdtf_directory}/#{manufacturer_directory}"
@@ -68,5 +69,8 @@ Dir.foreach(gdtf_directory) do |manufacturer_directory|
 
     zf = ZipFileGenerator.new("#{manufacturer_path}/#{packable_folder}", output_file)
     zf.write()
+    i += 1
   end
 end
+
+puts "Packed #{i} gdtfs"
