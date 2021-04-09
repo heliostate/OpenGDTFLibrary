@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="EE7FAFDE-6CA1-11EB-A421-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Selecon HUI Groundrow 3" RefFT="" ShortName="Selecon HUI Groundrow 3" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Yoke" Height="0.144470" Length="0.883158" Name="Yoke" PrimitiveType="Undefined" Width="0.122547"/>
+      <Model File="Body" Height="0.225425" Length="0.288036" Name="Body" PrimitiveType="Undefined" Width="0.174625"/>
+      <Model File="Body(1)" Height="0.225425" Length="0.288036" Name="Body(1)" PrimitiveType="Undefined" Width="0.174625"/>
+      <Model File="Body(2)" Height="0.225425" Length="0.297561" Name="Body(2)" PrimitiveType="Undefined" Width="0.174625"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,-0.043742}{0.000000,0.000000,1.000000,0.072217}{0,0,0,1}">
+        <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,-0.003810}{0.000000,1.000000,0.000000,0.043742}{0.000000,0.000000,1.000000,0.040496}{0,0,0,1}"/>
+        <Axis Model="Body(1)" Name="Body(1)" Position="{1.000000,0.000000,0.000000,-0.291846}{0.000000,1.000000,0.000000,0.043742}{0.000000,0.000000,1.000000,0.040496}{0,0,0,1}"/>
+        <Axis Model="Body(2)" Name="Body(2)" Position="{1.000000,0.000000,0.000000,0.288988}{0.000000,1.000000,0.000000,0.043742}{0.000000,0.000000,1.000000,0.040496}{0,0,0,1}"/>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Yoke" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Yoke" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-02-11T12:47:21" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

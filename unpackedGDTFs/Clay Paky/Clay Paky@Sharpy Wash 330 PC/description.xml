@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="Yes" Description="" FixtureTypeID="05F14C8E-61EB-11EB-A420-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Clay Paky Sharpy Wash 330 PC" RefFT="" ShortName="Clay Paky Sharpy Wash 330 PC" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels/>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.124581" Length="0.306919" Name="Base" PrimitiveType="Undefined" Width="0.330000"/>
+      <Model File="Base(1)" Height="0.025000" Length="0.176566" Name="Base(1)" PrimitiveType="Undefined" Width="0.048629"/>
+      <Model File="Yoke" Height="0.279130" Length="0.344800" Name="Yoke" PrimitiveType="Undefined" Width="0.121000"/>
+      <Model File="Body" Height="0.359553" Length="0.224047" Name="Body" PrimitiveType="Undefined" Width="0.230245"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,-0.000000}{0.000000,0.000000,1.000000,-0.062290}{0,0,0,1}">
+        <Axis Model="Base(1)" Name="Base(1)" Position="{1.000000,0.000000,0.000000,0.000632}{0.000000,1.000000,0.000000,-0.175527}{0.000000,0.000000,1.000000,0.002041}{0,0,0,1}">
+          <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,-0.000632}{0.000000,1.000000,0.000000,0.175527}{0.000000,0.000000,1.000000,-0.204005}{0,0,0,1}">
+            <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.118929}{0,0,0,1}"/>
+          </Axis>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-01-28T21:32:49" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

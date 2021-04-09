@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="8467595C-553E-11EB-A40F-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Martin MAC 2000 Beam XB" RefFT="" ShortName="Martin MAC 2000 Beam XB" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels>
+      <Wheel Name="Gobo Wheel 1">
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Blank gobo" Name=""/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="9 deg" Name="9 deg.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Cone" Name="MT Cone.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="21 deg" Name="21 deg.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="3 dots" Name="3 dots.dds"/>
+      </Wheel>
+      <Wheel Name="Color Wheel 1">
+        <Slot Color="0.000000,166.000000,86.000000" Name="M203"/>
+        <Slot Color="34.000000,0.000000,114.000000" Name="M108"/>
+        <Slot Color="80.000000,0.000000,255.000000" Name="Custom"/>
+        <Slot Color="244.000000,229.000000,255.000000" Name="M003"/>
+      </Wheel>
+    </Wheels>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.158000" Length="0.414686" Name="Base" PrimitiveType="Undefined" Width="0.451410"/>
+      <Model File="Yoke" Height="0.390481" Length="0.489050" Name="Yoke" PrimitiveType="Undefined" Width="0.158000"/>
+      <Model File="Body" Height="0.504695" Length="0.320000" Name="Body" PrimitiveType="Undefined" Width="0.254046"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,-0.021615}{0.000000,0.000000,1.000000,-0.079000}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,-0.000000}{0.000000,1.000000,0.000000,0.021615}{0.000000,0.000000,1.000000,-0.288340}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.000000}{0.000000,1.000000,0.000000,0.000000}{0.000000,0.000000,1.000000,-0.120789}{0,0,0,1}"/>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-01-12T18:27:43" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>

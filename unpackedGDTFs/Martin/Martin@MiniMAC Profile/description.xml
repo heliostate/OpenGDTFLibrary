@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GDTF DataVersion="1.1">
+
+  <FixtureType CanHaveChildren="No" Description="" FixtureTypeID="8A6E2112-553E-11EB-A40F-2E4D546E0304" LongName="" Manufacturer="Custom" Name="Martin MiniMAC Profile" RefFT="" ShortName="Martin MiniMAC Profile" Thumbnail="">
+    <AttributeDefinitions>
+      <ActivationGroups/>
+      <FeatureGroups>
+        <FeatureGroup Name="Dimmer" Pretty="Dimmer">
+          <Feature Name="Dimmer"/>
+        </FeatureGroup>
+      </FeatureGroups>
+      <Attributes>
+        <Attribute Feature="Dimmer.Dimmer" Name="Dimmer" PhysicalUnit="None" Pretty="Dim"/>
+      </Attributes>
+    </AttributeDefinitions>
+    <Wheels>
+      <Wheel Name="Gobo Wheel 1">
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="Blank gobo" Name=""/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Fibroid" Name="MT Fibroid.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Radial Dashes" Name="MT Radial Dashes.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Stardust 2" Name="MT Stardust 2.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Atomic 2" Name="MT Atomic 2.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Highways" Name="MT Highways.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Decentered Beam" Name="MT Decentered Beam.dds"/>
+        <Slot Color="0.312730,0.329020,100.000000" MediaFileName="MT Sunburst" Name="MT Sunburst.dds"/>
+      </Wheel>
+      <Wheel Name="Color Wheel 1">
+        <Slot Color="255.000000,213.000000,156.000000" Name="MCTC55-34K"/>
+        <Slot Color="255.000000,80.000000,201.000000" Name="M312"/>
+        <Slot Color="255.000000,0.000000,54.000000" Name="M301"/>
+        <Slot Color="0.000000,166.000000,86.000000" Name="M206"/>
+        <Slot Color="0.000000,122.000000,211.000000" Name="M104"/>
+        <Slot Color="255.000000,195.000000,0.000000" Name="M603"/>
+        <Slot Color="247.000000,0.000000,140.000000" Name="M507"/>
+        <Slot Color="0.000000,100.000000,229.000000" Name="M101"/>
+        <Slot Color="0.000000,109.000000,145.000000" Name="M208"/>
+        <Slot Color="181.000000,32.000000,169.000000" Name="M502"/>
+        <Slot Color="255.000000,111.000000,0.000000" Name="M306M"/>
+        <Slot Color="34.000000,0.000000,114.000000" Name="M108"/>
+      </Wheel>
+    </Wheels>
+    <PhysicalDescriptions>
+      <ColorSpace Mode="sRGB"/>
+      <Filters/>
+      <Emitters/>
+      <DMXProfiles/>
+      <CRIs/>
+      <Connectors/>
+      <Properties/>
+      <OperatingTemperature High="40.000000" Low="0.000000"/>
+      <Weight Value="0.000000"/>
+      <LegHeight Value="0.000000"/>
+    </PhysicalDescriptions>
+    <Models>
+      <Model File="Base" Height="0.101600" Length="0.326649" Name="Base" PrimitiveType="Undefined" Width="0.241404"/>
+      <Model File="Yoke" Height="0.189810" Length="0.143295" Name="Yoke" PrimitiveType="Undefined" Width="0.117475"/>
+      <Model File="Body" Height="0.314693" Length="0.173342" Name="Body" PrimitiveType="Undefined" Width="0.101600"/>
+    </Models>
+    <Geometries>
+      <Axis Model="Base" Name="Base" Position="{1.000000,0.000000,0.000000,0.024396}{0.000000,1.000000,0.000000,0.000342}{0.000000,0.000000,1.000000,-0.050800}{0,0,0,1}">
+        <Axis Model="Yoke" Name="Yoke" Position="{1.000000,0.000000,0.000000,-0.043642}{0.000000,1.000000,0.000000,-0.000342}{0.000000,0.000000,1.000000,-0.144985}{0,0,0,1}">
+          <Axis Model="Body" Name="Body" Position="{1.000000,0.000000,0.000000,0.046046}{0.000000,1.000000,0.000000,-0.000000}{0.000000,0.000000,1.000000,-0.017989}{0,0,0,1}"/>
+        </Axis>
+      </Axis>
+    </Geometries>
+    <DMXModes>
+      <DMXMode Geometry="Base" Name="DMX Mode">
+        <DMXChannels>
+          <DMXChannel DMXBreak="1" Default="0/1" Geometry="Base" Highlight="None" Offset="1">
+            <LogicalChannel Attribute="Dimmer" DMXChangeTimeLimit="0.000000" Master="None" MibFade="0.000000" Snap="No">
+              <ChannelFunction Attribute="Dimmer" DMXFrom="0/1" Name="" OriginalAttribute="" PhysicalFrom="0.000000" PhysicalTo="1.000000" RealAcceleration="0.000000" RealFade="0.000000"/>
+            </LogicalChannel>
+          </DMXChannel>
+        </DMXChannels>
+        <Relations/>
+        <FTMacros/>
+      </DMXMode>
+    </DMXModes>
+    <Revisions>
+      <Revision Date="2021-01-12T18:27:50" Text="Created from Vectorworks with customized user data" UserID="0"/>
+    </Revisions>
+    <FTPresets/>
+    <Protocols/>
+  </FixtureType>
+
+</GDTF>
